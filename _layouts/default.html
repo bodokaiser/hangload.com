@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
     <meta name="author" content="Bodo Kaiser" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="keywords" content="Hangload, foobar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ page.prefix }}/stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="{{ page.prefix }}/stylesheets/bootstrap-theme.css" />
   </head>
   <body>
-    {{ content }}
+    {% include header.html %}
+    <section class="container">
+      {{ content }}
+    </section>
+    <script src="{{ page.prefix }}/javascripts/jquery.js"></script>
+    <script src="{{ page.prefix }}/javascripts/bootstrap.js"></script>
   </body>
 </html>
