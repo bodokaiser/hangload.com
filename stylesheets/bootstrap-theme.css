@@ -1,0 +1,28 @@
+/**
+ * 1. #1C1D21
+ * 2. #31353D
+ * 3. #445878
+ * 4. #92CDCF
+ * 5. #EEEFF7
+ */
+
+.navbar-default {
+  background: #445878;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #EEEFF7;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #92CDCF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #EEEFF7;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #92CDCF;
+}
