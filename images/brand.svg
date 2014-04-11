@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 595.3" enable-background="new 0 0 841.9 595.3" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- Copyright 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights reserved. Myriad is either a registered trademark or a trademark of Adobe Systems Incorporated in the United States and/or other countries. -->
+<font-face font-family="MyriadPro-Cond" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="A" horiz-adv-x="435" d="M290,202l45,-202l76,0l-150,674l-85,0l-154,-674l74,0l45,202M152,264l35,171C196,480 206,538 214,589l4,0C226,539 235,483 245,435l35,-171z"/>
+<glyph unicode="D" horiz-adv-x="445" d="M60,3C83,-2 115,-4 146,-4C224,-4 288,19 332,69C375,115 413,199 413,353C413,494 374,581 322,626C285,659 235,677 164,677C125,677 90,673 60,664M137,610C147,613 161,614 173,614C281,614 333,521 333,351C333,122 251,61 166,61C159,61 148,61 137,63z"/>
+<glyph unicode="G" horiz-adv-x="436" d="M392,352l-160,0l0,-64l87,0l0,-220C313,65 298,60 272,60C191,60 112,127 112,335C112,544 203,611 287,611C323,611 347,604 365,595l17,66C361,672 328,680 286,680C167,680 33,590 32,328C31,205 64,112 113,60C158,10 213,-6 272,-6C315,-6 363,5 392,17z"/>
+<glyph unicode="H" horiz-adv-x="463" d="M60,674l0,-674l77,0l0,315l189,0l0,-315l77,0l0,674l-77,0l0,-289l-189,0l0,289z"/>
+<glyph unicode="L" horiz-adv-x="344" d="M60,0l267,0l0,65l-190,0l0,609l-77,0z"/>
+<glyph unicode="N" horiz-adv-x="465" d="M130,0l0,233C130,377 128,463 122,553l2,0C148,469 177,392 204,324l128,-324l73,0l0,674l-69,0l0,-241C336,316 339,229 345,123l-2,0C320,196 285,286 257,358l-124,316l-73,0l0,-674z"/>
+<glyph unicode="O" horiz-adv-x="446" d="M230,682C112,682 32,561 32,338C32,111 107,-8 219,-8C327,-8 414,89 414,342C414,557 345,682 230,682M223,614C311,614 334,465 334,339C334,207 311,60 224,60C139,60 112,198 112,337C112,474 139,614 223,614z"/>
+<glyph unicode=" " horiz-adv-x="157"/>
+</font>
+
+	<g id="Ebene_1">
+	<g>
+		<path d="M252.2,222.1c-4.1,17.2-9.7,34-14.2,51.1c-5.3,19.9-4.5,21.1,16.1,21.1c99.5,0.2,198.9,0.6,298.4-0.1
+			c62.2-0.5,46,10.7,65.8-49.3c15.6-47.3,29.3-95.3,43.8-142.9c1.5,0.3,2.9,0.6,4.4,1c-5.3,32.2-24.2,142.2-27.8,165
+			c-4.9,31.2-15.1,40.9-47,41.2c-39.3,0.5-275.2,0.2-353.8,0.1c-23.9,0-24.3-0.6-17-23.3c16.2-50.4,32.7-100.8,49.4-151.1
+			c1.3-3.8,1.4-9.6,7.4-10.5C277.5,124.4,260,189.3,252.2,222.1z"/>
+		<path d="M285.5,92.7c2.5,6.4-0.2,8.6-6.4,11.5c-81.5,37.5-122.4,111.4-112.9,202.7c8.1,77.2,70,143.9,150.8,161.6
+			c26.6,5.8,53.6,5.3,80.3-0.5c8.7-1.9,17.3-3.8,29.3-6.5c-24.4,26.9-101.8,27.2-153.2,3.7c-82.9-37.9-128.2-121.4-117-215.9
+			C164.9,179.1,226.3,104.5,285.5,92.7z"/>
+		<polygon fill="none" points="588.4,273 265.3,273 304.4,115 627.6,115 		"/>
+		<text transform="matrix(1.5663 0 -0.3616 0.9323 288.0051 186.3651)"><tspan x="0" y="0" font-family="'MyriadPro-Cond'" font-size="110.6004">HANG  </tspan><tspan x="14.6" y="89.9" font-family="'MyriadPro-Cond'" font-size="110.6004">LOAD</tspan></text>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M252.2,222.1c-4.1,17.2-9.7,34-14.2,51.1c-5.3,19.9-4.5,21.1,16.1,21.1c99.5,0.2,198.9,0.6,298.4-0.1
+			c62.2-0.5,46,10.7,65.8-49.3c15.6-47.3,29.3-95.3,43.8-142.9c1.5,0.3,2.9,0.6,4.4,1c-5.3,32.2-24.2,142.2-27.8,165
+			c-4.9,31.2-15.1,40.9-47,41.2c-39.3,0.5-275.2,0.2-353.8,0.1c-23.9,0-24.3-0.6-17-23.3c16.2-50.4,32.7-100.8,49.4-151.1
+			c1.3-3.8,1.4-9.6,7.4-10.5C277.5,124.4,260,189.3,252.2,222.1z"/>
+		<path fill="#FFFFFF" d="M285.5,92.7c2.5,6.4-0.2,8.6-6.4,11.5c-81.5,37.5-122.4,111.4-112.9,202.7c8.1,77.2,70,143.9,150.8,161.6
+			c26.6,5.8,53.6,5.3,80.3-0.5c8.7-1.9,17.3-3.8,29.3-6.5c-24.4,26.9-101.8,27.2-153.2,3.7c-82.9-37.9-128.2-121.4-117-215.9
+			C164.9,179.1,226.3,104.5,285.5,92.7z"/>
+		<polygon fill="none" points="588.4,273 265.3,273 304.4,115 627.6,115 		"/>
+		<text transform="matrix(1.5663 0 -0.3616 0.9323 288.0051 186.3651)"><tspan x="0" y="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="7.0993" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" font-family="'MyriadPro-Cond'" font-size="110.6004">HANG  </tspan><tspan x="14.6" y="89.9" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="7.0993" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" font-family="'MyriadPro-Cond'" font-size="110.6004">LOAD</tspan></text>
+	</g>
+</g>
+</svg>
