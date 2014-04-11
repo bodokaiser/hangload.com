@@ -6,9 +6,18 @@
  * 5. #EEEFF7
  */
 
+@font-face {
+  font-family: 'Droid-Sans';
+  src: url('../fonts/droid-sans.ttf');
+}
+
+body {
+  font-family: 'Droid-Sans';
+}
+
 .navbar-default {
-  background: #445878;
-  border: none;
+  background-color: #445878;
+  border-color: #31353D;
 }
 
 .navbar-default .navbar-brand {
