@@ -42,6 +42,20 @@ section#airport {
   background-image: url('../images/airport.jpg');
 }
 
+footer {
+  color: #FFF;
+  padding: 40px;
+  background-color: #111;
+}
+
+footer li > a {
+  color: #DDD;
+}
+
+footer li > a:hover {
+  color: #FFF;
+}
+
 .thumbnail {
   border: none;
 }
