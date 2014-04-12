@@ -28,6 +28,13 @@ section#industrial {
   background-image: url('../images/industrial.jpg');
 }
 
+section#promenade {
+  height: 360px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/promenade.jpg');
+}
+
 .navbar-default {
   opacity: 0.9;
   background-color: #FFF;
