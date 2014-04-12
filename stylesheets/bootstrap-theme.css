@@ -10,14 +10,12 @@ body {
 
 .navbar-default {
   background-color: #FFF;
+  opacity: 0.9;
+  border: none;
 }
 
 .navbar-default .navbar-brand {
   color: #111;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: #666;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -25,5 +23,5 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #666;
+  background-color: #EEE;
 }
