@@ -8,9 +8,14 @@ body {
   font-family: 'Droid-Sans';
 }
 
+section {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
 .navbar-default {
-  background-color: #FFF;
   opacity: 0.9;
+  background-color: #FFF;
   border: none;
 }
 
