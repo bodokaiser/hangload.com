@@ -35,6 +35,13 @@ section#promenade {
   background-image: url('../images/promenade.jpg');
 }
 
+section#airport {
+  height: 360px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/airport.jpg');
+}
+
 .thumbnail {
   border: none;
 }
