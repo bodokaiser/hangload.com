@@ -3,6 +3,14 @@
   src: url('../fonts/droid-sans.ttf');
 }
 
+a {
+  color: #777;
+}
+
+a:hover {
+  color: #333;
+}
+
 body {
   padding-top: 90px;
   font-family: 'Droid-Sans';
@@ -29,4 +37,8 @@ section {
 
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #EEE;
+}
+
+.nav-pills > li.active > a {
+  background-color: #333;
 }
