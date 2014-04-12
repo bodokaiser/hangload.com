@@ -1,45 +1,29 @@
-/**
- * 1. #1C1D21
- * 2. #31353D
- * 3. #445878
- * 4. #92CDCF
- * 5. #EEEFF7
- */
-
 @font-face {
   font-family: 'Droid-Sans';
   src: url('../fonts/droid-sans.ttf');
 }
 
 body {
-  padding-top: 50px;
+  padding-top: 90px;
   font-family: 'Droid-Sans';
 }
 
 .navbar-default {
-  background-color: #445878;
-  border-color: #31353D;
+  background-color: #FFF;
 }
 
 .navbar-default .navbar-brand {
-  color: #EEEFF7;
+  color: #111;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #92CDCF;
+  color: #666;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #EEEFF7;
+  color: #111;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #92CDCF;
-}
-
-section#home {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-image: url('../images/airport.jpg');
+  color: #666;
 }
