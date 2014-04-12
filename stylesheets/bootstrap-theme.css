@@ -35,6 +35,10 @@ section#promenade {
   background-image: url('../images/promenade.jpg');
 }
 
+.thumbnail {
+  border: none;
+}
+
 .navbar-default {
   opacity: 0.9;
   background-color: #FFF;
