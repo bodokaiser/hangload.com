@@ -97,3 +97,7 @@ footer li > a:hover {
 .nav-pills > li.active > a {
   background-color: #333;
 }
+
+.nav-pills > li.active > a:hover {
+  background-color: #7CB34B;
+}
