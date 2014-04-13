@@ -1,4 +1,4 @@
-# hangload.com
+# static
 
 Official jekyll based homepage of [hangload](http://hangload.com).
 
