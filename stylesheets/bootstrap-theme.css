@@ -41,21 +41,21 @@ section#industrial {
   height: 360px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../images/industrial.jpg');
+  background-image: url('../images/pictures/industrial.jpg');
 }
 
 section#promenade {
   height: 360px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../images/promenade.jpg');
+  background-image: url('../images/pictures/promenade.jpg');
 }
 
 section#airport {
   height: 360px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../images/airport.jpg');
+  background-image: url('../images/pictures/airport.jpg');
 }
 
 footer {
