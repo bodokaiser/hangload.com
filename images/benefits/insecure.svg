@@ -2,19 +2,24 @@
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+	 viewBox="0 0 600 400" enable-background="new 0 0 600 400" xml:space="preserve">
 <g id="Ebene_3">
 </g>
 <g id="Ebene_4">
 </g>
 <g>
-	<polygon fill="#1D1D1B" points="339.7,97.2 339.1,101.4 162.6,79.1 163.1,74.9 72.8,63.5 70,85.7 160.3,97.1 160.9,93 241.5,103.2 
-		227.8,211.6 243.1,213.5 256.8,105.1 337.4,115.3 336.9,119.4 427.2,130.8 430,108.6 	"/>
-	<polyline fill="none" stroke="#000000" stroke-width="4.2031" stroke-miterlimit="10" points="206.6,328.9 221.6,210.1 
-		249.4,213.6 234.4,332.4 	"/>
 	
-		<rect x="213.4" y="226.3" transform="matrix(0.9921 0.1253 -0.1253 0.9921 43.2568 -25.0059)" fill="#1D1D1B" stroke="#1D1D1B" stroke-width="4" stroke-miterlimit="10" width="14" height="210.2"/>
-	<path fill="#7CB34B" d="M398.9,360.8c0,0-88.4,17.3-105,1.1c-16.6-16.3-22-144-11-158.1c0.9-1.1,2-1.9,3.3-2.5l30.2-102.8l14.1,1.8
-		l-29.5,100.4c21.5,3,57.4,15.4,94.6,4.1l-18.8-80.3l14.8,1.9l17.9,76.5C444.3,211.7,398.9,360.8,398.9,360.8z"/>
+		<polygon fill="none" stroke="#1D1D1B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		389.7,47.2 389.1,51.4 212.6,29.1 213.1,24.9 122.8,13.5 120,35.7 210.3,47.1 210.9,43 291.5,53.2 277.8,161.6 293.1,163.5 
+		306.8,55.1 387.4,65.3 386.9,69.4 477.2,80.8 480,58.6 	"/>
+	
+		<polyline fill="none" stroke="#1D1D1B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		256.6,278.9 271.6,160.1 299.4,163.6 284.4,282.4 	"/>
+	
+		<rect x="263.4" y="176.3" transform="matrix(0.9921 0.1253 -0.1253 0.9921 37.3861 -31.6646)" fill="none" stroke="#1D1D1B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="14" height="210.2"/>
+	
+		<path fill="#1D1D1B" stroke="#1D1D1B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M448.9,310.8c0,0-88.4,17.3-105,1.1c-16.6-16.3-22-144-11-158.1c0.9-1.1,2-1.9,3.3-2.5l30.2-102.8l14.1,1.8l-29.5,100.4
+		c21.5,3,57.4,15.4,94.6,4.1l-18.8-80.3l14.8,1.9l17.9,76.5C494.3,161.7,448.9,310.8,448.9,310.8z"/>
 </g>
 </svg>
