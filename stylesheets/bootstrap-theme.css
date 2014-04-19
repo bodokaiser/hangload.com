@@ -72,6 +72,25 @@ footer li > a:hover {
   color: #FFF;
 }
 
+iframe {
+  border: none;
+}
+
+.video {
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .thumbnail {
   border: none;
 }
