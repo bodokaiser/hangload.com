@@ -1,0 +1,36 @@
+---
+layout: default
+title: Hangload - The new way to load your bicycle
+prefix: ..
+---
+<article class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="page-header">
+        <h2 class="text-center">
+          News
+          <small>
+            what is happening?
+          </small>
+        </h2>
+      </div>
+    </div>
+  </div>
+  {% for post in site.posts %}
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <h3 class="text-left">
+        {{ post.title }}
+        <br />
+        <small>
+          {{ post.date | date_to_string }}
+        </small>
+      </h3>
+      <p class="text-justify">
+        {{ post.excerpt }}
+      </p>
+      <a href="{{ post.url }}">Read more</a>
+    </div>
+  </div>
+  {% endfor %}
+</article>
