@@ -21,9 +21,15 @@
         {% if page.language == 'de' %}
         <li><a href="/">EN</a></li>
         <li class="active"><a href="/de">DE</a></li>
+        <li><a href="/jp">JP</a></li>
+        {% elsif page.language == 'jp' %}
+        <li><a href="/">EN</a></li>
+        <li><a href="/de">DE</a></li>
+        <li class="active"><a href="/jp">JP</a></li>
         {% else %}
         <li class="active"><a href="/">EN</a></li>
         <li><a href="/de">DE</a></li>
+        <li><a href="/jp">JP</a></li>
         {% endif %}
       </ul>
     </div>
