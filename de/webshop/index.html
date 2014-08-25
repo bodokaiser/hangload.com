@@ -8,20 +8,20 @@ language: de
 function validateForm(form) {
 
     var countPE = form.countPE;
-    return true;
+//return true;
     
-    /*if (isNotEmpty(countPE)) {
+    if (isNotEmpty(countPE)) {
       return true;
     }
     return false;
-    */
+
 }
 
 function isNotEmpty(field) {
 
     var fieldData = field.value;
     
-    if (fieldData !== "0" || fieldData !== "1") {
+    if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3") {
 
         field.className = "FieldError"; //Classs to highlight error
         alert("Please correct the errors in order to continue.");
