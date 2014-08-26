@@ -1,0 +1,44 @@
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+<button class="navbar-toggle" type="button"
+data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="{{ page.prefix }}/#home">HANGLOAD</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="navbar-nav nav">
+<!-- <li><a href="//hangloadug.tumblr.com/">Neues</a></li> -->
+<li><a href="{{ page.prefix }}/#function">Funktion</a></li>
+<li><a href="{{ page.prefix }}/#benefits">Vorteile</a></li>
+<!-- <li><a href="{{ page.prefix }}/#webshop">Webshop</a></li> -->
+</ul>
+<ul class="navbar-nav nav">
+<li><a href="{{ page.prefix }}/instruction">Anleitung</a></li>
+</ul>
+<ul class="navbar-nav nav">
+<li><a href="{{ page.prefix }}/webshop">Bestellung</a></li>
+<!--<li class="active"><a href="/webshop">Webshop</a></li> -->
+</ul>
+<ul class="navbar-nav navbar-right nav">
+{% if page.language == 'de' %}
+<li><a href="/">EN</a></li>
+<li class="active"><a href="/de">DE</a></li>
+<li><a href="/jp">JP</a></li>
+{% elsif page.language == 'jp' %}
+<li><a href="/">EN</a></li>
+<li><a href="/de">DE</a></li>
+<li class="active"><a href="/jp">JP</a></li>
+{% else %}
+<li class="active"><a href="/">EN</a></li>
+<li><a href="/de">DE</a></li>
+<li><a href="/jp">JP</a></li>
+{% endif %}
+</ul>
+</div>
+</div>
+</header>
