@@ -240,7 +240,9 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 
 <input type="hidden" name="date" value="">
 <script type="text/javascript">
-    document.Feedback.date.value = time.getDate();
+	var element;
+    element = document.getElementById('date'); 
+	element.value = time.getDate();
 </script>
 
 <table border="0">
