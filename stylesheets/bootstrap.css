@@ -148,7 +148,7 @@ table {
 	border - spacing : 0
 }
 td, th {
-	padding : 0;
+	padding : 10px;
 	height : 40px;
 }
  * {
