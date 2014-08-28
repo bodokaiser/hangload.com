@@ -8,15 +8,46 @@ language: de
 
 function return_check() {
 	var element = null;
-
-    element = document.getElementById('first_name');
-    if (element.value.length <= 0)
-    {
-        alert('Geben sie Ihren Namen an!');
+	var ret = true;
+    
+	// test first name 
+	element = document.getElementById('first_name');
+    if (element.value.length <= 0) {
+        alert('Geben Sie Ihren Vornamen ein');
         element.focus();
-        return false;
+        ret = false;
     }
-    return true;
+	// test last name
+	element = document.getElementById('last_name');
+	if (element.value.lenght <=0) {
+		alert("Geben Sie Ihren Nachnamen ein)
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+	// test Straße und Hausnummer*
+	element = document.getElementById('street');
+	if (element.value.lenght <=0) {
+		alert("Geben Sie Ihre Straße und Hausnummer ein)
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+	// test email 
+	element = document.getElementById('email');
+	if (element.value.lenght <=0) {
+		alert("Geben Sie Ihre E-Mail ein)
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+    return ret;
 }
 
 function validateForm(form) {
