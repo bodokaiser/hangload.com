@@ -4,7 +4,85 @@ title: Hangload - Die neue Art sein Fahrrad zu beladen.
 prefix: '..'
 language: de
 ---
+<script type='text/javascript'> 
 
+function getDate() {
+	var time=new Date();
+	return time.getDate();
+}
+
+function return_check() {
+	var element = null;
+	
+	// test first name 
+	element = document.getElementById('first_name');
+    if (element.value.length <= 0) 
+	{
+        alert('Your first name is missing!');
+        element.focus();
+        return false;
+    }
+	// test last name
+	/*element = document.getElementById('last_name');
+	if (element.value.lenght <=0) {
+		alert("Geben Sie Ihren Nachnamen ein)
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+	// test Straße und Hausnummer*
+	element = document.getElementById('street');
+	if (element.value.lenght <=0) {
+		alert("Geben Sie Ihre Straße und Hausnummer ein)
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+	// test email 
+	element = document.getElementById('email');
+	if (element.value.lenght <=0) {
+		alert("Geben Sie Ihre E-Mail ein)
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}*/
+
+    return true;
+}
+
+function validateForm(form) {
+
+    var countPE = form.countPE;
+    //return true;
+    
+    if (isNotEmpty(countPE)) {
+      return true;
+    }
+    return false;
+
+}
+
+function isNotEmpty(field) {
+
+    var fieldData = field.value;
+    
+    if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3") {
+
+        field.className = "FieldError"; //Classs to highlight error
+        alert("Please correct the errors in order to continue.");
+        return false;
+    } else {
+
+        field.className = "FieldOk"; //Resets field back to default
+        return true; //Submits form
+    }
+}
+</script>
 
 <article class="container" id="webshop">
   <!--<div class="row">-->
@@ -173,32 +251,32 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 </tr>
 <tr> 
     <td width="200px">Vorname*</td>
-    <td><input type="text" name="first_name">  </td>
+    <td><input type="text" name="first_name" id="first_name">  </td>
 </tr>
 <tr>
     <td>Nachname*</td>
-    <td><input type="text" name="last_name"> </td>
+    <td><input type="text" name="last_name" id="last_name"> </td>
 </tr>
 <tr>
     <td>Straße und Hausnummer*</td>
-    <td><input type="text" name="street"> </td>
+    <td><input type="text" name="street" id="street"> </td>
 </tr>
 <tr>
     <td>PLZ, Stadt*</td>
-    <td><input type="text" name="zipcode"> </td>
+    <td><input type="text" name="zipcode" id="zipcode"> </td>
 </tr>
 <tr>
     <td>Adresszusatz</td>
-    <td><input type="text" name="add_address"> </td>
+    <td><input type="text" name="add_address" id="add_address"> </td>
 </tr>
 <tr>
     <td>Land</td>
-    <td> <input type="text" name="country"> </td>
+    <td> <input type="text" name="country" id="country"> </td>
 </tr>
 <tr></tr>
 <tr>
     <td>E-Mail-Adresse*</td>
-    <td><input type="email" name="email"> </td>
+    <td><input type="email" name="email" id="email"> </td>
 </tr>
 </table>
 <br>
@@ -316,82 +394,3 @@ src="/images/icons/pinterest.png" />
 </div>
 </div>
 </article>
-<script type='text/javascript'> 
-
-function getDate() {
-	var time=new Date();
-	return time.getDate();
-}
-
-function return_check() {
-	var element = null;
-	
-	// test first name 
-	element = document.getElementById('first_name');
-    if (element.value.length <= 0) 
-	{
-        alert('Your first name is missing!');
-        element.focus();
-        return false;
-    }
-	// test last name
-	/*element = document.getElementById('last_name');
-	if (element.value.lenght <=0) {
-		alert("Geben Sie Ihren Nachnamen ein)
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-	
-	// test Straße und Hausnummer*
-	element = document.getElementById('street');
-	if (element.value.lenght <=0) {
-		alert("Geben Sie Ihre Straße und Hausnummer ein)
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-	
-	// test email 
-	element = document.getElementById('email');
-	if (element.value.lenght <=0) {
-		alert("Geben Sie Ihre E-Mail ein)
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}*/
-
-    return true;
-}
-
-function validateForm(form) {
-
-    var countPE = form.countPE;
-    //return true;
-    
-    if (isNotEmpty(countPE)) {
-      return true;
-    }
-    return false;
-
-}
-
-function isNotEmpty(field) {
-
-    var fieldData = field.value;
-    
-    if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3") {
-
-        field.className = "FieldError"; //Classs to highlight error
-        alert("Please correct the errors in order to continue.");
-        return false;
-    } else {
-
-        field.className = "FieldOk"; //Resets field back to default
-        return true; //Submits form
-    }
-}
-</script>
