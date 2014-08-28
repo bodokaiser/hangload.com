@@ -8,14 +8,13 @@ language: de
 
 function return_check() {
 	var element = null;
-	var ret = true;
     
 	// test first name 
 	element = document.getElementById('first_name');
-    if (element.value.length <= 0) {
+    if (element.value.length <= 0) 
+	{
         alert('Geben Sie Ihren Vornamen ein');
         element.focus();
-        ret = false;
 		return false;
     }
 	// test last name
@@ -48,7 +47,7 @@ function return_check() {
 		ret = false;
 	}*/
 
-    return ret;
+    return true;
 }
 
 function validateForm(form) {
