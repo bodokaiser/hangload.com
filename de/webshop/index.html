@@ -8,6 +8,11 @@ language: de
 
 function return_check() {
 	var element = null;
+	
+	var time=new Date();
+    element = document.getElementById('date'); 
+	document.Feedback.date.value = time.getDate();
+	element = null;
     
 	// test first name 
 	element = document.getElementById('first_name');
@@ -239,14 +244,14 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 <br>
 
 <input type="hidden" name="date" value="">
-<script type="text/javascript">
+<!--<script type="text/javascript">
 	var element;
 	var time=new Date();
     element = document.getElementById('date'); 
 	document.Feedback.date.value = time.getDate();
 	element.value = time.getDate();
 </script>
-
+-->
 <table border="0">
 
 <!--<tr> 
