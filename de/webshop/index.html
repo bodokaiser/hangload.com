@@ -6,13 +6,13 @@ language: de
 ---
 <script type='text/javascript'> 
 
-function getDate() {
-	var time=new Date();
-	return time.getDate();
-}
-
 function return_check() {
 	var element = null;
+	var time=new Date();
+	
+	
+	element = document.getElementById('vdate');
+	element.value = time.getDate();
 	
 	// test first name 
 	element = document.getElementById('first_name');
@@ -247,7 +247,7 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 <table border="0">
 
 <tr> 
-    <td colspan="2"><input type="hidden" name="vdate" value="getDate()">
+    <td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
 </tr>
 <tr> 
     <td width="200px">Vorname*</td>
