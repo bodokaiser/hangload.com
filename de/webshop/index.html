@@ -13,9 +13,9 @@ function return_check() {
 	element = document.getElementById('first_name');
     if (element.value.length <= 0) 
 	{
-        alert('Geben Sie Ihren Vornamen ein');
+        alert('Your first name is missing!');
         element.focus();
-		return false;
+        return false;
     }
 	// test last name
 	/*element = document.getElementById('last_name');
@@ -238,11 +238,11 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 <br>
 <br>
 
-<!--<input type="hidden" name="date" value="">
+<input type="hidden" name="date" value="">
 <script type="text/javascript">
     document.Feedback.date.value = time.getDate();
 </script>
--->
+
 <table border="0">
 
 <!--<tr> 
@@ -251,7 +251,7 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 </tr>-->
 <tr> 
     <td>Vorname*</td>
-    <td><input type="text" name="frist_name">  </td>
+    <td><input type="text" name="first_name">  </td>
 </tr>
 <tr>
     <td>Nachname*</td>
