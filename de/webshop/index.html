@@ -14,11 +14,6 @@ function getDate() {
 function return_check() {
 	var element = null;
 	
-	//var time=new Date();
-    //element = document.getElementById('vdate'); 
-	//document.Feedback.date.value = time.getDate();
-	//element = null;
-    
 	// test first name 
 	element = document.getElementById('first_name');
     if (element.value.length <= 0) 
@@ -248,23 +243,14 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 <br>
 <br>
 
-<input type="hidden" name="vdate" value="getDate()">
-<!--<script type="text/javascript">
-	var element;
-	var time=new Date();
-    element = document.getElementById('date'); 
-	document.Feedback.date.value = time.getDate();
-	element.value = time.getDate();
-</script>
--->
+
 <table border="0">
 
-<!--<tr> 
-    <td width="200px" height="25px">Datum</td> 
-     <td><input type="date" min="2014-08-23" max="2150-12-31"></td>
-</tr>-->
 <tr> 
-    <td>Vorname*</td>
+    <td colspan="2"><input type="hidden" name="vdate" value="getDate()">
+</tr>
+<tr> 
+    <td width="200px">Vorname*</td>
     <td><input type="text" name="first_name">  </td>
 </tr>
 <tr>
