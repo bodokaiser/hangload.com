@@ -6,13 +6,18 @@ language: de
 ---
 <script type='text/javascript'> 
 
+function getDate() {
+	var time=new Date();
+	return time.getDate();
+}
+
 function return_check() {
 	var element = null;
 	
-	var time=new Date();
-    element = document.getElementById('vdate'); 
-	document.Feedback.date.value = time.getDate();
-	element = null;
+	//var time=new Date();
+    //element = document.getElementById('vdate'); 
+	//document.Feedback.date.value = time.getDate();
+	//element = null;
     
 	// test first name 
 	element = document.getElementById('first_name');
