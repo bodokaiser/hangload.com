@@ -18,12 +18,12 @@ function return_check() {
 	element = document.getElementById('first_name');
     if (element.value.length <= 0) 
 	{
-        alert('Your first name is missing!');
+        element.alert('Your first name is missing!');
         element.focus();
-        return false;
+        ret = false;
     }
 	// test last name
-	/*element = document.getElementById('last_name');
+	element = document.getElementById('last_name');
 	if (element.value.lenght <=0) {
 		alert("Geben Sie Ihren Nachnamen ein)
 		if (ret) {
@@ -50,9 +50,9 @@ function return_check() {
 			element.focus();
 		}
 		ret = false;
-	}*/
+	}
 
-    return true;
+    return ret;
 }
 
 function validateForm(form) {
