@@ -24,6 +24,7 @@ function return_check() {
         ret = false;
     }
 	// test last name
+	element = null;
 	element = document.getElementById('last_name');
 	if (element.value.lenght <=0) {
 		alert('Geben Sie Ihren Nachnamen ein');
@@ -34,6 +35,7 @@ function return_check() {
 	}
 	
 	// test Straße und Hausnummer*
+	element = null;
 	element = document.getElementById('street');
 	if (element.value.lenght <=0) {
 		alert('Geben Sie Ihre Straße und Hausnummer ein');
@@ -43,7 +45,8 @@ function return_check() {
 		ret = false;
 	}
 	
-	// test email 
+	// test email
+	element = null;
 	element = document.getElementById('email');
 	if (element.value.lenght <=0) {
 		alert('Geben Sie Ihre E-Mail ein');
