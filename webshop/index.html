@@ -23,7 +23,7 @@ ret = false;
 element = null;
 element = document.getElementById('last_name');
 if (element.value.length <=0) {
-alert('Geben Sie Ihren Nachnamen ein');
+alert('Your last name is missing');
 if (ret) {
 element.focus();
 }
@@ -33,22 +33,46 @@ ret = false;
 element = null;
 element = document.getElementById('street');
 if (element.value.length <=0) {
-alert('Geben Sie Ihre Straße und Hausnummer ein');
+alert('Your address is missing');
 if (ret) {
 element.focus();
 }
 ret = false;
 }
+
+// test PLZ und Stadt*
+	element = null;
+	element = document.getElementById('zipcode');
+	if (element.value.length <=0) {
+		alert('Your zipcode and town is missing');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
 // test email
 element = null;
 element = document.getElementById('email');
 if (element.value.length <=0) {
-alert('Geben Sie Ihre E-Mail ein');
+alert('Your mail address is missing');
 if (ret) {
 element.focus();
 }
 ret = false;
 }
+
+// test phone*
+	element = null;
+	element = document.getElementById('phone');
+	if (element.value.length <=0) {
+		alert('Your phone number is missing');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
 return ret;
 }
 function validateNumers() {

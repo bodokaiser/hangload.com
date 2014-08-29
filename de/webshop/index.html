@@ -19,7 +19,7 @@ function return_check() {
 	element = document.getElementById('first_name');
     if (element.value.length <= 0) 
 	{
-        alert('Your first name is missing!');
+        alert('Geben Sie Ihren Vornamen ein');
         element.focus();
         ret = false;
     }
@@ -45,17 +45,39 @@ function return_check() {
 		ret = false;
 	}
 	
+	// test PLZ und Stadt*
+	element = null;
+	element = document.getElementById('zipcode');
+	if (element.value.length <=0) {
+		alert('Geben Sie Ihre PLZ und Stadt ein');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
 	// test email
 	element = null;
 	element = document.getElementById('email');
 	if (element.value.length <=0) {
-		alert('Geben Sie Ihre E-Mail ein');
+		alert('Geben Sie Ihre E-Mail-Adresse ein');
 		if (ret) {
 			element.focus();
 		}
 		ret = false;
 	}
 
+	// test phone*
+	element = null;
+	element = document.getElementById('phone');
+	if (element.value.length <=0) {
+		alert('Geben Sie Ihre Telefonnummer ein');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
     return ret;
 }
 
@@ -288,6 +310,7 @@ Wenn Sie einen Hangload aus Edelstahl mit Banner bestellen möchten, welche Farb
 
 <strong>Farbauswahl: </strong>
 <br>
+<br>
 <label><input type="checkbox" name="Farbe1" value="dark grey"> dunkelgrau </label>
 <label><input type="checkbox" name="Farbe2" value="dark green"> dunkelgrün </label>
 <label><input type="checkbox" name="Farbe3" value="dark blue"> dunkelblau </label>
@@ -295,6 +318,7 @@ Wenn Sie einen Hangload aus Edelstahl mit Banner bestellen möchten, welche Farb
 <br>
 
 <strong>Limitierte Farbauswahl: </strong>
+<br>
 <br>
 <label><input type="checkbox" name="Farbe5" value="orange"> orange </label>
 <label><input type="checkbox" name="Farbe6" value="camouflage"> camouflage </label>
