@@ -4,55 +4,101 @@ title: Hangload - Die neue Art sein Fahrrad zu beladen.
 prefix: '..'
 language: en
 ---
+<script type='text/javascript'>
+function return_check() {
+var element = null;
+var ret = true;
+var time=new Date();
+element = document.getElementById('vdate');
+element.value = time.getDate();
+// test first name
+element = document.getElementById('first_name');
+if (element.value.length <= 0)
+{
+alert('Your first name is missing!');
+element.focus();
+ret = false;
+}
+// test last name
+element = null;
+element = document.getElementById('last_name');
+if (element.value.length <=0) {
+alert('Geben Sie Ihren Nachnamen ein');
+if (ret) {
+element.focus();
+}
+ret = false;
+}
+// test Straße und Hausnummer*
+element = null;
+element = document.getElementById('street');
+if (element.value.length <=0) {
+alert('Geben Sie Ihre Straße und Hausnummer ein');
+if (ret) {
+element.focus();
+}
+ret = false;
+}
+// test email
+element = null;
+element = document.getElementById('email');
+if (element.value.length <=0) {
+alert('Geben Sie Ihre E-Mail ein');
+if (ret) {
+element.focus();
+}
+ret = false;
+}
+return ret;
+}
+function validateNumers() {
+var countPE = document.getElementById('countPE');
+//return true;
+if (isOneTwoThree(countPE)) {
+return true;
+}
+return false;
+}
+function isOneTwoThree(field) {
+var fieldData = field.value;
+if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3") {
+field.className = "FieldError"; //Classs to highlight error
+alert("Please correct the errors in order to continue.");
+return false;
+} else {
+field.className = "FieldOk"; //Resets field back to default
+return true; //Submits form
+}
+}
+</script>
+
 
 <article class="container" id="webshop">
-<!--<div class="row">-->
 <div class="col-xs-12">
 <div class="page-header">
-<h2 class="text-center"> online order (under construction)</h2>
+<h2 class="text-center"> online order</h2>
 </div>
 </div>
-<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
 <h3 class="text-center">Hangload is now available! </h3>
-<p class="text-justify">
-Since we are still in the development of our sales network and the webshop, we would
-like to notify to you, that you will be able to order Hangload from here soon in the
-middle until the end of August.
+<p class="text-center">
+We started with a small production in Berlin now and looking forward <br>
+to pass the Hangload to you via our <a href="/webshop/#order"> online order </a> below. <br>
+For more news use our newsletter and Facebook. 
 </p>
-<p class="text-justify">
-Please notice, that this is just a sale for private costumers. When you like to use Hangload for business,
-please write us an email to info@hangload.com .
-</p>
-<p>
-Hangload may not be used for commercial or political purposes without our consent and approval.
+<p class="text-center">
+Please notice, that this is just a sale for private costumers. <br>
+When you like to use Hangload for business,
+please write us an email to <a href="mailto:info@hangload.com">info@hangload.com <a/> . <br>
+Hangload may not be used for commercial or political purposes <br>
+without our consent and approval.
 </p>
 <p class="text-center h4">
+<br/>
 <em>Your Hangload- Team </em>
 </p>
-</div>
-<div class="col-xs-12 col-md-8">
-<!-- <table width="100%">
-<tr>
-<td> <img class="img-responsive" alt="Drawings Empty"
-src="/images/workings/empty.png" /></td>
-<td> <img class="img-responsive" alt="Drawings Empty"
-src="/images/workings/empty.png" /></td>
-<td> <img class="img-responsive" alt="Drawings Empty"
-src="/images/workings/empty.png" /></td>
-</tr>
-<tr>
-<td> <img class="img-responsive" alt="Drawings Empty"
-src="/images/workings/empty.png" /></td>
-<td> <img class="img-responsive" alt="Drawings Empty"
-src="/images/workings/empty.png" /></td>
-<td> <img class="img-responsive" alt="Drawings Empty"
-src="/images/workings/empty.png" /></td>
-</tr>
-</table> -->
-</div>
-</div>
 </article>
-<article class="container">
+
+<article class="container" id="product">
 <div class="col-xs-12">
 <div class="page-header">
 <h2 class="text-center">product </h2>
@@ -68,7 +114,7 @@ src="/images/webshop/PEeinklappbar.png" />
 <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
 <h3 class="text-center">PE retractable</h3>
 <p class="text-justify">
-The plastic version is designed to be mounted on the right side of your carrier
+The PE version is designed to be mounted on the right side of your carrier
 and is pulled out into position for use.
 This material is UV-resistant, easily recyclable, durable and robust.
 Although, PE is prone to marking on the surface, its color
@@ -110,8 +156,8 @@ src="/images/webshop/stainless steel with banner colors.png" />
 <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
 <h3 class="text-center">stainless steel with banner </h3>
 <p class="text-justify">
-The fabric version of the Hangload can be mounted on either side of
-your carrier - optionally on both sides simultaneously. Available in many
+The stainless steel version of the Hangload can be mounted on either side of
+your carrier - optionally on both sides simultaneously. Available in
 different colors.
 </p>
 <p>
@@ -136,7 +182,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 </div>
 </div>
 </div>
-<article class="container">
+<article class="container" id="order">
 <div class="col-xs-12">
 <div class="page-header">
 <h2 class="text-center"> Online order </h2>
@@ -144,42 +190,41 @@ For more information open this <a href="/images/webshop/product info sheet stain
 </div>
 <!--<form name="Bestellung" method="post" action="www.hangload.com/de/webshop/bestellung.php">-->
 <form name="Bestellung" method="post" action="//forms.brace.io/maria@hangload.com" validateForm(this)>
-<strong>Please fill out the following formular </strong>
+<strong>Please fill out the following formular ! </strong>
 <br>
 <br>
 <table border="0">
 <tr>
-<td width="200px" > date </td>
-<td> <input type="date" min="2014-08-23" max="2150-12-31"> </td>
+<td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
 </tr>
 <tr>
-<td> first name * </td>
-<td> <input type="text" name="first name *" required> </td>
+<td width="200px">first name *</td>
+<td><input type="text" name="first_name" id="first_name"> </td>
 </tr>
 <tr>
-<td>surname * </td>
-<td> <input type="text" name="surname *" required> </td>
+<td>last name *</td>
+<td><input type="text" name="last_name" id="last_name"> </td>
 </tr>
 <tr>
-<td>street, nr. * </td>
-<td> <input type="text" name="street, nr. *" required> </td>
+<td>street and nr. * </td>
+<td> <input type="text" name="street" id="street"> </td>
 </tr>
 <tr>
 <td>zip code, place * </td>
-<td> <input type="text" name="zip code, place *" required> </td>
+<td> <input type="text" name="zipcode" id="zipcode"> </td>
 </tr>
 <tr>
 <td> additional adress </td>
-<td> <input type="text" name="additional adress"> </td>
+<td> <input type="text" name="add_address" id="add_address"> </td>
 </tr>
 <tr>
 <td>country *</td>
-<td> <input type="text" name="country *"> </td>
+<td> <input type="text" name="country" id="country"> </td>
 </tr>
 <tr></tr>
 <tr>
 <td>E-Mail * </td>
-<td><input type="email" name="E-Mail *" required> </td>
+<td><input type="email" name="email" id="email"> </td>
 </tr>
 </table>
 <br>
@@ -188,7 +233,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 <br>
 <br>
 <legend><strong>Hangload selection </strong> </legend> <br>
-For more information see info <strong> product </strong> above. <br>
+For more information see info <a href="/webshop/#product"> <strong> product </strong> </a> above. <br>
 <br>
 <table>
 <tr>
@@ -207,16 +252,16 @@ If stainless steel with banner version, which color?
 <br>
 <strong>Farbauswahl: </strong>
 <br>
-<label><input type="checkbox" name="Farbe1" value="schwarz"> black </label>
-<label><input type="checkbox" name="Farbe2" value="dunkelgrau"> darkgrey </label>
-<label><input type="checkbox" name="Farbe3" value="dunkelgrün"> darkgreen </label>
+<label><input type="checkbox" name="Farbe1" value="black"> black </label>
+<label><input type="checkbox" name="Farbe2" value="dark grey"> dark grey </label>
+<label><input type="checkbox" name="Farbe3" value="dark green"> dark green </label>
 <br>
 <strong>Limitierte Farbauswahl: </strong>
 <br>
 <label><input type="checkbox" name="Farbe4" value="orange"> orange </label>
 <label><input type="checkbox" name="Farbe5" value="camouflage"> camouflage </label>
-<label><input type="checkbox" name="Farbe6" value="wüsten-camouflage"> desert-camouflage </label>
-<label><input type="checkbox" name="Farbe7" value="rosa-geblümt"> pink flowered </label>
+<label><input type="checkbox" name="Farbe6" value="desert-camouflage"> desert-camouflage </label>
+<label><input type="checkbox" name="Farbe7" value="pink-flowered"> pink flowered </label>
 <br>
 <br>
 <p>
