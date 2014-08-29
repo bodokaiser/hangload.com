@@ -59,19 +59,19 @@ function return_check() {
     return ret;
 }
 
-function validateForm(form) {
+function validateNumers() {
 
-    var countPE = form.countPE;
+    var countPE = document.getElementById('countPE');
     //return true;
     
-    if (isNotEmpty(countPE)) {
+    if (isOneTwoThree(countPE)) {
       return true;
     }
     return false;
 
 }
 
-function isNotEmpty(field) {
+function isOneTwoThree(field) {
 
     var fieldData = field.value;
     
@@ -296,12 +296,12 @@ Für mehr Produkt-Informationen schauen Sie unter <strong>Produkte </strong> wei
 
 <table>
 <tr>
-  <td width="300px"> <label><input type="checkbox" name="PE"> PE einklappbar (55€/Stck.) </label> </td>
-  <td> <label> Anzahl (max.3) : <input type="text" maxlength="1" size="2" value="0" name="countPE"> </label> </td>
+  <td width="300px"> <label><input type="checkbox" name="PE" > PE einklappbar (55€/Stck.) </label> </td>
+  <td> <label> Anzahl (max.3) : <input type="text" maxlength="1" size="2" value="0" name="countPE" id="countPE"> </label> </td>
 </tr>
 <tr>
   <td> <label><input type="checkbox" name="Edelstahl"> Edelstahl mit Banner (35€/Stck.) </label> </td>
-  <td> <label> Anzahl (max.3) : <input type="text" maxlength="1" size="2" value="0" name="countMetal"> </label> </td>
+  <td> <label> Anzahl (max.3) : <input type="text" maxlength="1" size="2" value="0" name="countMetal" id="countMetal"> </label> </td>
 </tr>
 </table>
 <br>
