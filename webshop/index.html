@@ -78,14 +78,14 @@ return ret;
 function validateNumers() {
 var countPE = document.getElementById('countPE');
 //return true;
-if (isOneTwoThree(countPE)) {
+if (isOneTwoThreeFour(countPE)) {
 return true;
 }
 return false;
 }
-function isOneTwoThree(field) {
+function isOneTwoThreeFour(field) {
 var fieldData = field.value;
-if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3") {
+if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
 field.className = "FieldError"; //Classs to highlight error
 alert("Please correct the errors in order to continue.");
 return false;
@@ -267,11 +267,11 @@ For more information see info <a href="/webshop/#product"> <strong> product </st
 <table>
 <tr>
 <td width="300px"> <label><input type="checkbox" name="PE"> PE retractable (55€/piece) </label> </td>
-<td> <label> amount (max. 3) : <input type="text" maxlength="1" size="2" value="0" name="countPE"> </label> </td>
+<td> <label> amount (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countPE"> </label> </td>
 </tr>
 <tr>
 <td> <label><input type="checkbox" name="Edelstahl"> stainless steel with banner (35€/piece) </label> </td>
-<td> <label> amount (max. 3) : <input type="text" maxlength="1" size="2" value="0" name="countMetal"> </label> </td>
+<td> <label> amount (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countMetal"> </label> </td>
 </tr>
 </table>
 <br>
