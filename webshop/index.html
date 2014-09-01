@@ -72,6 +72,16 @@ ret = false;
 		}
 		ret = false;
 	}
+
+	
+// test agbconfirm
+element = document.getElementById('agbconfirm');
+if (element.value.length <= 0)
+{
+alert('Please confirm the TAC!');
+element.focus();
+ret = false;
+}
 	
 return ret;
 }
@@ -94,25 +104,6 @@ field.className = "FieldOk"; //Resets field back to default
 return true; //Submits form
 }
 }
-</script>
-
-<script type='text/javascript'>
-function return_check() {
-var element = null;
-var ret = true;
-var time=new Date();
-
-// test agbconfirm
-element = document.getElementById('agbconfirm');
-if (element.value.length <= 0)
-{
-alert('Please confirm the TAC!');
-element.focus();
-ret = false;
-}
-return ret;
-}
-
 </script>
 
 <article class="container" id="webshop">
@@ -330,8 +321,10 @@ Without logo print? <br>
 confirmation and the payment information. </strong>
 <br>
 <br>
+<br>
 <strong>Please confirm our Terms and Conditions (TAC)! </strong> <br>
 <label><input type="checkbox" name="agbconfirm" value="agbconfirm"> Confirm TAC </label>
+<br>
 <br>
 <input type="submit" value="Send">
 </form>
