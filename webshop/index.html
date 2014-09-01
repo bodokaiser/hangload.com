@@ -96,6 +96,21 @@ return true; //Submits form
 }
 </script>
 
+<script type='text/javascript'>
+function return_check() {
+var element = null;
+var ret = true;
+var time=new Date();
+
+// test agbconfirm
+element = document.getElementById('agbconfirm');
+if (element.value.length <= 0)
+{
+alert('Please confirm the TAC!');
+element.focus();
+ret = false;
+}
+</script>
 
 <article class="container" id="webshop">
 <div class="col-xs-12">
@@ -213,7 +228,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 </div>
 </div>
 <!--<form name="Bestellung" method="post" action="www.hangload.com/de/webshop/bestellung.php">-->
-<form name="order" method="post" action="//forms.brace.io/maria@hangload.com" onsubmit="return return_check()">
+<form name="order" method="post" action="//forms.brace.io/sales@hangload.com" onsubmit="return return_check()">
 <strong>Please fill out the following formular ! </strong>
 <br>
 <br>
@@ -311,6 +326,8 @@ Without logo print? <br>
 confirmation and the payment information. </strong>
 <br>
 <br>
+<strong>Please confirm our Terms and Conditions (TAC)! </strong> <br>
+<label><input type="checkbox" name="agbconfirm" value="agbconfirm"> Confirm TAC </label>
 <br>
 <input type="submit" value="Send">
 </form>
