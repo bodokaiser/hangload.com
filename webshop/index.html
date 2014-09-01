@@ -5,10 +5,13 @@ prefix: '..'
 language: en
 ---
 <script type='text/javascript'>
+
 function return_check() {
 var element = null;
 var ret = true;
 var time=new Date();
+
+
 element = document.getElementById('vdate');
 element.value = time.getDate();
 // test first name
@@ -19,6 +22,7 @@ alert('Your first name is missing!');
 element.focus();
 ret = false;
 }
+
 // test last name
 element = null;
 element = document.getElementById('last_name');
@@ -29,6 +33,7 @@ element.focus();
 }
 ret = false;
 }
+
 // test Straße und Hausnummer*
 element = null;
 element = document.getElementById('street');
@@ -72,31 +77,28 @@ ret = false;
 		}
 		ret = false;
 	}
-
-// test agbconfirm
-element = null;
-element = document.getElementById('agbconfirm');
-if (element.value.length <= 0) {
-alert('Please confirm the TAC!');
-if (ret) {
-element.focus();
-}
-ret = false;
-}
 	
 return ret;
 }
+
+
 function validateNumers() {
+
 var countPE = document.getElementById('countPE');
 //return true;
+
 if (isOneTwoThreeFour(countPE)) {
 return true;
 }
 return false;
+
 }
 function isOneTwoThreeFour(field) {
+
 var fieldData = field.value;
+
 if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
+
 field.className = "FieldError"; //Classs to highlight error
 alert("Please correct the errors in order to continue.");
 return false;

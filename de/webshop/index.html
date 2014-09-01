@@ -78,17 +78,6 @@ function return_check() {
 		ret = false;
 	}
 	
-// test agbconfirm
-element = null;
-element = document.getElementById('agbconfirm');
-if (element.value.length <= 0) {
-alert('Please confirm the TAC!');
-if (ret) {
-element.focus();
-}
-ret = false;
-}	
-	
     return ret;
 }
 
