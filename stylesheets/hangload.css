@@ -17,3 +17,32 @@ td, th {
 	box - sizing : border - box
 }
 border: 1px solid #CCC;
+
+input[type="checkbox"].css-checkbox {
+position: absolute;
+overflow: hidden;
+clip: rect(0 0 0 0);
+height: 1px;
+width: 1px;
+margin: -1px;
+padding: 0;
+border: 0;
+}
+
+input[type="checkbox"].css-checkbox.sme + label.css-label.sme {
+padding-left: 22px;
+height: 16px;
+display: inline-block;
+line-height: 16px;
+background-repeat: no-repeat;
+background-position: 0 0;
+font-size: 15px;
+vertical-align: middle;
+cursor: pointer;
+}
+
+input[type="checkbox"].css-checkbox.sme:checked + label.css-label.sme {
+background-position: 0 -16px;
+}
+
+.depressed{background-image:url(images/checkboxes/depressed.png);}
