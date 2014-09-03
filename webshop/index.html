@@ -9,10 +9,10 @@ language: en
 function return_check() {
 	var element = null;
 	var ret = true;
-	var time=new Date();
+	var date=new Date();
 
 	element = document.getElementById('vdate');
-	element.value = time.getDay() + "." + time.getMonth() + "." time.getYear();
+	element.value = date.toLocaleDateString("de-DE");
 	
 	// test first name
 	element = document.getElementById('first_name');
