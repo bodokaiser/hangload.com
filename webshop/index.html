@@ -33,22 +33,45 @@ function return_check() {
 		ret = false;
 	}
 
-	// test Straße und Hausnummer*
+	// test Straße
 	element = null;
 	element = document.getElementById('street');
 	if (element.value.length <=0) {
-		alert('Your address is missing');
+		alert('Street is missing');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+	// Hausnummer*
+	element = null;
+	element = document.getElementById('streetnr');
+	if (element.value.length <=0) {
+		alert('Street number is missing');
 		if (ret) {
 			element.focus();
 		}
 		ret = false;
 	}
 
+	
+	// Stadt*
+	element = null;
+	element = document.getElementById('city');
+	if (element.value.length <=0) {
+		alert('City is missing');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
 	// test PLZ und Stadt*
 	element = null;
 	element = document.getElementById('zipcode');
 	if (element.value.length <=0) {
-		alert('Your zipcode and town is missing');
+		alert('Zipcode is missing');
 		if (ret) {
 			element.focus();
 		}
@@ -247,11 +270,15 @@ For more information open this <a href="/images/webshop/product info sheet stain
 		<td><input type="text" name="last_name" id="last_name"> </td>
 	</tr>
 	<tr>
-		<td>street and nr. *</td>
+		<td>street*</td>
 		<td><input type="text" name="street" id="street"> </td>
+		<td>streetnr*</td>
+		<td><input type="text" name="streetnr" id="streetnr"> </td>
 	</tr>
 	<tr>
-		<td>zipcode and town *</td>
+		<td>city*</td>
+		<td><input type="text" name="city" id="city"> </td>
+		<td>zipcode*</td>
 		<td><input type="text" name="zipcode" id="zipcode"> </td>
 	</tr>
 	<tr>
