@@ -15,7 +15,7 @@ function return_check() {
 	element.value = date.toLocaleDateString("de-DE");
 	
 	// test first name
-	element = document.getElementById('first_name');
+	/*element = document.getElementById('first_name');
 	if (element.value.length <= 0) {
 		alert('Your first name is missing!');
 		element.focus();
@@ -76,7 +76,7 @@ function return_check() {
 			element.focus();
 		}
 		ret = false;
-	}
+	}*/
 		
 	// test email
 	element = null;
@@ -92,7 +92,7 @@ function return_check() {
     }
 
 	// test phone*
-	element = null;
+	/*element = null;
 	element = document.getElementById('phone');
 	if (element.value.length <=0) {
 		alert('Your phone number is missing');
@@ -100,7 +100,8 @@ function return_check() {
 			element.focus();
 		}
 		ret = false;
-	}
+	}*/
+	
 	element = null;
 	element = document.getElementById('agbconfirm');
 	if (ret == true) {
@@ -320,7 +321,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 				<label>PE retractable (55€/piece)</label> 
 			</td>
 			<td> 
-				<label>Amount (max. 4):<input type="text" maxlength="1" size="2" value="0" name="countPE" id="countPE"></label> 
+				<label>Amount (max. 4):<input type="number" min="0"  max="4" maxlength="1" size="2" value="0" name="countPE" id="countPE"></label> 
 			</td>
 	</tr>
 	<tr>
@@ -398,7 +399,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 	<br>
 	<strong>Please confirm our <a target="_blank" href="/agb/#agb"> Terms and Conditions (TAC) </a> ! </strong> <br>
 	<input type="checkbox" name="agbconfirm" id="agbconfirm" class="css-checkbox sme" value="agbconfirm">
-	<label for="agbconfirm" name="agbconfirm_lbl" class="css-label sme depressed"> Confirm TAC </label>
+	<label for="agbconfirm" name="agbconfirm_lbl" required class="css-label sme depressed"> Confirm TAC </label>
 	<br>
 	<br>
 	<input type="submit" value="Send">
