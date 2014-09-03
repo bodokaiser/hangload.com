@@ -12,7 +12,7 @@ function return_check() {
 	var time=new Date();
 
 	element = document.getElementById('vdate');
-	element.value = time.getDate();
+	element.value = time.getDay() + "." + time.getMonth() + "." time.getYear();
 	
 	// test first name
 	element = document.getElementById('first_name');
