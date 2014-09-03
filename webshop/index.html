@@ -112,7 +112,7 @@ function return_check() {
 	
 	element = null;
 	element = document.getElementById('countPE');
-	if (element.value > 4) {
+	if (parseInt(element.value) > 4) {
 		alert('Only 4 pieces allowed');
 		if (ret) {
 			element.focus();
@@ -282,7 +282,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 		</tr>
 		<tr>
 			<td>Additional Address</td>
-			<td><input type="text" name="add_address" id="add_address"> </td>
+			<td colspan="3"><input type="text" name="add_address" id="add_address"> </td>
 		</tr>
 		<tr>
 			<td>Country</td>
