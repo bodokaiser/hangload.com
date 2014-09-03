@@ -11,7 +11,6 @@ function return_check() {
 	var ret = true;
 	var time=new Date();
 	
-	
 	element = document.getElementById('vdate');
 	element.value = time.getDate();
 	
@@ -77,6 +76,14 @@ function return_check() {
 		}
 		ret = false;
 	}
+	element = null;
+	element = document.getElementById('agbconfirm');
+	if (ret == true) {
+		ret = element.checked;
+		if (!ret) {
+			alert('Bitte die AGB bestätigen ! ');
+		}
+	}
 	
     return ret;
 }
@@ -103,7 +110,6 @@ function isOneTwoThreeFour(field) {
         alert("Please correct the errors in order to continue.");
         return false;
     } else {
-
         field.className = "FieldOk"; //Resets field back to default
         return true; //Submits form
     }
@@ -135,7 +141,6 @@ nicht für kommerzielle und politische Zwecke genutzt werden.
 </p>
 </article>
 
-
 <article class="container" id="product">
   <div class="col-xs-12">
     <div class="page-header">
@@ -162,7 +167,6 @@ nicht für kommerzielle und politische Zwecke genutzt werden.
       - Kunststoff: Polyethylen <br>
       - Metallbügel: 100% Edelstahl mit Perbunan- Schläuchen <br>
       - Befestigung: Gummiseile aus Polypropylen <br>
-
 Griff:	<br>
 - 100 % Buchen-Holz <br>
 - Ringe aus Edelstahl <br>
@@ -185,7 +189,6 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 <br>
 <br>
 <br>
-
 <div class="row">
 <div class="col-xs-12 col-md-8">
 <div class="thubmnail">
@@ -219,13 +222,9 @@ Textil-Format: groß und klein
 <p>
 Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenblatt Edelstahl mit Banner.pdf"> PDF </a> öffnen.
 </p>
-
 </div>
 </div>
-</div>
-
-
-
+</article>
 <article class="container" id="order">
   <div class="col-xs-12">
     <div class="page-header">
@@ -233,16 +232,11 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
     </div>
   </div>
 <!--<form name="Bestellung" method="post" action="www.hangload.com/de/webshop/bestellung.php">-->
-
 <form name="order" method="post" action="//forms.brace.io/sales@hangload.com" onsubmit="return return_check()">
-
 <strong>Bitte füllen Sie die unten stehenden Felder für eine Bestellung aus! </strong>
 <br>
 <br>
-
-
 <table border="0">
-
 <tr> 
     <td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
 </tr>
@@ -283,15 +277,11 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
 <br>
 <br>
 <strong>*Pflichtfelder</strong>
-
 <br>
 <br>
 <legend><strong>Hangload-Auswahl </strong> </legend> <br>
-
-
 Für mehr Produkt-Informationen schauen Sie unter <a href="/de/webshop/#product"> <strong> Produkt </strong> </a> weiter oben. <br> 
 <br>
-
 <table>
 <tr>
   <td width="300px"> <label><input type="checkbox" name="PE" > PE einklappbar (55€/Stck.) </label> </td>
@@ -304,32 +294,55 @@ Für mehr Produkt-Informationen schauen Sie unter <a href="/de/webshop/#product"
 </table>
 <br>
 <br>
-Wenn Sie einen Hangload aus Edelstahl mit Banner bestellen möchten, welche Farbe ?
+Wenn Sie einen Hangload aus Edelstahl mit Banner bestellen möchten - welche Bannergröße, welche Farbe ?
 <br>
 <br>
+<strong>Bannergrößen-Auswahl: </strong>
+<br>
+<input type="checkbox" name="sizeregular" id="sizeregular" class="css-checkbox sme" value="sizeregular">
+<label for="sizeregular" name="sizeregular_lbl" class="css-label sme depressed">kleines Banner</label>
 
+<input type="checkbox" name="sizelarge" id="sizelarge" class="css-checkbox sme" value="sizelarge">
+<label for="sizelarge" name="sizelarge_lbl" class="css-label sme depressed">großes Banner + 2,50€</label>
+<br>
+<br>
 <strong>Farbauswahl: </strong>
 <br>
-<br>
-<label><input type="checkbox" name="Farbe1" value="dark grey"> dunkelgrau </label>
-<label><input type="checkbox" name="Farbe2" value="dark green"> dunkelgrün </label>
-<label><input type="checkbox" name="Farbe3" value="dark blue"> dunkelblau </label>
-<label><input type="checkbox" name="Farbe4" value="olive green"> olivgrün </label>
+<input type="checkbox" name="Farbe1" id="farbe1" class="css-checkbox sme" value="dark grey">
+<label for="farbe1" name="farbe1_lbl" class="css-label sme depressed">dunkelgrau</label>
+
+<input type="checkbox" name="Farbe2" id="farbe2" class="css-checkbox sme" value="dark green">
+<label for="farbe2" name="farbe2_lbl" class="css-label sme depressed">dunkelgrün</label>
+
+<input type="checkbox" name="Farbe3" id="farbe3" class="css-checkbox sme" value="dark blue">
+<label for="farbe3" name="farbe3_lbl" class="css-label sme depressed">dunkelblau</label>
+
+<input type="checkbox" name="Farbe4" id="farbe4" class="css-checkbox sme" value="olive green">
+<label for="farbe4" name="farbe4_lbl" class="css-label sme depressed">olivgrün</label>
+
 <br>
 
 <strong>Limitierte Farbauswahl: </strong>
 <br>
-<br>
-<label><input type="checkbox" name="Farbe5" value="orange"> orange </label>
-<label><input type="checkbox" name="Farbe6" value="camouflage"> camouflage </label>
-<label><input type="checkbox" name="Farbe7" value="desert-camouflage"> wüsten-camouflage </label>
-<label><input type="checkbox" name="Farbe8" value="pink-flowered"> rosa-geblümt </label>
+
+<input type="checkbox" name="Farbe5" id="farbe5" class="css-checkbox sme" value="orange">
+<label for="farbe5" name="farbe5_lbl" class="css-label sme depressed">orange</label>
+
+<input type="checkbox" name="Farbe6" id="farbe6" class="css-checkbox sme" value="camouflage">
+<label for="farbe6" name="farbe6_lbl" class="css-label sme depressed">camouflage</label>
+
+<input type="checkbox" name="Farbe7" id="farbe7" class="css-checkbox sme value="desert-camouflage">
+<label for="farbe7" name="farbe7_lbl" class="css-label sme depressed">wüsten-camouflage</label>
+
+<input type="checkbox" name="Farbe8" id="farbe8" class="css-checkbox sme" value="pink flowered">
+<label for="farbe8" name="farbe8_lbl" class="css-label sme depressed">rosa geblümt</label>
 
 <br>
 <br>
 <p>
 Ohne Logo- Aufdruck? <br>
-<label><input type="checkbox" name="nologo" value="nologo"> +5€/Stck. </label>
+<<input type="checkbox" name="nologo" id="nologo" class="css-checkbox sme">
+<label for="nologo" name="nologo_lbl" class="css-label sme depressed"> +5€/ Stck.</label>
 </p>
 <br>
 <br>
@@ -350,13 +363,13 @@ mit den Zahlungsmodalitäten mit. </strong>
 <br>
 <br>
 <br>
-Bitte bestätigen Sie unsere Allgemeinen Geschäftsbedingungen (AGB)! <br>
-<label><input type="checkbox" name="agbconfirm" value="agbconfirm"> AGB bestätigen </label>
+<strong> Bitte bestätigen Sie unsere Allgemeinen Geschäftsbedingungen (AGB)! </strong> <br>
+<input type="checkbox" name="agbconfirm" id="agbconfirm" class="css-checkbox sme" value="agbconfirm">
+<label for="agbconfirm" name="agbconfirm_lbl" class="css-label sme depressed"> AGB bestätigen </label>
 <br>
 <br>
 <input type="submit" value="Absenden">
 </form>
-
 </article>
 
 

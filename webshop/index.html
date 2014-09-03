@@ -13,6 +13,7 @@ function return_check() {
 
 	element = document.getElementById('vdate');
 	element.value = time.getDate();
+	
 	// test first name
 	element = document.getElementById('first_name');
 	if (element.value.length <= 0) {
@@ -223,7 +224,6 @@ For more information open this <a href="/images/webshop/product info sheet stain
 </p>
 </div>
 </div>
-</div>
 </article>
 <article class="container" id="order">
 <div class="col-xs-12">
@@ -273,7 +273,6 @@ For more information open this <a href="/images/webshop/product info sheet stain
 <td>Phone *</td>
 <td><input type="text" name="phone" id="phone"> </td>
 </tr>
-
 </table>
 <br>
 <br>
@@ -295,7 +294,16 @@ For more information see info <a href="/webshop/#product"> <strong> product </st
 </table>
 <br>
 <br>
-If stainless steel with banner version, which color?
+If stainless steel with banner version - which banner size, which color?
+<br>
+<br>
+<strong>Banner size selection: </strong>
+<br>
+<input type="checkbox" name="sizeregular" id="sizeregular" class="css-checkbox sme" value="sizeregular">
+<label for="sizeregular" name="sizeregular_lbl" class="css-label sme depressed">regular size</label>
+
+<input type="checkbox" name="sizelarge" id="sizelarge" class="css-checkbox sme" value="sizelarge">
+<label for="sizelarge" name="sizelarge_lbl" class="css-label sme depressed">large size + 2,50€</label>
 <br>
 <br>
 <strong>Color selection: </strong>
@@ -317,7 +325,7 @@ If stainless steel with banner version, which color?
 <br>
 
 <input type="checkbox" name="Farbe5" id="farbe5" class="css-checkbox sme" value="orange">
-<label for="farbe5" name="farbe5_lbl" class="css-label sme depressed">orage</label>
+<label for="farbe5" name="farbe5_lbl" class="css-label sme depressed">orange</label>
 
 <input type="checkbox" name="Farbe6" id="farbe6" class="css-checkbox sme" value="camouflage">
 <label for="farbe6" name="farbe6_lbl" class="css-label sme depressed">camouflage</label>
@@ -332,10 +340,8 @@ If stainless steel with banner version, which color?
 <br>
 <p>
 Without logo print? <br>
-
 <input type="checkbox" name="nologo" id="nologo" class="css-checkbox sme">
 <label for="nologo" name="nologo_lbl" class="css-label sme depressed">+5€/piece</label>
-
 </p>
 <br>
 <br>
