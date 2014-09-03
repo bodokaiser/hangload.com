@@ -120,6 +120,16 @@ function return_check() {
 		ret = false;
 	}
 	
+	element = null;
+	element = document.getElementById('countPE');
+	if (parseInt(element.value) > 4) {
+		alert('Only 4 pieces allowed');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
 	return ret;
 }
 
@@ -307,16 +317,19 @@ For more information open this <a href="/images/webshop/product info sheet stain
 	<table>
 		<tr>
 			<td width="300px">
-				<label name="PE_lbl">PE retractable (55€/piece)</label> 
+				<label>PE retractable (55€/piece)</label> 
 			</td>
 			<td> 
-				<label> amount (max. 4) :<input type="text" maxlength="1" size="2" value="0" name="countPE" id="countPE"></label> 
+				<label>Amount (max. 4):<input type="text" maxlength="1" size="2" value="0" name="countPE" id="countPE"></label> 
 			</td>
 	</tr>
 	<tr>
-	<td>
-	<label for="Edelstahl" name="Edelstahl_lbl" class="css-label sme depressed"> stainless steel with banner (35€/piece) </label> </td>
-	<td> <label> amount (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countMetal"> </label> </td>
+		<td>
+			<label>Stainless steel with banner (35€/piece)</label> 
+		</td>
+		<td> 
+			<label>Amount (max. 4):<input type="text" maxlength="1" size="2" value="0" name="countMetal" id="countMetal"></label> 
+		</td>
 	</tr>
 	</table>
 	<br>
