@@ -81,13 +81,15 @@ function return_check() {
 	// test email
 	element = null;
 	element = document.getElementById('email');
-	if (element.value.length <=0) {
-		alert('Your mail address is missing');
+	var atpos = element.value.indexOf("@");
+    var dotpos = element.value.lastIndexOf(".");
+    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
 		if (ret) {
 			element.focus();
 		}
-		ret = false;
-	}
+        ret = false;
+    }
 
 	// test phone*
 	element = null;
@@ -108,34 +110,32 @@ function return_check() {
 		}
 	}
 	
+	element = null;
+	element = document.getElementById('countPE');
+	if (element.value > 4) {
+		alert('Only 4 pieces allowed');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
 	return ret;
 }
 
-
-function validateNumers() {
-
-var countPE = document.getElementById('countPE');
-//return true;
-
-if (isOneTwoThreeFour(countPE)) {
-return true;
-}
-return false;
-
-}
 function isOneTwoThreeFour(field) {
 
-var fieldData = field.value;
+	var fieldData = field.value;
 
-if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
+	if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
 
-field.className = "FieldError"; //Classs to highlight error
-alert("Please correct the errors in order to continue.");
-return false;
-} else {
-field.className = "FieldOk"; //Resets field back to default
-return true; //Submits form
-}
+		field.className = "FieldError"; //Classs to highlight error
+		alert("Please correct the errors in order to continue.");
+		return false;
+	} else {
+		field.className = "FieldOk"; //Resets field back to default
+		return true; //Submits form
+	}
 }
 </script>
 
@@ -256,139 +256,139 @@ For more information open this <a href="/images/webshop/product info sheet stain
 </div>
 <!--<form name="Bestellung" method="post" action="www.hangload.com/de/webshop/bestellung.php">-->
 <form name="order" method="post" action="//forms.brace.io/sales@hangload.com" onsubmit="return return_check()">
-<strong>Please fill out the following formular ! </strong>
-<br>
-<br>
-<table border="0">
-	<tr>
-		<td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
+	<br>
+	<strong>Delivery Address</strong>
+	<table border="0">
+		<tr>
+			<td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
+		</tr>
+		<tr>
+			<td width="200px">First Name*</td>
+			<td><input type="text" required name="first_name" id="first_name"> </td>
+			<td>Last Name*</td>
+			<td><input type="text" required name="last_name" id="last_name"> </td>
+		</tr>
+		<tr>
+			<td>Street*</td>
+			<td><input type="text" name="street" id="street"> </td>
+			<td>Nr*</td>
+			<td><input type="text" name="streetnr" id="streetnr"> </td>
+		</tr>
+		<tr>
+			<td>City*</td>
+			<td><input type="text" name="city" id="city"> </td>
+			<td>Zip Code*</td>
+			<td><input type="text" name="zipcode" id="zipcode"> </td>
+		</tr>
+		<tr>
+			<td>Additional Address</td>
+			<td><input type="text" name="add_address" id="add_address"> </td>
+		</tr>
+		<tr>
+			<td>Country</td>
+			<td> <input type="text" name="country" id="country"> </td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>E-Mail*</td>
+			<td><input type="email" name="email" id="email" required placeholder="Enter a valid email address"> </td>
+		</tr>
+		<tr>
+			<td>Phone*</td>
+			<td><input type="text" name="phone" id="phone"> </td>
+		</tr>
+	</table>
+	<br>
+	*required
+	<br>
+	<legend><strong>Hangload selection </strong> </legend> <br>
+	For more information see info <a href="/webshop/#product"> <strong> product </strong> </a> above.<br>
+	<br>
+	<table>
+		<tr>
+			<td width="300px">
+				<label name="PE_lbl">PE retractable (55€/piece)</label> 
+			</td>
+			<td> 
+				<label> amount (max. 4) :<input type="text" maxlength="1" size="2" value="0" name="countPE" id="countPE"></label> 
+			</td>
 	</tr>
 	<tr>
-		<td width="200px">first name *</td>
-		<td><input type="text" name="first_name" id="first_name"> </td>
-		<td>last name *</td>
-		<td><input type="text" name="last_name" id="last_name"> </td>
+	<td>
+	<label for="Edelstahl" name="Edelstahl_lbl" class="css-label sme depressed"> stainless steel with banner (35€/piece) </label> </td>
+	<td> <label> amount (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countMetal"> </label> </td>
 	</tr>
-	<tr>
-		<td>street*</td>
-		<td><input type="text" name="street" id="street"> </td>
-		<td>streetnr*</td>
-		<td><input type="text" name="streetnr" id="streetnr"> </td>
-	</tr>
-	<tr>
-		<td>city*</td>
-		<td><input type="text" name="city" id="city"> </td>
-		<td>zipcode*</td>
-		<td><input type="text" name="zipcode" id="zipcode"> </td>
-	</tr>
-	<tr>
-		<td>additional address</td>
-		<td><input type="text" name="add_address" id="add_address"> </td>
-	</tr>
-	<tr>
-		<td>country</td>
-		<td> <input type="text" name="country" id="country"> </td>
-	</tr>
-	<tr></tr>
-	<tr>
-		<td>E-Mail *</td>
-		<td><input type="email" name="email" id="email"> </td>
-	</tr>
-	<tr>
-		<td>Phone *</td>
-		<td><input type="text" name="phone" id="phone"> </td>
-	</tr>
-</table>
-<br>
-<br>
-<strong> *required </strong>
-<br>
-<br>
-<legend><strong>Hangload selection </strong> </legend> <br>
-For more information see info <a href="/webshop/#product"> <strong> product </strong> </a> above. <br>
-<br>
-<table>
-<tr>
-<td width="300px"> <input type="checkbox" name="PE" id="PE" class="css-checkbox sme" value="PE">
-<label for="PE" name="PE_lbl" class="css-label sme depressed">PE retractable (55€/piece)</label> </td>
-<td> <label> amount (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countPE"> </label> </td>
-</tr>
-<tr>
-<td> <input type="checkbox" name="Edelstahl" id="Edelstahl" class="css-checkbox sme" value="Edelstahl">
-<label for="Edelstahl" name="Edelstahl_lbl" class="css-label sme depressed"> stainless steel with banner (35€/piece) </label> </td>
-<td> <label> amount (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countMetal"> </label> </td>
-</tr>
-</table>
-<br>
-<br>
-If stainless steel with banner version - which banner size, which color?
-<br>
-<br>
-<strong>Banner size selection: </strong>
-<br>
-<input type="checkbox" name="sizeregular" id="sizeregular" class="css-checkbox sme" value="sizeregular">
-<label for="sizeregular" name="sizeregular_lbl" class="css-label sme depressed">regular size</label>
+	</table>
+	<br>
+	<br>
+	If stainless steel with banner version - which banner size, which color?
+	<br>
+	<br>
+	<strong>Banner size selection: </strong>
+	<br>
+	<input type="checkbox" name="sizeregular" id="sizeregular" class="css-checkbox sme" value="sizeregular">
+	<label for="sizeregular" name="sizeregular_lbl" class="css-label sme depressed">regular size</label>
 
-<input type="checkbox" name="sizelarge" id="sizelarge" class="css-checkbox sme" value="sizelarge">
-<label for="sizelarge" name="sizelarge_lbl" class="css-label sme depressed">large size + 2,50€</label>
-<br>
-<br>
-<strong>Color selection: </strong>
-<br>
-<input type="checkbox" name="Farbe1" id="farbe1" class="css-checkbox sme" value="dark grey">
-<label for="farbe1" name="farbe1_lbl" class="css-label sme depressed">dark grey</label>
+	<input type="checkbox" name="sizelarge" id="sizelarge" class="css-checkbox sme" value="sizelarge">
+	<label for="sizelarge" name="sizelarge_lbl" class="css-label sme depressed">large size + 2,50€</label>
+	<br>
+	<br>
+	<strong>Color selection: </strong>
+	<br>
+	<input type="checkbox" name="Farbe1" id="farbe1" class="css-checkbox sme" value="dark grey">
+	<label for="farbe1" name="farbe1_lbl" class="css-label sme depressed">dark grey</label>
 
-<input type="checkbox" name="Farbe2" id="farbe2" class="css-checkbox sme" value="dark green">
-<label for="farbe2" name="farbe2_lbl" class="css-label sme depressed">dark green</label>
+	<input type="checkbox" name="Farbe2" id="farbe2" class="css-checkbox sme" value="dark green">
+	<label for="farbe2" name="farbe2_lbl" class="css-label sme depressed">dark green</label>
 
-<input type="checkbox" name="Farbe3" id="farbe3" class="css-checkbox sme" value="dark blue">
-<label for="farbe3" name="farbe3_lbl" class="css-label sme depressed">dark blue</label>
+	<input type="checkbox" name="Farbe3" id="farbe3" class="css-checkbox sme" value="dark blue">
+	<label for="farbe3" name="farbe3_lbl" class="css-label sme depressed">dark blue</label>
 
-<input type="checkbox" name="Farbe4" id="farbe4" class="css-checkbox sme" value="olive green">
-<label for="farbe4" name="farbe4_lbl" class="css-label sme depressed">olive green</label>
+	<input type="checkbox" name="Farbe4" id="farbe4" class="css-checkbox sme" value="olive green">
+	<label for="farbe4" name="farbe4_lbl" class="css-label sme depressed">olive green</label>
 
-<br>
-<strong>Limited color selection: </strong>
-<br>
+	<br>
+	<strong>Limited color selection: </strong>
+	<br>
 
-<input type="checkbox" name="Farbe5" id="farbe5" class="css-checkbox sme" value="orange">
-<label for="farbe5" name="farbe5_lbl" class="css-label sme depressed">orange</label>
+	<input type="checkbox" name="Farbe5" id="farbe5" class="css-checkbox sme" value="orange">
+	<label for="farbe5" name="farbe5_lbl" class="css-label sme depressed">orange</label>
 
-<input type="checkbox" name="Farbe6" id="farbe6" class="css-checkbox sme" value="camouflage">
-<label for="farbe6" name="farbe6_lbl" class="css-label sme depressed">camouflage</label>
+	<input type="checkbox" name="Farbe6" id="farbe6" class="css-checkbox sme" value="camouflage">
+	<label for="farbe6" name="farbe6_lbl" class="css-label sme depressed">camouflage</label>
 
-<input type="checkbox" name="Farbe7" id="farbe7" class="css-checkbox sme value="desert-camouflage">
-<label for="farbe7" name="farbe7_lbl" class="css-label sme depressed">desert-camouflage</label>
+	<input type="checkbox" name="Farbe7" id="farbe7" class="css-checkbox sme value="desert-camouflage">
+	<label for="farbe7" name="farbe7_lbl" class="css-label sme depressed">desert-camouflage</label>
 
-<input type="checkbox" name="Farbe8" id="farbe8" class="css-checkbox sme" value="pink flowered">
-<label for="farbe8" name="farbe8_lbl" class="css-label sme depressed">pink flowered</label>
+	<input type="checkbox" name="Farbe8" id="farbe8" class="css-checkbox sme" value="pink flowered">
+	<label for="farbe8" name="farbe8_lbl" class="css-label sme depressed">pink flowered</label>
 
-<br>
-<br>
-<p>
-Without logo print? <br>
-<input type="checkbox" name="nologo" id="nologo" class="css-checkbox sme">
-<label for="nologo" name="nologo_lbl" class="css-label sme depressed">+5€/piece</label>
-</p>
-<br>
-<br>
-<strong> Additional comments: </strong>
-<br>
-<textarea cols="80" rows="5" name="Anmerkungen" >
-</textarea>
-<br>
-<br>
-<strong> All prices are excluding delivery and packaging. We will notify you with the order
-confirmation and the payment information. </strong>
-<br>
-<br>
-<br>
-<strong>Please confirm our <a target="_blank" href="/agb/#agb"> Terms and Conditions (TAC) </a> ! </strong> <br>
-<input type="checkbox" name="agbconfirm" id="agbconfirm" class="css-checkbox sme" value="agbconfirm">
-<label for="agbconfirm" name="agbconfirm_lbl" class="css-label sme depressed"> Confirm TAC </label>
-<br>
-<br>
-<input type="submit" value="Send">
+	<br>
+	<br>
+	<p>
+	Without logo print? <br>
+	<input type="checkbox" name="nologo" id="nologo" class="css-checkbox sme">
+	<label for="nologo" name="nologo_lbl" class="css-label sme depressed">+5€/piece</label>
+	</p>
+	<br>
+	<br>
+	<strong> Additional comments: </strong>
+	<br>
+	<textarea cols="80" rows="5" name="Anmerkungen" >
+	</textarea>
+	<br>
+	<br>
+	<strong> All prices are excluding delivery and packaging. We will notify you with the order
+	confirmation and the payment information. </strong>
+	<br>
+	<br>
+	<br>
+	<strong>Please confirm our <a target="_blank" href="/agb/#agb"> Terms and Conditions (TAC) </a> ! </strong> <br>
+	<input type="checkbox" name="agbconfirm" id="agbconfirm" class="css-checkbox sme" value="agbconfirm">
+	<label for="agbconfirm" name="agbconfirm_lbl" class="css-label sme depressed"> Confirm TAC </label>
+	<br>
+	<br>
+	<input type="submit" value="Send">
 </form>
 </article>
 
