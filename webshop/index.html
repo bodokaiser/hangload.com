@@ -425,7 +425,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 		Attention: <br> This e-mail was automatically generated and therefore does not have the 
 		status of an order confirmation!"; 
 		
-	mail ($toText, $fromText, $subjectText, $msgText , "To: $toText <$toText>" . "From: $fromText <$fromText>" .$ccText.$bccText. "Content-Type:text/html");
+	mail ($toText, $fromText, $subjectText, $msgText , "To: $toText <$toText>" , "From: $fromText <$fromText>", $ccText, $bccText, "Content-Type:text/html");
 	}
 	echo "<table align=center valign=top cellspacing='0' cellpadding='1' border='0' height=150 width=300>
   <tr><td align=center>
