@@ -411,12 +411,11 @@ For more information open this <a href="/images/webshop/product info sheet stain
 	
 	<input type="hidden"
 	
-	if ($sendbutton==1)
+	if ($agbconfirm==1)
 	{
 	$toText="$email";
 	$fromText="sales@hangload.com";
 	$subjectText="E-Mail-Confirmation for Hangload order";
-	$replyText="sales@hangload.com";
 	$msgText=" <head> Good day $first_name $last_name ! </head> <br> <br> We thank you for your order on the $vdate. <br>
 		We will send you per mail a detailled invoice and all postage and 
 		payment information. <br> <br>
@@ -427,15 +426,16 @@ For more information open this <a href="/images/webshop/product info sheet stain
 		status of an order confirmation!"; 
 		
 	<input type="hidden" mail ($toText, $fromText, $subjectText, $msgText , "To: $toText <$toText>". "From: $fromText <$fromText>". $ccText. $bccText. "Content-Type:text/html") >;
-	}
-	echo target="_blank" "<table align=center valign=top cellspacing='0' cellpadding='1' border='0' height=150 width=300>
+	} 
+	
+	<a target="_blank" > "<table align=center valign=top cellspacing='0' cellpadding='1' border='0' height=150 width=300>
   <tr><td align=center>
   <font style=\"font-size: 11px\">Herzlichen Dank $first_name $last_name !<br> Wir werden uns mit Ihnen in Verbindung setzen.<br><br> Ihr Hangload-Team<br>
   </font><p align=center><a href=\"javascript:self.close()\">Fenster schliessen</a></p>
   </td>
   </tr>      
-  </table>
-  ";
+  </table>"
+  </a>;
   >
 
 	
