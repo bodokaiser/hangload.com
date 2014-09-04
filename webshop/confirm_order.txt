@@ -1,0 +1,9 @@
+
+
+Guten Tag ##first_name## ##last_name## !
+
+wir danken Ihnen für Ihre Bestellung vom ##vdate##. 
+Wir werden Ihnen umgehend per E-Mail eine detallierte Rechnung
+mit allen Zahlungsinformationen zukommen lassen.
+
+Ihr Hangload-Team
