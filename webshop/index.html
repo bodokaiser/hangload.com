@@ -267,7 +267,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 </div>
 <!--<form name="Bestellung" method="post" action="www.hangload.com/de/webshop/bestellung.php">-->
 <form name="order" method="post" action="//forms.brace.io/sales@hangload.com" onsubmit="return return_check()">
-	<input type="hidden" name="confirm_to_costumer" value="http://www.hangload.com/webshop/confirm_order.txt">
+	<input type="hidden" name="confirm_to_costumer_template" value="http://www.hangload.com/webshop/confirm_order.txt">
 	<br>
 	<br>
 	<strong>Delivery Address</strong>
@@ -305,6 +305,7 @@ For more information open this <a href="/images/webshop/product info sheet stain
 		<tr>
 			<td>E-Mail*</td>
 			<td colspan="2"><input type="email" name="email" id="email" style="width: 100%" required placeholder="Enter a valid email address"> </td>
+			<input type="hidden" name="confirm_to_costumer" value="email">
 		</tr>
 		<tr>
 			<td>Phone*</td>
