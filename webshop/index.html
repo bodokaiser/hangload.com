@@ -407,9 +407,39 @@ For more information open this <a href="/images/webshop/product info sheet stain
 	<label for="agbconfirm" name="agbconfirm_lbl" required class="css-label sme depressed"> Confirm TAC </label>
 	<br>
 	<br>
-	<input type="submit" value="Send">
-	<!--<input type="hidden" name="confirm_to_costumer" value="http://www.hangload.com/webshop/confirm_order.txt"> -->
-</form>
+	<input type="submit" name="sendbutton" value="Send">
+	<input type="hidden"
+	
+	if ($sendbutton==1)
+	{
+	$toText="$email";
+	$fromText="sales@hangload.com";
+	$subjectText="E-Mail-Confirmation for Hangload order";
+	$replyText="sales@hangload.com";
+	$msgText=" <head> Good day $first_name $last_name ! </head> <br> <br> We thank you for your order on the $vdate. <br>
+		We will send you per mail a detailled invoice and all postage and 
+		payment information. <br> <br>
+
+		Your Hangload-Team <br> <br>
+
+		Attention: <br> This e-mail was automatically generated and therefore does not have the 
+		status of an order confirmation!"; 
+		
+	mail ($toText, $fromText, $subjectText, $msgText , "To: $toText <$toText>\n" . "From: $fromText <$fromText>\n" .$ccText.$bccText. "Content-Type:text/html");
+	}
+	echo "<table align=center valign=top cellspacing='0' cellpadding='1' border='0' height=150 width=300>
+  <tr><td align=center>
+  <font style=\"font-size: 11px\">Herzlichen Dank $first_name $last_name !<br> Wir werden uns mit Ihnen in Verbindung setzen.<br><br> Ihr Hangload-Team<br>
+  </font><p align=center><a href=\"javascript:self.close()\">Fenster schliessen</a></p>
+  </td>
+  </tr>      
+  </table>
+  ";
+  >
+	-->
+
+	
+	</form>
 </article>
 
 </article>
