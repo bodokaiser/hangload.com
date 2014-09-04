@@ -426,9 +426,9 @@ For more information open this <a href="/images/webshop/product info sheet stain
 		Attention: <br> This e-mail was automatically generated and therefore does not have the 
 		status of an order confirmation!"; 
 		
-	mail ($toText, $fromText, $subjectText, $msgText , "To: $toText <$toText>" , "From: $fromText <$fromText>", $ccText, $bccText, "Content-Type:text/html");
+	<input type="hidden" mail ($toText, $fromText, $subjectText, $msgText , "To: $toText <$toText>" , "From: $fromText <$fromText>", $ccText, $bccText, "Content-Type:text/html") >;
 	}
-	echo "<table align=center valign=top cellspacing='0' cellpadding='1' border='0' height=150 width=300>
+	echo target="_blank" "<table align=center valign=top cellspacing='0' cellpadding='1' border='0' height=150 width=300>
   <tr><td align=center>
   <font style=\"font-size: 11px\">Herzlichen Dank $first_name $last_name !<br> Wir werden uns mit Ihnen in Verbindung setzen.<br><br> Ihr Hangload-Team<br>
   </font><p align=center><a href=\"javascript:self.close()\">Fenster schliessen</a></p>
@@ -437,7 +437,6 @@ For more information open this <a href="/images/webshop/product info sheet stain
   </table>
   ";
   >
-	-->
 
 	
 	</form>
