@@ -15,13 +15,13 @@ function return_check() {
 	element.value = time.getDate();
 	
 	// test first name 
-	element = document.getElementById('first_name');
-    if (element.value.length <= 0) 
-	{
+	/*element = document.getElementById('first_name');
+    if (element.value.length <= 0) {
         alert('Geben Sie Ihren Vornamen ein');
         element.focus();
         ret = false;
     }
+	
 	// test last name
 	element = null;
 	element = document.getElementById('last_name');
@@ -33,32 +33,57 @@ function return_check() {
 		ret = false;
 	}
 	
-	// test Straße und Hausnummer*
+	// test Straße
 	element = null;
 	element = document.getElementById('street');
 	if (element.value.length <=0) {
-		alert('Geben Sie Ihre Straße und Hausnummer ein');
+		alert('Geben Sie Ihre Straße ein');
 		if (ret) {
 			element.focus();
 		}
 		ret = false;
 	}
 	
-	// test PLZ und Stadt*
+	// Hausnummer*
 	element = null;
-	element = document.getElementById('zipcode');
+	element = document.getElementById('streetnr');
 	if (element.value.length <=0) {
-		alert('Geben Sie Ihre PLZ und Stadt ein');
+		alert('Geben Sie ihre Hausnummer ein');
 		if (ret) {
 			element.focus();
 		}
 		ret = false;
 	}
+	
+	// test Stadt*
+	element = null;
+	element = document.getElementById('zipcode');
+	if (element.value.length <=0) {
+		alert('Geben Sie Ihre Stadt ein');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+	
+	// test PLZ
+	element = null;
+	element = document.getElementById('zipcode');
+	if (element.value.length <=0) {
+		alert('Geben Sie Ihre PLZ ein');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}*/
 	
 	// test email
 	element = null;
 	element = document.getElementById('email');
-	if (element.value.length <=0) {
+	var atpos = element.value.indexOf("@");
+    var dotpos = element.value.lastIndexOf(".");
+    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=element.length) {
 		alert('Geben Sie Ihre E-Mail-Adresse ein');
 		if (ret) {
 			element.focus();
@@ -67,7 +92,7 @@ function return_check() {
 	}
 
 	// test phone*
-	element = null;
+	/*element = null;
 	element = document.getElementById('phone');
 	if (element.value.length <=0) {
 		alert('Geben Sie Ihre Telefonnummer ein');
@@ -75,7 +100,8 @@ function return_check() {
 			element.focus();
 		}
 		ret = false;
-	}
+	}*/
+	
 	element = null;
 	element = document.getElementById('agbconfirm');
 	if (ret == true) {
@@ -85,34 +111,42 @@ function return_check() {
 		}
 	}
 	
+	element = null;
+	element = document.getElementById('countPE');
+	if (parseInt(element.value) > 4) {
+		alert('Maximal 4 Stück !');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+	
+	element = null;
+	element = document.getElementById('countPE');
+	if (parseInt(element.value) > 4) {
+		alert('Maximal 4 Stück !');
+		if (ret) {
+			element.focus();
+		}
+		ret = false;
+	}
+		
     return ret;
 }
 
-
-function validateNumers() {
-
-    var countPE = document.getElementById('countPE');
-    //return true;
-    
-    if (isOneTwoThreeFour(countPE)) {
-      return true;
-    }
-    return false;
-
-}
 function isOneTwoThreeFour(field) {
 
-    var fieldData = field.value;
-    
-    if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
+	var fieldData = field.value;
 
-        field.className = "FieldError"; //Classs to highlight error
-        alert("Please correct the errors in order to continue.");
-        return false;
-    } else {
-        field.className = "FieldOk"; //Resets field back to default
-        return true; //Submits form
-    }
+	if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
+
+		field.className = "FieldError"; //Classs to highlight error
+		alert("Bitte die Fehler in der Bestellung korrigieren zum Fortfahren.");
+		return false;
+	} else {
+		field.className = "FieldOk"; //Resets field back to default
+		return true; //Submits form
+	}
 }
 </script>
 
@@ -233,67 +267,76 @@ Für ausführliche Informationen dieses <a href="/images/webshop/Produktdatenbla
   </div>
 <!--<form name="Bestellung" method="post" action="www.hangload.com/de/webshop/bestellung.php">-->
 <form name="order" method="post" action="//forms.brace.io/sales@hangload.com" onsubmit="return return_check()">
-<strong>Bitte füllen Sie die unten stehenden Felder für eine Bestellung aus! </strong>
 <br>
 <br>
+<strong> Liefer- und Rechnungsadresse </strong>
 <table border="0">
-<tr> 
-    <td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
-</tr>
-<tr> 
-    <td width="200px">Vorname*</td>
-    <td><input type="text" name="first_name" id="first_name">  </td>
-</tr>
-<tr>
-    <td>Nachname*</td>
-    <td><input type="text" name="last_name" id="last_name"> </td>
-</tr>
-<tr>
-    <td>Straße und Hausnummer*</td>
-    <td><input type="text" name="street" id="street"> </td>
-</tr>
-<tr>
-    <td>PLZ, Stadt*</td>
-    <td><input type="text" name="zipcode" id="zipcode"> </td>
-</tr>
-<tr>
-    <td>Adresszusatz</td>
-    <td><input type="text" name="add_address" id="add_address"> </td>
-</tr>
-<tr>
-    <td>Land</td>
-    <td> <input type="text" name="country" id="country"> </td>
-</tr>
-<tr></tr>
-<tr>
-    <td>E-Mail-Adresse*</td>
-    <td><input type="email" name="email" id="email"> </td>
-</tr>
-<tr>
-<td>Telefon *</td>
-<td><input type="text" name="phone" id="phone"> </td>
-</tr>
-</table>
-<br>
+		<tr>
+			<td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
+		</tr>
+		<tr>
+			<td width="200px">Vorname*</td>
+			<td width="200px"><input type="text" required placeholder="Vorname eingeben" name="first_name" id="first_name"> </td>
+			<td>Nachname*</td>
+			<td width="200px"><input type="text" required placeholder="Nachname eingeben" name="last_name" id="last_name"> </td>
+		</tr>
+		<tr>
+			<td>Straße*</td>
+			<td><input type="text" required placeholder="Straße eingeben" name="street" id="street"> </td>
+			<td>Hausnummer*</td>
+			<td><input type="text" required placeholder="Hausnummer eingeben" name="streetnr" id="streetnr"> </td>
+		</tr>
+		<tr>
+			<td>Stadt*</td>
+			<td><input type="text" required placeholder="Stadt eingeben" name="city" id="city"> </td>
+			<td>PLZ*</td>
+			<td><input type="text" required placeholder="PLZ eingeben" name="zipcode" id="zipcode"> </td>
+		</tr>
+		<tr>
+			<td>Adresszusatz</td>
+			<td colspan="2"><input type="text" name="add_address" id="add_address" style="width: 100%"> </td>
+		</tr>
+		<tr>
+			<td>Land</td>
+			<td colspan="2"><input type="text"  name="country" id="country" style="width: 100%"> </td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td>E-Mail*</td>
+			<td colspan="2"><input type="email" name="email" id="email" style="width: 100%" required placeholder="Gültige E-Mail angeben"> </td>
+		</tr>
+		<tr>
+			<td>Telefon*</td>
+			<td colspan="2"><input type="text" name="phone" id="phone" style="width: 100%" required placeholder="Gültige Telefonnummer eingeben"></td>
+		</tr>
+	</table>
 <br>
 <strong>*Pflichtfelder</strong>
 <br>
 <br>
+<br>
+<br>
 <legend><strong>Hangload-Auswahl </strong> </legend> <br>
-Für mehr Produkt-Informationen schauen Sie unter <a href="/de/webshop/#product"> <strong> Produkt </strong> </a> weiter oben. <br> 
+Für mehr Informationen schauen Sie unter <a href="/de/webshop/#product"> <strong> Produkt </strong> </a> weiter oben. <br> 
 <br>
 <table>
-<tr>
-<td width="300px"> <input type="checkbox" name="PE" id="PE" class="css-checkbox sme" value="PE">
-<label for="PE" name="PE_lbl" class="css-label sme depressed">PE einklappbar (55€/ Stck.)</label> </td>
-<td> <label> Anzahl (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countPE"> </label> </td>
-</tr>
-<tr>
-<td> <input type="checkbox" name="Edelstahl" id="Edelstahl" class="css-checkbox sme" value="Edelstahl">
-<label for="Edelstahl" name="Edelstahl_lbl" class="css-label sme depressed"> Edelstahl mit Banner (35€/ Stck.) </label> </td>
-<td> <label> Anzahl (max. 4) : <input type="text" maxlength="1" size="2" value="0" name="countMetal"> </label> </td>
-</tr>
-</table>
+		<tr>
+			<td width="300px">
+				<label>PE einklappbar (55€/Stck.)</label> 
+			</td>
+			<td> 
+				<label> Anzahl (max. 4):<input type="number" min="0"  max="4" maxlength="1" size="2" value="0" name="countPE" id="countPE"></label> 
+			</td>
+	</tr>
+	<tr>
+		<td>
+			<label>Edelstahl mit Banner (35€/Stck.)</label> 
+		</td>
+		<td> 
+			<label> Anzahl (max. 4):<input type="number" min="0" max="4" maxlength="1" size="2" value="0" name="countMetal" id="countMetal"></label> 
+		</td>
+	</tr>
+	</table>
 <br>
 <br>
 Wenn Sie einen Hangload aus Edelstahl mit Banner bestellen möchten - welche Bannergröße, welche Farbe ?
