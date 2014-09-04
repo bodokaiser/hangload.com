@@ -411,7 +411,8 @@ For more information open this <a href="/images/webshop/product info sheet stain
 	
 	<input type="hidden"
 	
-	if ($agbconfirm==1)
+	
+	if ($sendbutton==1)
 	{
 	$toText="$email";
 	$fromText="sales@hangload.com";
@@ -424,8 +425,8 @@ For more information open this <a href="/images/webshop/product info sheet stain
 
 		Attention: <br> This e-mail was automatically generated and therefore does not have the 
 		status of an order confirmation!"; 
-		
-	<input type="hidden" mail ($toText, $fromText, $subjectText, $msgText , "To: $toText <$toText>". "From: $fromText <$fromText>". $ccText. $bccText. "Content-Type:text/html") >;
+	
+	mail ("To:$toText","From:$fromText", $subjectText, $msgText) <!--, "To: $toText <$toText>". "From: $fromText <$fromText>". $ccText. $bccText. "Content-Type:text/html") -->;
 	} 
 	
 	<a target="_blank" > "<table align=center valign=top cellspacing='0' cellpadding='1' border='0' height=150 width=300>
