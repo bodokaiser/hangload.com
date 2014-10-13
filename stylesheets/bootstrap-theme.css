@@ -58,16 +58,6 @@ section#airport {
   background-image: url('/images/pictures/airport.jpg');
 }
 
-section#girlbike {
-  height: 360px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('/images/pictures/girlbike.jpg');
-}
-
-
-
-
 
 footer {
   color: #FFF;
