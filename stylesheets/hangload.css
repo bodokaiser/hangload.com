@@ -158,6 +158,6 @@ input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg{
     background-position: 0 -20px;
 }
 
-#center {
-	margin: 0px auto 0px auto;
+div#center {
+	margin-left: 50px;
 }
