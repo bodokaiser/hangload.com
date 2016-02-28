@@ -48,14 +48,14 @@ section#promenade {
   height: 360px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('/images/pictures/promenade.jpg');
+  background-image: url('/images/pictures/airport.jpg');
 }
 
 section#airport {
   height: 360px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('/images/pictures/airport.jpg');
+  background-image: url('/images/pictures/promenade.jpg');
 }
 
 
