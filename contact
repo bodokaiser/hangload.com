@@ -1,0 +1,20 @@
+---
+layout: default
+title: Hangload - about Hangload and the team
+prefix: ..
+description: Hangload the new way to load your bike. Hangload is a innovative bag carrier for the bicycle.
+
+---
+
+<article class="container" id="credits">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="page-header">
+        <h2 class="text-center">Contact</h2>
+        Darius Matthew Hajiani<br>
+        e-mail: info@hangload.com<br>
+        phone: +49 (0) 177 506 7837 (English only)
+      </div>
+    </div>
+  </div>
+</article>
