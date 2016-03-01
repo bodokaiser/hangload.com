@@ -121,3 +121,15 @@ iframe {
 .nav-pills > li.active > a:hover {
   background-color: #7CB34B;
 }
+
+table.promo td {
+  padding: 5px;
+  width: 210px;
+  text-align: center;
+}
+
+table.promo td.wide {
+  padding:5px;
+  width: 500px;
+  text-align: center;
+}
