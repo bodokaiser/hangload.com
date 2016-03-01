@@ -132,6 +132,7 @@ table.promo td img {
   text-align: center;
 }
 table.wide {
+  margin: 0px auto 0px auto;
   padding:5px;
   width: 510px;
   text-align: center;
