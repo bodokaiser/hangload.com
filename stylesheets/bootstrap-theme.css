@@ -133,6 +133,10 @@ table.promo td img {
 }
 table.promo td.wide {
   padding:5px;
+  width: 510px;
+  text-align: center;
+}
+table.promo td img {
   width: 500px;
   text-align: center;
 }
