@@ -136,6 +136,9 @@ table.promo td.wide {
   width: 510px;
   text-align: center;
 }
+table.promo td.wide a {
+  text-align: center;
+}
 table.promo td.img {
   width: 500px;
   text-align: center;
