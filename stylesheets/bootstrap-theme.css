@@ -131,15 +131,16 @@ table.promo td img {
   width: 200px;
   text-align: center;
 }
-table.promo td.wide {
+table.wide {
   padding:5px;
-  width: 510px;
+  width: 310px;
   text-align: center;
 }
-table.promo td.wide a {
+table.wide a {
   text-align: center;
 }
-table.promo td.img {
-  width: 500px;
+table.wide td.img {
+  margin: 0px auto 0px auto;
+  width: 300px;
   text-align: center;
 }
