@@ -140,7 +140,7 @@ table.wide {
 table.wide a {
   text-align: center;
 }
-table.wide td.img {
+table.wide td img {
   margin: 0px auto 0px auto;
   width: auto;
   text-align: center;
