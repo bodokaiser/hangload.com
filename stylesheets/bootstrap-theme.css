@@ -124,7 +124,7 @@ iframe {
 
 table.promo td {
   padding: 5px;
-  width: 210px;
+  max-width: 520px;
   text-align: center;
 }
 table.promo td img {
