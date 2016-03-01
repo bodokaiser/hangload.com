@@ -133,7 +133,7 @@ table.promo td img {
 }
 table.wide {
   padding:5px;
-  width: 310px;
+  width: 510px;
   text-align: center;
 }
 table.wide a {
@@ -141,6 +141,7 @@ table.wide a {
 }
 table.wide td.img {
   margin: 0px auto 0px auto;
-  width: 300px;
+  min-width: 300px;
+  max-width: 500px;
   text-align: center;
 }
