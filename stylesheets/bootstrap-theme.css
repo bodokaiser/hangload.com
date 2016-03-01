@@ -141,7 +141,6 @@ table.wide a {
 }
 table.wide td.img {
   margin: 0px auto 0px auto;
-  min-width: 300px;
-  max-width: 500px;
+  width: 100%;
   text-align: center;
 }
