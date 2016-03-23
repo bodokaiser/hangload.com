@@ -1,0 +1,30 @@
+{
+  "name": "Hangload",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hangload -- The new way to load your bike",
+  "homepage": "http://hangload.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangload/static"
+  },
+  "author": "bodokaiser <i@bodokaiser.io>",
+  "contributors": [
+    {
+      "name": "mrzool",
+      "email": "info@mrzool.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "parallelshell": "^2.0.0"
+  },
+  "scripts": {
+    "prestart": "npm run clean",
+    "start": "parallelshell -v 'npm run build:html' 'npm run server'",
+    "build:html": "bundle exec jekyll build --watch --incremental",
+    "clean": "rm -rf _site",
+    "server": "browser-sync start --files '_site/**/*.html' --server _site"
+  }
+}
