@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="utf-8" />
-<title>{{ page.title }}</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="author" content="Maria Slaby" />
-<meta name="keywords" content="{{ page.keywords }}" />
-<meta name="description" content="{{ page.description }}" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="p:domain_verify" content="672d12bd2024b50a6aa894d2cdc718bf"/>
-<link rel="stylesheet" href="/stylesheets/bootstrap.css" />
-<link rel="stylesheet" href="/stylesheets/bootstrap-theme.css" />
-<link rel="stylesheet" href="/stylesheets/hangload.css" />
-<link rel="shortcut icon" href="/favicon.ico"> 
-</head>
-<body>
-{% include header_webshopDE.html %}
-{% include aside.html %}
-{{ content }}
-{% include footerDE.html %}
-{% include script.html %}
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Maria Slaby" />
+    <meta name="keywords" content="{{ page.keywords }}" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="p:domain_verify" content="672d12bd2024b50a6aa894d2cdc718bf"/>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="/stylesheets/bootstrap-theme.css" />
+    <link rel="stylesheet" href="/stylesheets/hangload.css" />
+    <link rel="shortcut icon" href="/favicon.ico"> 
+  </head>
+  <body>
+    {% include header_webshopDE.html %}
+    {% include aside.html %}
+    {{ content }}
+    {% include footerDE.html %}
+    {% include script.html %}
+  </body>
 </html>

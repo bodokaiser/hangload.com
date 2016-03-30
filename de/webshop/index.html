@@ -7,148 +7,148 @@ description: Online - Bestellung Ihres Hangloads in verschiedenen Varianten und 
 ---
 <script type='text/javascript'> 
 
-function return_check() {
-	var element = null;
-	var ret = true;
-	var time=new Date();
-	
-	element = document.getElementById('vdate');
-	element.value = time.getDate();
-	
-	// test first name 
-	/*element = document.getElementById('first_name');
-    if (element.value.length <= 0) {
-        alert('Geben Sie Ihren Vornamen ein');
-        element.focus();
-        ret = false;
+  function return_check() {
+    var element = null;
+    var ret = true;
+    var time=new Date();
+
+    element = document.getElementById('vdate');
+    element.value = time.getDate();
+
+    // test first name 
+    /*element = document.getElementById('first_name');
+      if (element.value.length <= 0) {
+      alert('Geben Sie Ihren Vornamen ein');
+      element.focus();
+      ret = false;
+      }
+
+    // test last name
+    element = null;
+    element = document.getElementById('last_name');
+    if (element.value.length <=0) {
+    alert('Geben Sie Ihren Nachnamen ein');
+    if (ret) {
+    element.focus();
     }
-	
-	// test last name
-	element = null;
-	element = document.getElementById('last_name');
-	if (element.value.length <=0) {
-		alert('Geben Sie Ihren Nachnamen ein');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-	
-	// test Straße
-	element = null;
-	element = document.getElementById('street');
-	if (element.value.length <=0) {
-		alert('Geben Sie Ihre Straße ein');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-	
-	// Hausnummer*
-	element = null;
-	element = document.getElementById('streetnr');
-	if (element.value.length <=0) {
-		alert('Geben Sie ihre Hausnummer ein');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-	
-	// test Stadt*
-	element = null;
-	element = document.getElementById('zipcode');
-	if (element.value.length <=0) {
-		alert('Geben Sie Ihre Stadt ein');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-	
-	
-	// test PLZ
-	element = null;
-	element = document.getElementById('zipcode');
-	if (element.value.length <=0) {
-		alert('Geben Sie Ihre PLZ ein');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}*/
-	
-	// test email
-	element = null;
-	element = document.getElementById('email');
-	var atpos = element.value.indexOf("@");
+    ret = false;
+    }
+
+    // test Straße
+    element = null;
+    element = document.getElementById('street');
+    if (element.value.length <=0) {
+    alert('Geben Sie Ihre Straße ein');
+    if (ret) {
+    element.focus();
+    }
+    ret = false;
+    }
+
+    // Hausnummer*
+    element = null;
+    element = document.getElementById('streetnr');
+    if (element.value.length <=0) {
+    alert('Geben Sie ihre Hausnummer ein');
+    if (ret) {
+    element.focus();
+    }
+    ret = false;
+    }
+
+    // test Stadt*
+    element = null;
+    element = document.getElementById('zipcode');
+    if (element.value.length <=0) {
+    alert('Geben Sie Ihre Stadt ein');
+    if (ret) {
+    element.focus();
+    }
+    ret = false;
+    }
+
+
+    // test PLZ
+    element = null;
+    element = document.getElementById('zipcode');
+    if (element.value.length <=0) {
+    alert('Geben Sie Ihre PLZ ein');
+    if (ret) {
+    element.focus();
+    }
+    ret = false;
+    }*/
+
+    // test email
+    element = null;
+    element = document.getElementById('email');
+    var atpos = element.value.indexOf("@");
     var dotpos = element.value.lastIndexOf(".");
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=element.length) {
-		alert('Geben Sie Ihre E-Mail-Adresse ein');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
+      alert('Geben Sie Ihre E-Mail-Adresse ein');
+      if (ret) {
+        element.focus();
+      }
+      ret = false;
+    }
 
-	// test phone*
-	/*element = null;
-	element = document.getElementById('phone');
-	if (element.value.length <=0) {
-		alert('Geben Sie Ihre Telefonnummer ein');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}*/
-	
-	element = null;
-	element = document.getElementById('agbconfirm');
-	if (ret == true) {
-		ret = element.checked;
-		if (!ret) {
-			alert('Bitte die AGB bestätigen ! ');
-		}
-	}
-	
-	element = null;
-	element = document.getElementById('countPE');
-	if (parseInt(element.value) > 4) {
-		alert('Maximal 4 Stück !');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-	
-	element = null;
-	element = document.getElementById('countPE');
-	if (parseInt(element.value) > 4) {
-		alert('Maximal 4 Stück !');
-		if (ret) {
-			element.focus();
-		}
-		ret = false;
-	}
-		
+    // test phone*
+    /*element = null;
+      element = document.getElementById('phone');
+      if (element.value.length <=0) {
+      alert('Geben Sie Ihre Telefonnummer ein');
+      if (ret) {
+      element.focus();
+      }
+      ret = false;
+      }*/
+
+    element = null;
+    element = document.getElementById('agbconfirm');
+    if (ret == true) {
+      ret = element.checked;
+      if (!ret) {
+        alert('Bitte die AGB bestätigen ! ');
+      }
+    }
+
+    element = null;
+    element = document.getElementById('countPE');
+    if (parseInt(element.value) > 4) {
+      alert('Maximal 4 Stück !');
+      if (ret) {
+        element.focus();
+      }
+      ret = false;
+    }
+
+    element = null;
+    element = document.getElementById('countPE');
+    if (parseInt(element.value) > 4) {
+      alert('Maximal 4 Stück !');
+      if (ret) {
+        element.focus();
+      }
+      ret = false;
+    }
+
     return ret;
-}
+  }
 
-function isOneTwoThreeFour(field) {
+  function isOneTwoThreeFour(field) {
 
-	var fieldData = field.value;
+    var fieldData = field.value;
 
-	if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
+    if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
 
-		field.className = "FieldError"; //Classs to highlight error
-		alert("Bitte die Fehler in der Bestellung korrigieren zum Fortfahren.");
-		return false;
-	} else {
-		field.className = "FieldOk"; //Resets field back to default
-		return true; //Submits form
-	}
-}
+      field.className = "FieldError"; //Classs to highlight error
+      alert("Bitte die Fehler in der Bestellung korrigieren zum Fortfahren.");
+      return false;
+    } else {
+      field.className = "FieldOk"; //Resets field back to default
+      return true; //Submits form
+    }
+  }
 </script>
 
 <!--
@@ -158,57 +158,57 @@ function isOneTwoThreeFour(field) {
 </section>
 -->
 <article class="container" id="product">
-  
-<div class="row">
-<div class="col-xs-12 col-md-8">
-<div class="thubmnail">
-<img class="img-responsive" alt="Hangload and its different components" src="/images/pictures/hangload-components.jpg" />
-<br>
-<br>
-</div>
-</div>
-<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
-    <h3 class="text-center">Banner-Hangload </h3>
-      <p class="text-justify">
-Der Hangload-Banner mit festem angestellten Winkel kann auf jeder Seite Ihres Gepäckträgers befestigt werden - 
-wahlweise auch an beiden Seiten gleichzeitig. Erhältlich in vielen verschiedenen Farben. 
-</p>
-<p>
-- Rahmen: 100% Edelstahl mit Perbunan- Schläuchen <br>
-- Stoff: Nylon-Gewebe (80% Nylon, 20% Polyurethan)  in verschiedenen Farben <br>
-- Befestigung: Gummiseile aus Polypropylen <br>
 
-Griff: <br>
-- 100 % Buchen-Holz <br>
-- Ringe aus Edelstahl <br>
-- Webband aus Polyacryl
-</p>
-<p>
-Höhe:	36cm
-Breite:	36cm
-Tiefe:	12cm
-Gewicht:	536 g
-Textil-Format: klein
-</p>
-<br />
-<br />
-<br />
-</div>
-</div>
-<div class="row">
-	<table class="wide">
-		<tr>
-			<td>
-				<a href="order">
-	<img src="../../images/pictures/button-privateDE.jpg" alt="Privatkunden" />
-	</a>	
-			</td>
-			<td>
-			<a href="../promotions/">
-	<img src="../../images/pictures/button-businessDE.jpg" alt="Geschäftskunden" />
-	</a>	
-			</td>
-		</tr>
-	</table>
-</div>
+  <div class="row">
+    <div class="col-xs-12 col-md-8">
+      <div class="thubmnail">
+        <img class="img-responsive" alt="Hangload and its different components" src="/images/pictures/hangload-components.jpg" />
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+      <h3 class="text-center">Banner-Hangload </h3>
+      <p class="text-justify">
+        Der Hangload-Banner mit festem angestellten Winkel kann auf jeder Seite Ihres Gepäckträgers befestigt werden - 
+        wahlweise auch an beiden Seiten gleichzeitig. Erhältlich in vielen verschiedenen Farben. 
+      </p>
+      <p>
+        - Rahmen: 100% Edelstahl mit Perbunan- Schläuchen <br>
+        - Stoff: Nylon-Gewebe (80% Nylon, 20% Polyurethan)  in verschiedenen Farben <br>
+        - Befestigung: Gummiseile aus Polypropylen <br>
+
+        Griff: <br>
+        - 100 % Buchen-Holz <br>
+        - Ringe aus Edelstahl <br>
+        - Webband aus Polyacryl
+      </p>
+      <p>
+        Höhe:	36cm
+        Breite:	36cm
+        Tiefe:	12cm
+        Gewicht:	536 g
+        Textil-Format: klein
+      </p>
+      <br />
+      <br />
+      <br />
+    </div>
+  </div>
+  <div class="row">
+    <table class="wide">
+      <tr>
+        <td>
+          <a href="order">
+            <img src="../../images/pictures/button-privateDE.jpg" alt="Privatkunden" />
+          </a>	
+        </td>
+        <td>
+          <a href="../promotions/">
+            <img src="../../images/pictures/button-businessDE.jpg" alt="Geschäftskunden" />
+          </a>	
+        </td>
+      </tr>
+    </table>
+  </div>
 </article>
