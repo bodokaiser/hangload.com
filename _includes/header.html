@@ -8,38 +8,36 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ page.prefix }}/#home">HANGLOAD</a>
+      <a class="navbar-brand" href="/">HANGLOAD</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="navbar-nav nav">
         <li><a href="//hangloadug.tumblr.com/">News</a></li>
-        <li><a href="{{ page.prefix }}/#function">Function</a></li>
-        <li><a href="{{ page.prefix }}/#benefits">Benefits</a></li>
-        <!--  <li><a href="{{ page.prefix }}/#webshop">Webshop</a></li> -->
-      
-      <li><a href="/instructions">Instructions</a></li>
-<li><a href="{{ page.prefix }}/technique">Useful Tips</a></li>
-        <li><a href="{{ page.prefix }}/webshop">Request Price</a></li>
+        <li><a href="#function">Function</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <!--  <li><a href="/#webshop">Webshop</a></li> -->
+        <li><a href="instructions">Instructions</a></li>
+        <li><a href="technique">Useful Tips</a></li>
+        <li><a href="webshop">Request Price</a></li>
         <!--<li class="active"><a href="/webshop">Webshop</a></li> -->
-        <li><a href="{{ page.prefix }}/promotions">Business</a></li>
+        <li><a href="promotions">Business</a></li>
         <!--<li class="active"><a href="/webshop">Webshop</a></li> -->
-        <li><a href="{{ page.prefix }}/contact">Contact</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
-      
-      
+
       <ul class="navbar-nav navbar-right nav">
         {% if page.language == 'de' %}
-        <li><a href="/">EN</a></li>
-        <li class="active"><a href="/de">DE</a></li>
-        <li><a href="/jp">JP</a></li>
+          <li><a href="/">EN</a></li>
+          <li class="active"><a href="/de">DE</a></li>
+          <li><a href="/jp">JP</a></li>
         {% elsif page.language == 'jp' %}
-        <li><a href="/">EN</a></li>
-        <li><a href="/de">DE</a></li>
-        <li class="active"><a href="/jp">JP</a></li>
+          <li><a href="/">EN</a></li>
+          <li><a href="/de">DE</a></li>
+          <li class="active"><a href="/jp">JP</a></li>
         {% else %}
-        <li class="active"><a href="/">EN</a></li>
-        <li><a href="/de">DE</a></li>
-        <li><a href="/jp">JP</a></li>
+          <li class="active"><a href="/">EN</a></li>
+          <li><a href="/de">DE</a></li>
+          <li><a href="/jp">JP</a></li>
         {% endif %}
       </ul>
     </div>
