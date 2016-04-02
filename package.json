@@ -26,5 +26,8 @@
     "build:html": "bundle exec jekyll build --watch --incremental",
     "clean": "rm -rf _site",
     "server": "browser-sync start --files '_site/**/*.html' --server _site"
+  },
+  "dependencies": {
+    "gravitons": "^1.0.0"
   }
 }
