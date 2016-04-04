@@ -20,21 +20,11 @@
       </ul>
 
       <ul class="navbar-nav navbar-right nav">
-        {% if page.language == 'de' %}
-          <li><a href="/">EN</a></li>
-          <li class="active"><a href="/de">DE</a></li>
-          <li><a href="/jp">JP</a></li>
-        {% elsif page.language == 'jp' %}
-          <li><a href="/">EN</a></li>
-          <li><a href="/de">DE</a></li>
-          <li class="active"><a href="/jp">JP</a></li>
-        {% else %}
-          <li class="active"><a href="/">EN</a></li>
-          <li><a href="/de">DE</a></li>
-          <li><a href="/jp">JP</a></li>
-        {% endif %}
-      </ul>
-    </div>
+
+      <li{% if page.language == 'en' %} class="active"{% endif %}><a href="/">EN</a></li>
+      <li{% if page.language == 'de' %} class="active"{% endif %}><a href="/de">DE</a></li>
+      <li{% if page.language == 'jp' %} class="active"{% endif %}><a href="/jp">JP</a></li>
+    </ul>
   </div>
 </div>
 </header>
