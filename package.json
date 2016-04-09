@@ -25,7 +25,7 @@
     "start": "parallelshell -v 'npm run build:html' 'npm run server'",
     "build:html": "bundle exec jekyll build --watch --incremental",
     "clean": "rm -rf _site",
-    "server": "browser-sync start --files '_site/**/*.html' --server _site"
+    "server": "browser-sync start --files '_site/**/*.html' --server _site --no-notify"
   },
   "dependencies": {
     "gravitons": "^1.0.0"
