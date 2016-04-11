@@ -145,3 +145,20 @@ table.wide td img {
   width: auto;
   text-align: center;
 }
+
+.snipcart-summary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20%;
+  margin-top: 11px;
+}
+
+.snipcart-checkout:hover {
+  text-decoration: none;
+}
+
+.snipcart-total-items {
+  vertical-align: super;
+}
+
