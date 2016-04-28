@@ -162,3 +162,16 @@ table.wide td img {
   vertical-align: super;
 }
 
+/* Snipcart overwrites */
+
+#snipcart-header {
+  background: white;
+}
+
+#snipcart-header #snipcart-title {
+  color: black;
+}
+
+#snipcart-close i {
+  color: black;
+}
