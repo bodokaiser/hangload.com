@@ -164,14 +164,26 @@ table.wide td img {
 
 /* Snipcart overwrites */
 
+.snip-layout { font-family: inherit; }
+
 #snipcart-header {
   background: white;
 }
+
+.snip-layout .snip-layout__close {
+  color: black;
+}
+
+.snip-layout .snip-header__total {
+  background: white;
+}
+
+#snipcart-amount { color: black; }
 
 #snipcart-header #snipcart-title {
   color: black;
 }
 
-#snipcart-close i {
-  color: black;
+#snipcart-footer {
+  background: white;
 }
