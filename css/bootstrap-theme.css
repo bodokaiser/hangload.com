@@ -187,3 +187,12 @@ table.wide td img {
 #snipcart-footer {
   background: white;
 }
+
+.border {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.underline { text-decoration: underline; }
+
+.bold { font-weight: bold; }
