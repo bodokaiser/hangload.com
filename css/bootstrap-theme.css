@@ -196,3 +196,6 @@ table.wide td img {
 .underline { text-decoration: underline; }
 
 .bold { font-weight: bold; }
+
+/* Utilities */
+.dn { display: none; }
