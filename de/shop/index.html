@@ -1,214 +1,63 @@
 ---
-layout: webshoplayoutDE
-title: Hangload - Preisanfrage für Ihren persönlichen Hangload
-prefix: '..'
+layout: defaultDE
+title: Shop
 language: de
-description: Online - Bestellung Ihres Hangloads in verschiedenen Varianten und Farben
+description: Bestellen Sie Ihres Hangloads
 ---
-<script type='text/javascript'> 
 
-  function return_check() {
-    var element = null;
-    var ret = true;
-    var time=new Date();
+<article class="container-fluid" id="shop-container">
 
-    element = document.getElementById('vdate');
-    element.value = time.getDate();
-
-    // test first name 
-    /*element = document.getElementById('first_name');
-      if (element.value.length <= 0) {
-      alert('Geben Sie Ihren Vornamen ein');
-      element.focus();
-      ret = false;
-      }
-
-    // test last name
-    element = null;
-    element = document.getElementById('last_name');
-    if (element.value.length <=0) {
-    alert('Geben Sie Ihren Nachnamen ein');
-    if (ret) {
-    element.focus();
-    }
-    ret = false;
-    }
-
-    // test Straße
-    element = null;
-    element = document.getElementById('street');
-    if (element.value.length <=0) {
-    alert('Geben Sie Ihre Straße ein');
-    if (ret) {
-    element.focus();
-    }
-    ret = false;
-    }
-
-    // Hausnummer*
-    element = null;
-    element = document.getElementById('streetnr');
-    if (element.value.length <=0) {
-    alert('Geben Sie ihre Hausnummer ein');
-    if (ret) {
-    element.focus();
-    }
-    ret = false;
-    }
-
-    // test Stadt*
-    element = null;
-    element = document.getElementById('zipcode');
-    if (element.value.length <=0) {
-    alert('Geben Sie Ihre Stadt ein');
-    if (ret) {
-    element.focus();
-    }
-    ret = false;
-    }
-
-
-    // test PLZ
-    element = null;
-    element = document.getElementById('zipcode');
-    if (element.value.length <=0) {
-    alert('Geben Sie Ihre PLZ ein');
-    if (ret) {
-    element.focus();
-    }
-    ret = false;
-    }*/
-
-    // test email
-    element = null;
-    element = document.getElementById('email');
-    var atpos = element.value.indexOf("@");
-    var dotpos = element.value.lastIndexOf(".");
-    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=element.length) {
-      alert('Geben Sie Ihre E-Mail-Adresse ein');
-      if (ret) {
-        element.focus();
-      }
-      ret = false;
-    }
-
-    // test phone*
-    /*element = null;
-      element = document.getElementById('phone');
-      if (element.value.length <=0) {
-      alert('Geben Sie Ihre Telefonnummer ein');
-      if (ret) {
-      element.focus();
-      }
-      ret = false;
-      }*/
-
-    element = null;
-    element = document.getElementById('agbconfirm');
-    if (ret == true) {
-      ret = element.checked;
-      if (!ret) {
-        alert('Bitte die AGB bestätigen ! ');
-      }
-    }
-
-    element = null;
-    element = document.getElementById('countPE');
-    if (parseInt(element.value) > 4) {
-      alert('Maximal 4 Stück !');
-      if (ret) {
-        element.focus();
-      }
-      ret = false;
-    }
-
-    element = null;
-    element = document.getElementById('countPE');
-    if (parseInt(element.value) > 4) {
-      alert('Maximal 4 Stück !');
-      if (ret) {
-        element.focus();
-      }
-      ret = false;
-    }
-
-    return ret;
-  }
-
-  function isOneTwoThreeFour(field) {
-
-    var fieldData = field.value;
-
-    if (fieldData !== "0" || fieldData !== "1" || fieldData !== "2" || fieldData !== "3" || fieldData !== "4" ) {
-
-      field.className = "FieldError"; //Classs to highlight error
-      alert("Bitte die Fehler in der Bestellung korrigieren zum Fortfahren.");
-      return false;
-    } else {
-      field.className = "FieldOk"; //Resets field back to default
-      return true; //Submits form
-    }
-  }
-</script>
-
-<!--
-<section id="airport" class="hidden-xs hidden-sm"
-  data-200="background-position: 100% 100%"
-  data-500="background-position: 100% 42%;">
-</section>
--->
-<article class="container" id="product">
+  <div id="item-added-dialog" class="dn border text-center py2 mb3 border--blue blue">
+    <span class="h2">Artikel zum Warenkorb hinzugefügt!</span>
+    <br>
+    <a href="#" class="snipcart-checkout btn btn-success mt1">Zum Checkout gehen</a>
+  </div>
 
   <div class="row">
-    <div class="col-xs-12 col-md-8">
+    <div class="col-xs-12 col-sm-6">
       <div class="thubmnail">
         <img class="img-responsive" alt="Hangload and its different components" src="/images/pictures/hangload-components.jpg" />
-        <br>
-        <br>
       </div>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
-      <h3 class="text-center">Banner-Hangload </h3>
-      <p class="text-justify">
-        Der Hangload-Banner mit festem angestellten Winkel kann auf jeder Seite Ihres Gepäckträgers befestigt werden - 
-        wahlweise auch an beiden Seiten gleichzeitig. Erhältlich in vielen verschiedenen Farben. 
-      </p>
-      <p>
-        - Rahmen: 100% Edelstahl mit Perbunan- Schläuchen <br>
-        - Stoff: Nylon-Gewebe (80% Nylon, 20% Polyurethan)  in verschiedenen Farben <br>
-        - Befestigung: Gummiseile aus Polypropylen <br>
-
-        Griff: <br>
-        - 100 % Buchen-Holz <br>
-        - Ringe aus Edelstahl <br>
-        - Webband aus Polyacryl
-      </p>
-      <p>
-        Höhe:	36cm
-        Breite:	36cm
-        Tiefe:	12cm
-        Gewicht:	536 g
-        Textil-Format: klein
-      </p>
-      <br />
-      <br />
-      <br />
+    <div class="col-xs-12 col-sm-6">
+      <div class="row mb4 mt2">
+        <div class="col-xs-8">
+          <h1 class="m0 dib mr1">&euro; 30.00</h1>
+          <small>&plus; MwSt. &amp; Versand</small>
+          <h5 class="mt1 aqua">Auf Lager</h5>
+        </div>
+        <div class="col-xs-4 text-right">
+          <button class="btn bg-blue white snipcart-add-item"
+            data-item-id="1"
+            data-item-url=http://hangload.com/de/shop"
+            data-item-name="Hangload"
+            data-item-description="The new way to load your bike"
+            data-item-image="http://hangload.com/images/pictures/hangload-components.jpg"
+            data-item-price="30.00"
+            data-item-custom1-name="Farbe"
+            data-item-custom1-options="Asphaltgrau| Olivgrün"
+            >
+            Zum Warenkorb <br> hinzufügen
+          </button>
+        </div>
+      </div>
+      <h4>Beschreibung</h4>
+      <p>Der Hangload-Banner mit festem angestellten Winkel kann auf jeder Seite Ihres Gepäckträgers befestigt werden&mdash;wahlweise auch an beiden Seiten gleichzeitig.
+        Erhältlich in Asphaltgrau und Olivgrün.</p>
+      <h4>Merkmale</h4>
+      <ul class="list-unstyled">
+        <li><strong>Rahmen</strong>: 100% Edelstahl mit Perbunan-Schläuchen.</li> 
+        <li><strong>Stoff</strong>: Nylon-Gewebe (80% Nylon, 20% Polyurethan)  in Grau und Grün.</li> 
+        <li><strong>Befestigung</strong>: Gummiseile aus Polypropylen.</li> 
+        <li><strong>Griff</strong>: Buchen-Holz, Ringe aus Edelstahl, Webband aus Polyacryl.</li> 
+      </ul>
+      <h4>Spezifikationen</h4>
+      <ul class="list-unstyled">
+        <li><strong>Maße</strong>: 36&#215;36&#215;12 cm</li>
+        <li><strong>Gewicht</strong>: 536 g</li>
+      </ul>
     </div>
   </div>
-  <div class="row">
-    <table class="wide">
-      <tr>
-        <td>
-          <a href="/de/webshop/order">
-            <img src="../../images/pictures/button-privateDE.jpg" alt="Privatkunden" />
-          </a>	
-        </td>
-        <td>
-          <a href="/de/promotions/">
-            <img src="../../images/pictures/button-businessDE.jpg" alt="Geschäftskunden" />
-          </a>	
-        </td>
-      </tr>
-    </table>
-  </div>
+
+
 </article>
