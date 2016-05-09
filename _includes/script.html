@@ -15,6 +15,13 @@
     "shipping_method_method_name": "Shipping Region"
   });
 
+  Snipcart.execute('bind', 'app.ready', function() {
+    Snipcart.execute('registerLocale', 'de', {
+      "shipping_method": "Versandregion",
+      "shipping_method_method_name": "Versandregion"
+    });
+  });
+
   var $itemAddedDialog = $('#item-added-dialog');
 
   Snipcart.subscribe('item.added', function (item) {
