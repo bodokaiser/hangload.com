@@ -8,18 +8,21 @@
     data-autopop="false">
 </script>
 
-<script type="text/javascript" charset="utf-8">
+<script type="text/javascript">
 
   Snipcart.execute('registerLocale', 'en', {
     "shipping_method": "Shipping Region",
     "shipping_method_method_name": "Shipping Region"
   });
 
-  var $shopContainer = $("#shop-container");
-  var itemAdded = $('<div><span class="h2">Item added!</span><br><a href="#" class="snipcart-checkout btn btn-success mt1">Proceed to checkout</a></div>').addClass('border text-center py2 mb3 border--blue blue')
+  var $itemAddedDialog = $('#item-added-dialog');
 
   Snipcart.subscribe('item.added', function (item) {
-    $shopContainer.prepend(itemAdded);
+    $itemAddedDialog.removeClass('dn');
+  });
+
+  Snipcart.subscribe('cart.opened', function (item) {
+    $itemAddedDialog.addClass('dn');
   });
 
   Snipcart.api.configure('show_continue_shopping', true);
