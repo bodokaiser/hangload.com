@@ -1,5 +1,6 @@
-@import "gravitons";
-@import "bootstrap";
+/* @import "gravitons"; */
+/* @import "bootstrap"; */
+@import "basscss";
 @import "snipcart-overrides.css";
 @import "colors.css";
-@import "bootstrap-theme.css";
+@import "theme.css";

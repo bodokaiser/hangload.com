@@ -38,6 +38,7 @@
     "server": "browser-sync start --files '_site/**/*.html' --server _site --no-notify"
   },
   "dependencies": {
+    "basscss": "^8.0.1",
     "bootstrap": "^3.1.1",
     "colors.css": "^3.0.0",
     "gravitons": "^1.0.0"
