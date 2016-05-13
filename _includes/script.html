@@ -10,6 +10,8 @@
 
 <script type="text/javascript">
 
+  Snipcart.api.configure('show_continue_shopping', true);
+
   Snipcart.execute('registerLocale', 'en', {
     "shipping_method": "Shipping Region",
     "shipping_method_method_name": "Shipping Region"
@@ -22,6 +24,32 @@
     });
   });
 
+  function setSnipcartShippingMethods(address) {
+    if (address.country == "DE") {
+      Snipcart.api.configure('allowed_shipping_methods', ['germany']);
+    }
+    else if (address.country == "EU") {
+      Snipcart.api.configure('allowed_shipping_methods', ['EU']);
+    }
+    else {
+      Snipcart.api.configure('allowed_shipping_methods', ['worldwide']);
+    }
+  }
+
+  Snipcart.subscribe('billingaddress.changed', function (address) {
+    if (address.shippingSameAsBilling) {
+      setSnipcartShippingMethods(address);
+    }
+  });
+
+  Snipcart.subscribe('shippingaddress.changed', function (address) {
+    setSnipcartShippingMethods(address);
+  });
+
+  Snipcart.subscribe('cart.ready', function (cart) {
+    setSnipcartShippingMethods(cart.order.shippingAddress);
+  });
+
   var $itemAddedDialog = $('#item-added-dialog');
 
   Snipcart.subscribe('item.added', function (item) {
@@ -31,8 +59,6 @@
   Snipcart.subscribe('cart.opened', function (item) {
     $itemAddedDialog.addClass('dn');
   });
-
-  Snipcart.api.configure('show_continue_shopping', true);
 
 </script>
 
