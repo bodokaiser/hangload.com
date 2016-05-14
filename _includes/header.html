@@ -1,30 +1,43 @@
-<header>
+<header class="fixed top-0 left-0 right-0 px1 bg-white">
   {% comment %} <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse"> {% endcomment %}
     {% comment %}   <span class="sr-only">Toggle navigation</span> {% endcomment %}
     {% comment %}   <span class="icon-bar"></span> {% endcomment %}
     {% comment %}   <span class="icon-bar"></span> {% endcomment %}
     {% comment %}   <span class="icon-bar"></span> {% endcomment %}
     {% comment %} </button> {% endcomment %}
-  <h1 class="inline-block mr2 h4"> <a class="caps no-spacing" href="/">hangload</a> </h1>
-  <ul class="list-reset inline-block">
-    <li class="h5 inline-block py1 mr2 {% if page.title == "Instructions" %}border-bottom{% endif %}"><a href="/instructions">Instructions</a></li>
-    <li class="h5 inline-block py1 mr2 {% if page.title == "Shop" %}border-bottom{% endif %}"><a href="/shop">Shop</a></li>
-    <li class="h5 inline-block py1 mr2 {% if page.title == "Business" %}border-bottom{% endif %}"><a href="/business">Business</a></li>
-    <li class="h5 inline-block py1 mr2"><a href="http://hangloadug.tumblr.com/">News</a></li>
-    <li class="h5 inline-block py1 mr2 {% if page.title == "Contact" %}border-bottom{% endif %}"><a href="/contact">Contact</a></li>
-  </ul>
 
-  <ul class="list-reset sm-col-right">
-    <li class="h5 inline-block py1 mr1 {% if page.language == 'en' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/">en</a></li>
-    <li class="h5 inline-block py1 mr1 {% if page.language == 'de' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/de">de</a></li>
-    <li class="h5 inline-block py1 mr1 {% if page.language == 'jp' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/jp">jp</a></li>
-  </ul>
+  <h1 class="inline-block mr2 h4"> <a class="caps no-spacing" href="/">Hangload</a> </h1>
+
+  <a href="#" id="nav-toggle" class="nav-toggle right">
+    <svg class="fill-black" height="32" viewBox="0 0 32 32" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 10h24c1.104 0 2-.896 2-2s-.896-2-2-2H4c-1.104 0-2 .896-2 2s.896 2 2 2zm24 4H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2zm0 8H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2z"/>
+    </svg>
+    <!--[if lt IE 9]>
+    Menu
+    <![endif]-->
+  </a>
+
+  <nav class="inline nav-collapse">
+    <ul class="inline-block list-reset m0 p0">
+      <li class="h5 inline-block"><a class="block sm-px1 py2" href="/instructions">Instructions</a></li>
+      <li class="h5 inline-block"><a class="block sm-px1 py2" href="/shop">Shop</a></li>
+      <li class="h5 inline-block"><a class="block sm-px1 py2" href="/business">Business</a></li>
+      <li class="h5 inline-block"><a class="block sm-px1 py2" href="http://hangloadug.tumblr.com/">News</a></li>
+      <li class="h5 inline-block"><a class="block sm-px1 py2" href="/contact">Contact</a></li>
+    </ul>
+
+    <ul class="inline-block sm-col-right list-reset m0 p0">
+      <li class="h5 inline-block{% if page.language == 'en' %} bg-silver{% endif %}"><a class="block sm-px2 py2 caps no-spacing" href="/">en</a></li>
+      <li class="h5 inline-block{% if page.language == 'de' %} bg-silver{% endif %}"><a class="block sm-px2 py2 caps no-spacing" href="/de">de</a></li>
+      <li class="h5 inline-block{% if page.language == 'jp' %} bg-silver{% endif %}"><a class="block sm-px2 py2 caps no-spacing" href="/jp">jp</a></li>
+    </ul>
+  </nav>
 
   <div>
     {% if page.title == 'Shop' %}
       <div class="snipcart-summary">
         <a href="#" class="snipcart-checkout">
-          <svg xmlns="http://www.w3.org/2000/svg" class="fill-gray" viewBox="0 0 32 32" width="32" height="26" fill="currentcolor">
+          <svg xmlns="http://www.w3.org/2000/svg" class="fill-black" viewBox="0 0 32 32" width="32" height="26" fill="currentcolor">
             <path d="M0 4 L5 4 L6 8 L30 8 L28 22 L6 22 L3.5 6 L0 6z M10 24 A3 3 0 0 0 10 30 A3 3 0 0 0 10 24 M24 24 A3 3 0 0 0 24 30 A3 3 0 0 0 24 24"></path>
           </svg>
           <span class="snipcart-total-items gray"></span>
