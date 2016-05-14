@@ -3,6 +3,7 @@
 @import "normalize.css";
 @import "basscss";
 @import "snipcart-overrides.css";
+@import "responsive-nav.css";
 @import "colors.css";
 @import "theme.css";
 @import "utilities.css";
