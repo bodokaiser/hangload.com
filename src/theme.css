@@ -3,6 +3,13 @@
   src: url('/fonts/droid-sans.ttf');
 }
 
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
+
 body { font-family: 'Droid-Sans'; }
 
 a {
