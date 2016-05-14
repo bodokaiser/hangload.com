@@ -11,6 +11,11 @@
 
 <script type="text/javascript">
 
+  var nav = responsiveNav(".nav-collapse", {
+    customToggle: "nav-toggle",
+    openPos: "static"
+  });
+
   Snipcart.api.configure('show_continue_shopping', true);
 
   Snipcart.execute('registerLocale', 'en', {
