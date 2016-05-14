@@ -7,17 +7,17 @@
     {% comment %} </button> {% endcomment %}
   <h1 class="inline-block mr2 h4"> <a class="caps no-spacing" href="/">hangload</a> </h1>
   <ul class="list-reset inline-block">
-    <li class="h5 inline-block mr2"><a href="/instructions">Instructions</a></li>
-    <li class="h5 inline-block mr2"><a href="/shop">Shop</a></li>
-    <li class="h5 inline-block mr2"><a href="/business">Business</a></li>
-    <li class="h5 inline-block mr2"><a href="http://hangloadug.tumblr.com/">News</a></li>
-    <li class="h5 inline-block mr2"><a href="/contact">Contact</a></li>
+    <li class="h5 inline-block py1 mr2 {% if page.title == "Instructions" %}border-bottom{% endif %}"><a href="/instructions">Instructions</a></li>
+    <li class="h5 inline-block py1 mr2 {% if page.title == "Shop" %}border-bottom{% endif %}"><a href="/shop">Shop</a></li>
+    <li class="h5 inline-block py1 mr2 {% if page.title == "Business" %}border-bottom{% endif %}"><a href="/business">Business</a></li>
+    <li class="h5 inline-block py1 mr2"><a href="http://hangloadug.tumblr.com/">News</a></li>
+    <li class="h5 inline-block py1 mr2 {% if page.title == "Contact" %}border-bottom{% endif %}"><a href="/contact">Contact</a></li>
   </ul>
 
   <ul class="list-reset sm-col-right">
-    <li class="h5 inline-block mr1 {% if page.language == 'en' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/">en</a></li>
-    <li class="h5 inline-block mr1 {% if page.language == 'de' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/de">de</a></li>
-    <li class="h5 inline-block mr1 {% if page.language == 'jp' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/jp">jp</a></li>
+    <li class="h5 inline-block py1 mr1 {% if page.language == 'en' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/">en</a></li>
+    <li class="h5 inline-block py1 mr1 {% if page.language == 'de' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/de">de</a></li>
+    <li class="h5 inline-block py1 mr1 {% if page.language == 'jp' %} border-bottom{% endif %}"><a class="caps no-spacing" href="/jp">jp</a></li>
   </ul>
 
   <div>
