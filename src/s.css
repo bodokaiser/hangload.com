@@ -1,9 +1,12 @@
 /* @import "gravitons"; */
 /* @import "bootstrap"; */
 @import "normalize.css";
-@import "basscss";
-@import "snipcart-overrides.css";
 @import "responsive-nav.css";
+@import "basscss";
+@import "basscss-colors";
+@import "basscss-background-colors";
+@import "basscss-responsive-padding";
+@import "snipcart-overrides.css";
 @import "colors.css";
 @import "theme.css";
 @import "utilities.css";

@@ -39,6 +39,9 @@
   },
   "dependencies": {
     "basscss": "^8.0.1",
+    "basscss-background-colors": "^2.1.0",
+    "basscss-colors": "^2.2.0",
+    "basscss-responsive-padding": "^1.1.0",
     "bootstrap": "^3.1.1",
     "colors.css": "^3.0.0",
     "gravitons": "^1.0.0"
