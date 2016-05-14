@@ -13,8 +13,8 @@ h6 { font-size: .75rem }
 body { font-family: 'Droid-Sans'; }
 
 a {
-  color: #777;
-  text-decoration:none;
+  color: var(--black);
+  text-decoration: none;
 }
 
 a:hover { color: #333; }
