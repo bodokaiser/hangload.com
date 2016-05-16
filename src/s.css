@@ -2,10 +2,16 @@
 /* @import "bootstrap"; */
 @import "normalize.css";
 @import "responsive-nav.css";
+@import "fluidity.css";
 @import "basscss";
 @import "basscss-colors";
 @import "basscss-background-colors";
 @import "basscss-responsive-padding";
+@import "basscss-background-images";
+@import "basscss-btn";
+@import "basscss-btn-primary";
+@import "basscss-btn-outline";
+/* @import "basscss-utility-headings"; */
 @import "snipcart-overrides.css";
 @import "colors.css";
 @import "theme.css";
