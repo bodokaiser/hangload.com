@@ -12,12 +12,8 @@ h6 { font-size: .75rem }
 
 body { font-family: 'Droid-Sans'; }
 
-a {
-  color: var(--black);
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
-nav li:hover {
- background-color: var(--silver);
- }
+nav li:hover { background-color: var(--silver); }
+footer a:hover { color: var(--gray); }
 
