@@ -17,3 +17,12 @@ a { text-decoration: none; }
 nav li:hover { background-color: var(--silver); }
 footer a:hover { color: var(--gray); }
 
+#shop-pic { height: 400px }
+
+@media (--breakpoint-sm) {
+  #shop-pic { height: 450px; }
+}
+
+@media (--breakpoint-md) {
+  #shop-pic { height: 500px; }
+}
