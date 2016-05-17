@@ -65,11 +65,11 @@
   var $itemAddedDialog = $('#item-added-dialog');
 
   Snipcart.subscribe('item.added', function (item) {
-    $itemAddedDialog.removeClass('dn');
+    $itemAddedDialog.removeClass('display-none');
   });
 
   Snipcart.subscribe('cart.opened', function (item) {
-    $itemAddedDialog.addClass('dn');
+    $itemAddedDialog.addClass('display-none');
   });
 
 </script>
