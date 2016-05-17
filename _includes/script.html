@@ -11,14 +11,17 @@
 
 <script type="text/javascript">
 
+  // Responsive navigation settings
   var nav = responsiveNav(".nav-collapse", {
     customToggle: "nav-toggle",
     closeOnNavClick: true,
     openPos: "static"
   });
 
+  // Show button to continue shopping
   Snipcart.api.configure('show_continue_shopping', true);
 
+  // Display 'Shipping Regiongs' instead of 'Shipping methods'
   Snipcart.execute('registerLocale', 'en', {
     "shipping_method": "Shipping Region",
     "shipping_method_method_name": "Shipping Region"
@@ -31,6 +34,7 @@
     });
   });
 
+  // Display shipping options based on customer address
   function setSnipcartShippingMethods(address) {
     if (address.country == "DE") {
       Snipcart.api.configure('allowed_shipping_methods', ['germany']);
@@ -57,6 +61,7 @@
     setSnipcartShippingMethods(cart.order.shippingAddress);
   });
 
+  // Purchase interaction
   var $itemAddedDialog = $('#item-added-dialog');
 
   Snipcart.subscribe('item.added', function (item) {
