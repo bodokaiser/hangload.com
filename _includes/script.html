@@ -21,18 +21,6 @@
   // Show button to continue shopping
   Snipcart.api.configure('show_continue_shopping', true);
 
-  // Display 'Shipping Regiongs' instead of 'Shipping methods'
-  Snipcart.execute('registerLocale', 'en', {
-    "shipping_method": "Shipping Region",
-    "shipping_method_method_name": "Shipping Region"
-  });
-
-  Snipcart.execute('bind', 'app.ready', function() {
-    Snipcart.execute('registerLocale', 'de', {
-      "shipping_method": "Versandregion",
-      "shipping_method_method_name": "Versandregion"
-    });
-  });
 
   // Display shipping options based on customer address
   function setSnipcartShippingMethods(address) {
