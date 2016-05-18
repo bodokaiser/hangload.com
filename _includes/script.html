@@ -39,8 +39,8 @@
     if (address.country == "DE") {
       Snipcart.api.configure('allowed_shipping_methods', ['germany']);
     }
-    else if (address.country == "EU") {
-      Snipcart.api.configure('allowed_shipping_methods', ['EU']);
+    else if (address.country == "IT" || "FR") {
+      Snipcart.api.configure('allowed_shipping_methods', ['eu']);
     }
     else {
       Snipcart.api.configure('allowed_shipping_methods', ['worldwide']);
