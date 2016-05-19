@@ -2,10 +2,6 @@
   text-decoration: none;
 }
 
-.snipcart-total-items {
-  vertical-align: super;
-}
-
 /* Snipcart overwrites */
 
 .snip-layout { font-family: inherit; }
