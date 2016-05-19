@@ -49,16 +49,36 @@
     setSnipcartShippingMethods(cart.order.shippingAddress);
   });
 
-  // Purchase interaction
-  var $itemAddedDialog = $('#item-added-dialog');
+  // Cart informations
+
+  // Snipcart.subscribe('cart.ready', function() {
+
+  //   var count = Snipcart.api.items.count();
+  //   var cartInfo = '';
+
+  //   if (count == 0){
+  //     cartInfo = "Your cart is currently empty";
+  //   } else if (count == 1) {
+  //     cartInfo = "There is currently 1 item in your cart";
+  //   } else {
+  //     cartInfo = "There are currently " + count + " items in your cart";
+  //   }
+
+    //$('.snipcart-add-item').after('<p>' + cartInfo + '</p>');
+
+  // });
+
+  /*
+  var $checkoutButton = $('#checkout-button');
 
   Snipcart.subscribe('item.added', function (item) {
-    $itemAddedDialog.removeClass('display-none');
+    $checkoutButton.removeClass('hidden');
   });
 
   Snipcart.subscribe('cart.opened', function (item) {
-    $itemAddedDialog.addClass('display-none');
+    $checkoutButton.addClass('hidden');
   });
+  */
 
 </script>
 
