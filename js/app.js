@@ -5,6 +5,9 @@
     openPos: "static"
   });
 
+  // Validate order form
+  $("#order-form").validate();
+
   // Show button to continue shopping
   Snipcart.api.configure('show_continue_shopping', true);
 
