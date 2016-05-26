@@ -18,7 +18,7 @@
     if (address.country == "DE") {
       Snipcart.api.configure('allowed_shipping_methods', ['germany']);
     }
-    else if (address.country == euCountries.some()) {
+    else if ($.inArray(address.country, euCountries) > -1) {
       Snipcart.api.configure('allowed_shipping_methods', ['eu']);
     }
     else {
