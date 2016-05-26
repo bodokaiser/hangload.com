@@ -46,7 +46,9 @@
   });
 
   Snipcart.subscribe('cart.ready', function (cart) {
-    setSnipcartShippingMethods(cart.order.shippingAddress);
+    if (cart.order) {
+      setSnipcartShippingMethods(cart.order.shippingAddress);
+    }
   });
 
   // Cart informations
