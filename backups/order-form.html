@@ -1,0 +1,120 @@
+<section class="max-width-4 mx-auto mb4 py3 px1" id="order">
+
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
+      <img class="img-responsive" src="/images/pictures/beidebikes.png" alt="beidebikes" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-md-offset-3">
+      <h3 class="text-center"> Steps for ordering </h3>
+      <ol class="h2">
+        <li class="mb1">Make your selection and provide us with your postal delivery details.</li>
+        <li class="mb1">We will send you the payment details.</li>
+        <li class="mb1">You then make the payment.</li>
+        <li class="mb1">Order is confirmed and shipped to you.</li>
+        <li class="mb1">Use and enjoy your Hangload and tell your friends about it!</li>
+      </ol>
+    </div>
+  </div>
+
+  <form id="order-form" name="order" method="post" action="http://formspree.io/sales@hangload.com" onsubmit="return return_check()">
+    <br>
+    <br>
+    <h3><strong>Hangload Banner selection </strong> </h3> <br>
+    For more information see <a href="/webshop/#product"> <strong> product </strong> </a> info above.<br>
+    <br>
+    <h4>Hangload Banner 30€</h4>
+    <table>
+      <tr>
+
+        <td> 
+          <label>Max. 4:<input type="number" min="0" max="4" maxlength="1" size="2" value="0" name="countMetal" id="countMetal"></label> 
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <strong>Color selection: </strong>
+    <br>
+    <img src="../../images/pictures/dgray.jpg" alt="" /> <img src="../../images/pictures/olive.jpg" alt="" />
+    <br />
+    <br />
+
+    <input type="number" min="0"  max="4" maxlength="1" size="2" value="0" name="Farbe1" id="farbe1" value="dark grey">
+    <label for="farbe1" name="farbe1_lbl" >dark grey</label>
+
+    <input type="number" min="0"  max="4" maxlength="1" size="2" value="0" name="Farbe4" id="farbe4" value="olive green">
+    <label for="farbe4" name="farbe4_lbl" >olive green</label> 
+
+    <br><br>
+
+    <h4><strong>Delivery Address</strong> </h4>
+    <table border="0">
+      <tr>
+        <td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
+        </tr>
+        <tr>
+          <td width="200px">First Name*</td>
+          <td width="200px"><input type="text" required placeholder="Enter first name" name="first_name" id="first_name"> </td>
+          <td>Last Name*</td>
+          <td width="200px"><input type="text" required placeholder="Enter last name" name="last_name" id="last_name"> </td>
+        </tr>
+        <tr>
+          <td>Street*</td>
+          <td><input type="text" required placeholder="Enter street" name="street" id="street"> </td>
+          <td>Nr*</td>
+          <td><input type="text" required placeholder="Enter street number" name="streetnr" id="streetnr"> </td>
+        </tr>
+        <tr>
+          <td>City*</td>
+          <td><input type="text" required placeholder="Enter city" name="city" id="city"> </td>
+          <td>Zip Code*</td>
+          <td><input type="text" required placeholder="Enter zip code" name="zipcode" id="zipcode"> </td>
+        </tr>
+        <tr>
+          <td>Additional Address</td>
+          <td colspan="2"><input type="text" name="add_address" id="add_address" style="width: 100%"> </td>
+        </tr>
+        <tr>
+          <td>Country*</td>
+          <td colspan="2"><input type="text" required placeholder="Enter country" name="country" id="country" style="width: 100%"> </td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td>E-Mail*</td>
+          <td colspan="2"><input type="email" name="email" id="email" style="width: 100%" required placeholder="Enter a valid email address"> </td>
+        </tr>
+        <tr>
+          <td>Phone*</td>
+          <td colspan="2"><input type="text" name="phone" id="phone" style="width: 100%" required placeholder="Enter a valid phone number"></td>
+        </tr>
+      </table>
+      <br>
+      *required
+      <br>
+      <br>
+      <br>
+      <strong> Additional comments: </strong>
+      <br>
+      <textarea cols="80" rows="5" name="Anmerkungen" >
+      </textarea>
+      <br>
+      <br>
+      <strong> All prices are excluding delivery, packaging and VAT. We will notify you with the order
+        confirmation and the payment information. </strong> <br>
+      For delivery information click <a target="_blank" href="/delivery/#delivery"> here </a>.
+      <br>
+      <br>
+      <br>
+      <strong>Please confirm our <a target="_blank" href="/agb/#agb"> Terms and Conditions (TAC) </a> ! </strong> <br> <br>
+      <input type="checkbox" name="agbconfirm" id="agbconfirm" class="css-checkbox sme" value="agbconfirm">
+      <label for="agbconfirm" name="agbconfirm_lbl" required class="css-label sme depressed"> Confirm TAC </label>
+      <br>
+      <br>
+      <input type="submit" name="sendbutton" value="Send">
+      <input type="hidden" name="_next" value="http://hangload.com/thank" />
+
+    </form>
+  </section>
+
