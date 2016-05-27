@@ -26,3 +26,7 @@ footer a:hover { color: var(--gray); }
 @media (--breakpoint-md) {
   #shop-pic { height: 500px; }
 }
+
+textarea {
+  box-sizing: border-box;
+}
