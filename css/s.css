@@ -1497,6 +1497,49 @@ img, canvas, iframe, video, svg, select, textarea {
 .btn-outline.is-disabled {
   opacity: .5;
 }
+/* Basscss Forms */
+
+.label {
+  font-size: .875rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.input {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.select {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.textarea {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
 /* @import "basscss-utility-headings"; */
 .snipcart-checkout:hover {
   text-decoration: none;
@@ -1673,6 +1716,11 @@ footer a:hover { color: #AAAAAA; }
 
 @media (min-width: 52em) {
   #shop-pic { height: 500px; }
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
 }
 .no-spacing { letter-spacing: normal; }
 
