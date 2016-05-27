@@ -11,7 +11,9 @@
     <![endif]-->
   </a>
 
-  {% include cart-icon.html %}
+  {% unless page.title == "Alternative Order Form" or "Thank you" %}
+    {% include cart-icon.html %}
+  {% endunless %}
 
   <nav class="inline nav-collapse">
     <ul class="inline-block list-reset m0 p0">
