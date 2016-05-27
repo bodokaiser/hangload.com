@@ -1,129 +1,100 @@
 ---
 layout: default
-title: Order Form
+title: Alternative Order Form
 language: en
-description: Online order of your Hangload in different styles and colors here. 
+description: Order a Hangload without a credit card
 ---
 
-<article class="container" id="order">
-  <div class="col-xs-12">
-    <h2 class="text-center">{{page.title}}</h2>
-  </div>
-</div>
-<div class="row">
-  <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
-    <img class="img-responsive" src="/images/pictures/beidebikes.png" alt="beidebikes" />
-  </div>
-</div>
-<div class="row">
-  <div class="col-xs-6 col-md-offset-3">
-    <h3 class="text-center"> Steps for ordering </h3>
-    <ol class="h2">
-      <li class="mb1">Make your selection and provide us with your postal delivery details.</li>
-      <li class="mb1">We will send you the payment details.</li>
-      <li class="mb1">You then make the payment.</li>
-      <li class="mb1">Order is confirmed and shipped to you.</li>
-      <li class="mb1">Use and enjoy your Hangload and tell your friends about it!</li>
-    </ol>
-  </div>
-</div>
+<section class="max-width-4 mx-auto px1 py1">
+  <h1 class="mt0">Alternative order form</h1>
+  <p>Use this form if you want to order a Hangload but don't have a credit card.</p>
+  <p>Here are the steps to place your order:</p>
+  <ol>
+    <li class="mb1">Fill up the form below and hit "send"</li>
+    <li class="mb1">We get in touch with you and send you our bank details.</li>
+    <li class="mb1">You send the payment via bank transfer.</li>
+    <li class="mb1">You receive confirmation of the order from us.</li>
+    <li class="mb1">You get the Hangload in your mailbox.</li>
+  </ol>
+</section>
 
-<form id="order-form" name="order" method="post" action="http://formspree.io/sales@hangload.com" onsubmit="return return_check()">
-  <br>
-  <br>
-  <h3><strong>Hangload Banner selection </strong> </h3> <br>
-  For more information see <a href="/webshop/#product"> <strong> product </strong> </a> info above.<br>
-  <br>
-  <h4>Hangload Banner 30€</h4>
-  <table>
-    <tr>
+<section class="max-width-4 mx-auto px1 py1">
+  <form action="http://formspree.io/zool.bib@gmail.com" method="post" id="order-form" name="order">
 
-      <td> 
-        <label>Max. 4:<input type="number" min="0" max="4" maxlength="1" size="2" value="0" name="countMetal" id="countMetal"></label> 
-      </td>
-    </tr>
-  </table>
-  <br>
-  <br>
-  <strong>Color selection: </strong>
-  <br>
-  <img src="../../images/pictures/dgray.jpg" alt="" /> <img src="../../images/pictures/olive.jpg" alt="" />
-  <br />
-  <br />
+    <div class="clearfix py1">
 
-  <input type="number" min="0"  max="4" maxlength="1" size="2" value="0" name="Farbe1" id="farbe1" value="dark grey">
-  <label for="farbe1" name="farbe1_lbl" >dark grey</label>
+      <div class="mb2">
+        <h3 class="inline mr1">Shipping address</h3>
+        <small class="gray italic">Please double-check for errors before submitting!</small>
+      </div>
 
-  <input type="number" min="0"  max="4" maxlength="1" size="2" value="0" name="Farbe4" id="farbe4" value="olive green">
-  <label for="farbe4" name="farbe4_lbl" >olive green</label> 
+      <div class="sm-col sm-col-6">
+        <label class="caps gray h5 mr1" for="name">Name*</label>
+        <input class="border rounded block p1 mb1 col-10" type="text" name="name" id="name" required>
+        <label class="caps gray h5 mr1" for="address">Street Address*</label>
+        <input class="border rounded block p1 mb1 col-10" type="text" name="address" id="address" required>
+        <label class="caps gray h5 mr1" for="address-2">Street Address 2</label>
+        <input class="border rounded block p1 mb1 col-10" type="text" name="address-2" id="address-2">
+        <label class="caps gray h5 mr1" for="city">City*</label>
+        <input class="border rounded block p1 mb1 col-10" type="text" name="city" id="city" required>
+      </div>
+      <div class="sm-col sm-col-6 mb1">
+        <label class="caps gray h5 mr1" for="country">Country*</label>
+        <input class="border rounded block p1 mb1 col-10" type="text" name="country" id="country" required>
+        <label class="caps gray h5 mr1" for="zip">Zip / Postal Code*</label>
+        <input class="border rounded block p1 mb1 col-10" type="text" name="zip" id="zip" required>
+        <label class="caps gray h5 mr1" for="phone">Phone</label>
+        <input class="border rounded block p1 mb1 col-10" type="text" name="phone" id="phone">
+        <label class="caps gray h5 mr1" for="email">Email*</label>
+        <input class="border rounded block p1 mb2 col-10" type="email" name="email" id="email" required>
+      </div>
 
-  <br><br>
+      <div class="sm-col sm-col-12 py3">
 
-  <h4><strong>Delivery Address</strong> </h4>
-  <table border="0">
-    <tr>
-      <td colspan="2"><input type="hidden" name="vdate" id="vdate" value="">
-      </tr>
-      <tr>
-        <td width="200px">First Name*</td>
-        <td width="200px"><input type="text" required placeholder="Enter first name" name="first_name" id="first_name"> </td>
-        <td>Last Name*</td>
-        <td width="200px"><input type="text" required placeholder="Enter last name" name="last_name" id="last_name"> </td>
-      </tr>
-      <tr>
-        <td>Street*</td>
-        <td><input type="text" required placeholder="Enter street" name="street" id="street"> </td>
-        <td>Nr*</td>
-        <td><input type="text" required placeholder="Enter street number" name="streetnr" id="streetnr"> </td>
-      </tr>
-      <tr>
-        <td>City*</td>
-        <td><input type="text" required placeholder="Enter city" name="city" id="city"> </td>
-        <td>Zip Code*</td>
-        <td><input type="text" required placeholder="Enter zip code" name="zipcode" id="zipcode"> </td>
-      </tr>
-      <tr>
-        <td>Additional Address</td>
-        <td colspan="2"><input type="text" name="add_address" id="add_address" style="width: 100%"> </td>
-      </tr>
-      <tr>
-        <td>Country*</td>
-        <td colspan="2"><input type="text" required placeholder="Enter country" name="country" id="country" style="width: 100%"> </td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td>E-Mail*</td>
-        <td colspan="2"><input type="email" name="email" id="email" style="width: 100%" required placeholder="Enter a valid email address"> </td>
-      </tr>
-      <tr>
-        <td>Phone*</td>
-        <td colspan="2"><input type="text" name="phone" id="phone" style="width: 100%" required placeholder="Enter a valid phone number"></td>
-      </tr>
-    </table>
-    <br>
-    *required
-    <br>
-    <br>
-    <br>
-    <strong> Additional comments: </strong>
-    <br>
-    <textarea cols="80" rows="5" name="Anmerkungen" >
-    </textarea>
-    <br>
-    <br>
-    <strong> All prices are excluding delivery, packaging and VAT. We will notify you with the order
-      confirmation and the payment information. </strong> <br>
-    For delivery information click <a target="_blank" href="/delivery/#delivery"> here </a>.
-    <br>
-    <br>
-    <br>
-    <strong>Please confirm our <a target="_blank" href="/agb/#agb"> Terms and Conditions (TAC) </a> ! </strong> <br> <br>
-    <input type="checkbox" name="agbconfirm" id="agbconfirm" class="css-checkbox sme" value="agbconfirm">
-    <label for="agbconfirm" name="agbconfirm_lbl" required class="css-label sme depressed"> Confirm TAC </label>
-    <br>
-    <br>
-    <input type="submit" name="sendbutton" value="Send">
-    <input type="hidden" name="_next" value="http://hangload.com/thank" />
+        <div class="mb2">
+          <h3 class="inline mr1">Color selection</h3>
+          <small class="gray italic">Select how many Hangloads you want for each color available</small>
+        </div>
 
-  </form>
-</article>
+        <div class="clearfix py1">
+          <div class="col mr4 center">
+            <img class="mb1 center" src="/imgs/colors/dark-grey.jpg" alt="Hangload banner grey">
+            <div>
+              <label for="dark-grey" name="dark-grey" >Dark grey</label>
+              <input class="border py1 rounded center" type="number" min="0"  max="10" maxlength="1" value="0" name="dark-grey" id="dark-grey" value="dark-grey">
+            </div>
+          </div>
+
+          <div class="col center">
+            <img class="mb1" src="/imgs/colors/olive-green.jpg" alt="Hangload banner grey">
+            <div>
+              <label for="farbe4" name="olive-green" >Olive green</label> 
+              <input class="border py1 rounded center" type="number" min="0"  max="10" maxlength="1" value="0" name="olive-green" id="olive-green" value="olive-green">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mb2 mt3">
+        <h3 class="inline mr1">Additional comments</h3>
+        <small class="gray italic">Any special request? This is the right place to tell us</small>
+      </div>
+
+      <textarea class="border block rounded max-width-3 mb3" style="height: 100px" name="comments"></textarea>
+      <!-- Honeypot field against bots -->
+      <input type="text" name="_gotcha" style="display:none" />
+
+      <div class="col py1">
+        <input class="p1 mr1" type="checkbox" name="tac" id="tac" value="confirmed" required>
+        <label for="tac">I agree to the Terms &amp; Conditions</label>
+      </div>
+
+      <div class="col-right py1">
+        <input type="hidden" name="_next" value="/thank" />
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-primary black bg-gray">Clear</button>
+      </div>
+
+    </form>
+  </section>
