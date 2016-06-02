@@ -15,6 +15,7 @@
 @import "basscss-forms";
 /* @import "basscss-utility-headings"; */
 @import "snipcart-overrides.css";
+@import "responsive-embed.css";
 @import "colors.css";
 @import "theme.css";
 @import "utilities.css";
