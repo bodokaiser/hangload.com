@@ -1384,7 +1384,7 @@ textarea {
 .btn {
   font-family: inherit;
   font-size: inherit;
-  font-weight: bold;
+  font-weight: normal;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
