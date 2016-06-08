@@ -6,16 +6,13 @@ var nav = responsiveNav(".nav-collapse", {
 });
 
 
-// Hook up responsive slides plugin
-$(function() {
-  $(".rslides").responsiveSlides();
-});
+// Hook up and configure responsive slides plugin
 
 $(".rslides").responsiveSlides({
   auto: false,             // Boolean: Animate automatically, true or false
-  speed: 500,            // Integer: Speed of the transition, in milliseconds
-  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
-  pager: false,           // Boolean: Show pager, true or false
+  // speed: 500,            // Integer: Speed of the transition, in milliseconds
+  // timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: true,           // Boolean: Show pager, true or false
   nav: false,             // Boolean: Show navigation, true or false
   random: false,          // Boolean: Randomize the order of the slides, true or false
   pause: false,           // Boolean: Pause on hover, true or false
