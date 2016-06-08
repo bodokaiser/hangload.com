@@ -1668,7 +1668,16 @@ height: 100%;
 .stroke-black { stroke: #111111; }
 @font-face {
   font-family: 'Droid-Sans';
-  src: url('/fonts/droid-sans.ttf');
+  src: url('/fonts/droid-sans.ttf') format('truetype');;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Droid-Sans';
+	src: url('/fonts/droid-sans-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 
 h1 { font-size: 2rem }
