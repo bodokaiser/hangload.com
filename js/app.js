@@ -26,6 +26,9 @@ $(".rslides").responsiveSlides({
   before: function(){},   // Function: Before callback
   after: function(){}     // Function: After callback
 });
+
+// Snipcart-related js
+
 // Show button to continue shopping
 Snipcart.api.configure('show_continue_shopping', true);
 
