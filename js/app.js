@@ -27,6 +27,16 @@ $(".rslides").responsiveSlides({
   after: function(){}     // Function: After callback
 });
 
+// FAQ-related js
+$('.js-faq-trigger').click(function(e) {
+  // Grab current anchor value
+  var currentAttrValue = $(this).attr('href');
+  // Open up the hidden content panel
+  $(currentAttrValue).toggleClass('display-none'); 
+
+  e.preventDefault();
+});
+
 // Snipcart-related js
 
 // Show button to continue shopping
