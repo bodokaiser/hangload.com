@@ -3,3 +3,4 @@
 .fill-black { fill: var(--black); }
 
 .hidden { visibility: hidden; }
+.dn { display: none; }
