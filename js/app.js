@@ -5,7 +5,6 @@ var nav = responsiveNav(".nav-collapse", {
   openPos: "static"
 });
 
-
 // Hook up and configure responsive slides plugin
 
 $(".rslides").responsiveSlides({
