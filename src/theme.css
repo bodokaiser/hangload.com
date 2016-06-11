@@ -39,3 +39,18 @@ footer a:hover { color: var(--gray); }
 textarea {
   box-sizing: border-box;
 }
+
+blockquote {
+  quotes: "“" "”";
+}
+
+blockquote:before {
+  font-size: 2em;
+  color: var(--gray);
+  content: open-quote;
+  line-height: 0.1em;
+  vertical-align: -0.2em;
+}
+blockquote p {
+  display: inline;
+}
