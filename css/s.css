@@ -1763,6 +1763,21 @@ footer a:hover { color: #AAAAAA; }
 textarea {
   box-sizing: border-box;
 }
+
+blockquote {
+  quotes: "“" "”";
+}
+
+blockquote:before {
+  font-size: 2em;
+  color: #AAAAAA;
+  content: open-quote;
+  line-height: 0.1em;
+  vertical-align: -0.2em;
+}
+blockquote p {
+  display: inline;
+}
 .no-spacing { letter-spacing: normal; }
 
 .fill-black { fill: #111111; }
