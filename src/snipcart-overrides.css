@@ -27,3 +27,20 @@
 #snipcart-footer {
   background: white;
 }
+
+.snip-layout .snip-btn {
+  background: var(--gray);
+  color: var(--white);
+  border-radius: 0;
+  text-transform: uppercase; 
+  letter-spacing: .2em; 
+  font-weight: normal;
+}
+
+.snip-layout .snip-btn--highlight {
+  background: var(--orange);
+  color: var(--white);
+  text-transform: uppercase; 
+  letter-spacing: .2em; 
+  font-weight: normal;
+}
