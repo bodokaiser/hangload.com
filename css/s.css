@@ -1784,3 +1784,15 @@ blockquote p {
 
 .hidden { visibility: hidden; }
 .dn { display: none; }
+
+.overlay { opacity:0.6; }
+
+.overlay:hover {
+  background-color:#000;
+  opacity: 1;
+}
+
+.input, .label, .select, .textarea { 
+  box-sizing: border-box; 
+  font-weight: normal;
+}
