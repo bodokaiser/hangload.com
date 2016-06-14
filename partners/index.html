@@ -56,6 +56,11 @@ description: Information for Business Partners
     <label for="comments" class="label caps gray h5">Additional comments</h3>
     <textarea class="textarea border py1 mb3" style="height: 100px; width: 100%" id="comments" name="comments"></textarea>
 
+    <!-- Honeypot anti-spam field -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <input type="hidden" name="_next" value="/partners/thanks" />
+
     <button type="submit" class="btn white bg-orange caps not-rounded">Submit</button>
     <button type="reset" class="btn black bg-gray caps not-rounded">Clear</button>
 
