@@ -21,3 +21,8 @@
 :root {
   --button-font-weight: normal;
 }
+
+.input, .label, .select, .textarea { 
+  box-sizing: border-box; 
+  font-weight: normal;
+}
