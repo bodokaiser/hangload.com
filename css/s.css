@@ -1588,6 +1588,23 @@ textarea {
 #snipcart-footer {
   background: white;
 }
+
+.snip-layout .snip-btn {
+  background: #AAAAAA;
+  color: #FFFFFF;
+  border-radius: 0;
+  text-transform: uppercase; 
+  letter-spacing: .2em; 
+  font-weight: normal;
+}
+
+.snip-layout .snip-btn--highlight {
+  background: #FF851B;
+  color: #FFFFFF;
+  text-transform: uppercase; 
+  letter-spacing: .2em; 
+  font-weight: normal;
+}
 .embed-container { 
 position: relative; 
 padding-bottom: 56.25%; 
