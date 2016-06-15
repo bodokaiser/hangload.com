@@ -1,5 +1,7 @@
 .no-spacing { letter-spacing: normal; }
 
+.normal { font-style: normal; }
+
 .fill-black { fill: var(--black); }
 
 .hidden { visibility: hidden; }
