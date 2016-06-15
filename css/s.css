@@ -1041,13 +1041,13 @@ textarea {
 
 .border-none { border: 0 }
 
-.rounded { border-radius: 3px }
+.rounded { border-radius: 0 }
 .circle  { border-radius: 50% }
 
-.rounded-top    { border-radius: 3px 3px 0 0 }
-.rounded-right  { border-radius: 0 3px 3px 0 }
-.rounded-bottom { border-radius: 0 0 3px 3px }
-.rounded-left   { border-radius: 3px 0 0 3px }
+.rounded-top    { border-radius: 0 0 0 0 }
+.rounded-right  { border-radius: 0 0 0 0 }
+.rounded-bottom { border-radius: 0 0 0 0 }
+.rounded-left   { border-radius: 0 0 0 0 }
 
 .not-rounded { border-radius: 0 }
 /* Basscss Hide */
@@ -1474,7 +1474,7 @@ textarea {
 .btn-primary {
   color: #fff;
   background-color: #0074d9;
-  border-radius: 3px;
+  border-radius: 0;
 }
 
 .btn-primary:hover {
@@ -1499,7 +1499,7 @@ textarea {
 }
 
 .btn-outline {
-  border-radius: 3px;
+  border-radius: 0;
 }
 
 .btn-outline:hover {
@@ -1596,6 +1596,20 @@ textarea {
   text-transform: uppercase; 
   letter-spacing: .2em; 
   font-weight: normal;
+}
+
+.snip-layout .snip-btn:hover {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, .0625);
+  text-decoration: none;
+  outline-width: 0;
+  background-color: #AAAAAA;
+}
+
+.snip-layout .snip-btn--highlight:hover {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, .0625);
+  text-decoration: none;
+  outline-width: 0;
+  background-color: #FF851B;
 }
 
 .snip-layout .snip-btn--highlight {
