@@ -1774,7 +1774,7 @@ h4 { font-size: 1rem }
 h5 { font-size: .875rem }
 h6 { font-size: .75rem }
 
-body { font-family: 'Droid-Sans'; }
+body { font-family: 'Droid-Sans', sans-serif; }
 
 a { text-decoration: none; }
 
@@ -1810,6 +1810,8 @@ blockquote p {
   display: inline;
 }
 .no-spacing { letter-spacing: normal; }
+
+.normal { font-style: normal; }
 
 .fill-black { fill: #111111; }
 
