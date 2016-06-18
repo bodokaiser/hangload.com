@@ -1825,6 +1825,10 @@ blockquote p {
   opacity: 1;
 }
 
+@media (min-width: 40em) {
+  .sm-right-align { text-align: right; }
+}
+
 .input, .label, .select, .textarea { 
   box-sizing: border-box; 
   font-weight: normal;
