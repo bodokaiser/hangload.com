@@ -1833,3 +1833,5 @@ blockquote p {
   box-sizing: border-box; 
   font-weight: normal;
 }
+
+figure { margin: 0; }
