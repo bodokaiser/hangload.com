@@ -1835,3 +1835,8 @@ blockquote p {
 }
 
 figure { margin: 0; }
+
+#product-description ul {
+  list-style: none;
+  padding-left: 0;
+}
