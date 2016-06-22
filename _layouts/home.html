@@ -133,12 +133,17 @@
         <div class="clearfix mxn1 overflow-hidden">
 
           {% for mention in page.mentions %}
-          <div class="md-col md-col-6 px1 py3">
+          <div class="sm-col sm-col-6 px1 py3">
             <blockquote class="m0">
               <p class="mention.size">{{ mention.content }}</p>
               <footer class="mt1"><cite>&mdash;<a class="normal blue" href="{{ mention.url }}">{{ mention.source }}</a></cite></footer>
             </blockquote>
           </div>
+          {% if forloop.index == 2 %}
+            </div>
+            <div class="clearfix mxn1 overflow-hidden">
+          {% endif %}
+
           {% endfor %}
 
         </div>
