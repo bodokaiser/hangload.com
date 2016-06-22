@@ -4,19 +4,20 @@
   <body class="black">
     {% include header.html %}
     <main role="main" class="mx-auto mt4">
+
       <section class="py4">
         <div class="sm-col-10 md-col-9 lg-col-8 mx-auto">
           <img src="imgs/hangload-bike.png" class="fit" alt="">
         </div>
         <div class="center mt4">
-          <h1 class="regular">The new way <br class="sm-hide md-hide lg-hide">to load your bike</h1>
-          <h3 class="caps h4 regular">&mdash;Created in Berlin&mdash;</h3>
+          <h1 class="regular">{{ page.lead }}</h1>
+          <h3 class="caps h4 regular">&mdash; {{ page.sublead}} &mdash;</h3>
         </div>
       </section>
 
       <section class="max-width-4 mx-auto px2 py4 border-top border-bottom overflow-hidden">
 
-        <p class="m0 center gray">As seen on:</p>
+        <p class="m0 center gray">{{ page.as-seen }}</p>
 
         <div class="clearfix mxn2 py2">
           <div class="col col-4 sm-col-2 px2 py2">
@@ -55,7 +56,7 @@
 
       <section class="max-width-4 mx-auto mt4 mb1 px2 center h2">
         <div class="py2">
-          Hangload is a new system to carry bags of various sizes safely on any bike rack
+          {{ page.description }}
         </div>
       </section>
 
@@ -88,56 +89,33 @@
 
       <section class="max-width-1 mx-auto py3">
         <div class="center">
-          <a href="shop" class="btn-primary block py2 col-10 mx-auto white bg-orange not-rounded">Go to our shop</a>
+          <a href="shop" class="btn-primary block py2 col-10 mx-auto white bg-orange not-rounded">{{ page.go-to-shop }}</a>
         </div>
       </section>
 
       <section class="max-width-4 mx-auto px1 py3 mb3 overflow-hidden">
         <div class="clearfix mxn2 center">
-          <div class="sm-col sm-col-4 px2 py3">
-            <img class="fit mb1" alt="Hangload" src="imgs/home/hangload-lean.jpg">
-            <h2 class="h3 caps center regular">Lean &amp; simple</h2>
-            <p class="m0 justify col-10 mx-auto sm-col-12">
-              Easily install your Hangload to any standard bike rack. No tools needed, no moving parts. 
-              Once set up, the theft-proof Hangload simply stays on your bike.
-            </p>
-            <div class="h5 center mt3 sm-hide md-hide lg-hide">
-              <a class="btn btn-outline gray h5" href="about">Learn more</a>
+          {% for benefit in page.benefits %}
+            <div class="sm-col sm-col-4 px2 py3">
+              <img class="fit mb1" alt="Hangload" src="{{ benefit.image }}">
+              <h2 class="h3 caps center regular">{{ benefit.title | markdownify }}</h2>
+              <p class="m0 justify col-10 mx-auto sm-col-12">{{ benefit.copy | markdownify }}</p>
+              <div class="h5 center mt3 sm-hide md-hide lg-hide">
+                <a class="btn btn-outline gray h5" href="about">{{ page.learn-more }}</a>
+              </div>
             </div>
-          </div>
-          <div class="sm-col sm-col-4 px2 py3">
-            <img class="fit mb1" alt="Hangload" src="imgs/home/hangload-carry2.jpg">
-            <h2 class="h3 caps center regular">Carry more</h2>
-            <p class="m0 justify col-10 mx-auto sm-col-12">
-              Hangload's safe and durable system allows you to carry almost anything on your bike&mdash;
-              grocery bags, backpacks, or suitcases, even <a class="blue" href="https://www.youtube.com/watch?v=kPxS3nGMboY">crates</a>.
-            </p>
-            <div class="h5 center mt3 sm-hide md-hide lg-hide">
-              <a class="btn btn-outline gray h5" href="about">Learn more</a>
-            </div>
-          </div>
-          <div class="sm-col sm-col-4 px2 py3">
-            <img class="fit mb1" alt="Hangload" src="imgs/home/hangload-safer2.jpg">
-            <h2 class="h3 caps center regular">A safer ride</h2>
-            <p class="m0 justify col-10 mx-auto sm-col-12">
-              The Hangload’s sturdy steel frame keeps your hands free and your luggage at a safe distance to your bike’s spokes and pedals. 
-              No more dangling bags from the handle bar.
-            </p>
-            <div class="h5 center mt3 sm-hide md-hide lg-hide">
-              <a class="btn btn-outline gray h5" href="about">Learn more</a>
-            </div>
-          </div>
+          {% endfor %}
         </div>
 
         <div class="clearfix center xs-hide">
           <div class="sm-col sm-col-4">
-            <a class="btn btn-outline gray h5" href="about">Learn more</a>
+            <a class="btn btn-outline gray h5" href="about">{{ page.learn-more }}</a>
           </div>
           <div class="sm-col sm-col-4">
-            <a class="btn btn-outline gray h5" href="about">Learn more</a>
+            <a class="btn btn-outline gray h5" href="about">{{ page.learn-more }}</a>
           </div>
           <div class="sm-col sm-col-4">
-            <a class="btn btn-outline gray h5" href="about">Learn more</a>
+            <a class="btn btn-outline gray h5" href="about">{{ page.learn-more }}</a>
           </div>
         </div>
 
@@ -154,38 +132,14 @@
 
         <div class="clearfix mxn1 overflow-hidden">
 
-          <div class="sm-col sm-col-6 px1 py3">
+          {% for mention in page.mentions %}
+          <div class="md-col md-col-6 px1 py3">
             <blockquote class="m0">
-              <p class="h1">A patented bicycle loadmaster.</p>
-              <footer class="mt1"><cite>&mdash;<a class="normal blue" href="http://www.lr-online.de/nachrichten/wirtschaft/Ein-patentierter-Fahrrad-Lademeister;art1067,4534644">Lausitzer Rundschau</a></cite></footer>
+              <p class="mention.size">{{ mention.content }}</p>
+              <footer class="mt1"><cite>&mdash;<a class="normal blue" href="{{ mention.url }}">{{ mention.source }}</a></cite></footer>
             </blockquote>
           </div>
-
-          <div class="sm-col sm-col-6 px1 py3">
-            <blockquote class="m0">
-              <p class="h2">The alternative to a pannier bag for carrying bigger loads.</p>
-              <footer class="mt1"><cite>&mdash;<a class="normal blue" href="http://www.aktiv-radfahren.de/ausgabe/2013/05">Aktiv Radfahren</a></cite></footer>
-            </blockquote>
-          </div>
-
-        </div>
-
-        <div class="clearfix mxn1 overflow-hidden">
-
-          <div class="sm-col sm-col-6 px1 py3">
-            <blockquote class="m0">
-              <p class="h3">The system is quickly attached to the rack and prevents contact of tires and the transported object.</p>
-              <footer class="mt1"><cite>&mdash;<a class="normal blue" href="http://www.tagesspiegel.de/wirtschaft/10-000-euro-fuer-die-hellsten-koepfe-sieben-nominierte/9044614.html">Der Tagesspiegel</a></cite></footer>
-            </blockquote>
-          </div>
-
-          <div class="sm-col sm-col-6 px1 py3">
-            <blockquote class="m0">
-              <p class="h1">No need to carry bags and plastic bags on the handlebars anymore.</p>
-              <footer class="mt1"><cite>&mdash;<a class="normal blue" href="http://lbg.adfc-nds.de/index.php?id=2379">ADFC magazine</a></cite></footer>
-            </blockquote>
-          </div>
-
+          {% endfor %}
 
         </div>
 
@@ -200,19 +154,21 @@
 
       <section class="py4 max-width-3 px1 mb4 mt4 mx-auto center bg-silver">
         <div class="clearfix max-width-2 mx-auto">
-          <p class="h2 m0 mb2">Keep up with the latest with our newsletter</p>
+          <p class="h2 m0 mb2">{{ page.newsletter-lead }}</p>
           <form action="http://hangload.us8.list-manage1.com/subscribe/post" method="POST">
             <input type="hidden" name="u" value="17786494a7f7d575faf855738">
             <input type="hidden" name="id" value="f87a66271b">
             <input class="input border gray rounded" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" value="" placeholder="Your email address">
             <input class="btn btn-primary white bg-olive col-12" type="submit" name="submit" value="Subscribe">
           </form>
-          <p class="h5 gray">We'll never share your email address and you can opt out at any time.</p>
+          <p class="h5 gray">{{ page.newsletter-microcopy }}</p>
         </div>
       </section>
 
     </main>
+
     {% include footer.html %}
     {% include script.html %}
+
   </body>
 </html>
