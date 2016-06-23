@@ -71,15 +71,6 @@ faq:
   question: What size is a Hangload?
   answer: |
     The design of the Hangload makes it easy to move according to your needs, e.g. taller people would want to slide it a bit further back to avoid interfering with their pedalling.
-- id: how-position
-  question: How is the Hangload best positioned on a bike rack?
-  answer: |
-    The Hangload's dimensions are:
-
-    - **Height**: 36 cm
-    - **Width**: 36 cm
-    - **Depth**: 12 cm
-    - **Weight**: 536 g
 - id: which-materials
   question: Which materials are used?
   answer: |
