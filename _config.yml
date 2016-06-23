@@ -1,5 +1,5 @@
 name: Hangload
 description: "Hangload -- The new way to load your bike"
-exclude: [README.md, package.json, index.js, Rakefile, node_modules, src, backups]
+exclude: [README.md, package.json, index.js, Rakefile, node_modules, src, backups, de/]
 permalink: pretty
 repository: hangload/static
