@@ -1,104 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
-  <body class="black">
-    {% include header.html %}
+{% include doctype.html %}
+{% include head.html %}
+<body class="black">
+  {% include header.html %}
 
-    <main role="main" class="mx-auto mt4">
+  <main role="main" class="mx-auto mt4">
 
-      <section class="h3 max-width-4 mx-auto px1 py3">
-        {{ content }}
-      </section>
+    <section class="h3 max-width-4 mx-auto px1 py3">
+      {{ content }}
+    </section>
 
-      <section class="max-width-4 mx-auto px1 py1 mb4">
-        <form action="http://formspree.io/sales@hangload.com" method="post" id="order-form" name="order">
+    <section class="max-width-4 mx-auto px1 py1 mb4">
+      <form action="http://formspree.io/sales@hangload.com" method="post" id="order-form" name="order">
 
-          <div class="clearfix py1 mxn1">
+        <div class="clearfix py1 mxn1">
 
-            <div class="mb2 px1">
-              <h3 class="inline mr1">{{ page.form.shipping-address }}</h3>
-              <small class="gray italic">{{ page.form.microcopy1 }}</small>
-            </div>
-
-            <div class="sm-col sm-col-6 px1">
-              <label class="label caps gray h5 mr1" for="name">{{ page.form.name }}*</label>
-              <input class="input border rounded block p1 mb1 col-10" type="text" name="name" id="name" required>
-              <label class="label caps gray h5 mr1" for="address">{{ page.form.street-address }}*</label>
-              <input class="input border rounded block p1 mb1 col-10" type="text" name="address" id="address" required>
-              <label class="label caps gray h5 mr1" for="address-2">{{ page.form.street-address2 }}</label>
-              <input class="input border rounded block p1 mb1 col-10" type="text" name="address-2" id="address-2">
-              <label class="label caps gray h5 mr1" for="city">{{ page.form.city }}*</label>
-              <input class="input border rounded block p1 mb1 col-10" type="text" name="city" id="city" required>
-            </div>
-            <div class="sm-col sm-col-6 mb1 px1">
-              <label class="label caps gray h5 mr1" for="country">{{ page.form.country }}*</label>
-              <input class="input border rounded block p1 mb1 col-10" type="text" name="country" id="country" required>
-              <label class="label caps gray h5 mr1" for="zip">{{ page.form.zip }}*</label>
-              <input class="input border rounded block p1 mb1 col-10" type="text" name="zip" id="zip" required>
-              <label class="label caps gray h5 mr1" for="phone">{{ page.form.phone }}</label>
-              <input class="input border rounded block p1 mb1 col-10" type="text" name="phone" id="phone">
-              <label class="label caps gray h5 mr1" for="email">{{ page.form.email }}*</label>
-              <input class="input border rounded block p1 mb2 col-10" type="email" name="email" id="email" required>
-            </div>
+          <div class="mb2 px1">
+            <h3 class="inline mr1">{{ page.form.shipping-address }}</h3>
+            <small class="gray italic">{{ page.form.microcopy1 }}</small>
           </div>
 
-          <div class="clearfix py3">
+          <div class="sm-col sm-col-6 px1">
+            <label class="label caps gray h5 mr1" for="name">{{ page.form.name }}*</label>
+            <input class="input border rounded block p1 mb1 col-10" type="text" name="name" id="name" required>
+            <label class="label caps gray h5 mr1" for="address">{{ page.form.street-address }}*</label>
+            <input class="input border rounded block p1 mb1 col-10" type="text" name="address" id="address" required>
+            <label class="label caps gray h5 mr1" for="address-2">{{ page.form.street-address2 }}</label>
+            <input class="input border rounded block p1 mb1 col-10" type="text" name="address-2" id="address-2">
+            <label class="label caps gray h5 mr1" for="city">{{ page.form.city }}*</label>
+            <input class="input border rounded block p1 mb1 col-10" type="text" name="city" id="city" required>
+          </div>
+          <div class="sm-col sm-col-6 mb1 px1">
+            <label class="label caps gray h5 mr1" for="country">{{ page.form.country }}*</label>
+            <input class="input border rounded block p1 mb1 col-10" type="text" name="country" id="country" required>
+            <label class="label caps gray h5 mr1" for="zip">{{ page.form.zip }}*</label>
+            <input class="input border rounded block p1 mb1 col-10" type="text" name="zip" id="zip" required>
+            <label class="label caps gray h5 mr1" for="phone">{{ page.form.phone }}</label>
+            <input class="input border rounded block p1 mb1 col-10" type="text" name="phone" id="phone">
+            <label class="label caps gray h5 mr1" for="email">{{ page.form.email }}*</label>
+            <input class="input border rounded block p1 mb2 col-10" type="email" name="email" id="email" required>
+          </div>
+        </div>
 
-            <div class="mb2">
-              <h3 class="inline mr1">{{ page.form.color-selection }}</h3>
-              <small class="gray italic">{{ page.form.microcopy2 }}</small>
-            </div>
+        <div class="clearfix py3">
 
-            <div class="clearfix py1">
-              <div class="col mr4 center">
-                <img class="mb1 center" src="/imgs/colors/dark-grey.jpg" alt="Hangload banner grey">
-                <div>
-                  <label class="label" for="dark-grey" name="dark-grey">{{ page.form.dark-grey }}</label>
-                  <input class="input border py1 rounded center" type="number" min="0"  max="10" maxlength="1" value="0" name="dark-grey" id="dark-grey" value="dark-grey">
-                </div>
-              </div>
-
-              <div class="col center">
-                <img class="mb1" src="/imgs/colors/olive-green.jpg" alt="Hangload banner grey">
-                <div>
-                  <label class="label" for="farbe4" name="olive-green" >{{ page.form.olive-green }}</label> 
-                  <input class="input border py1 rounded center" type="number" min="0"  max="10" maxlength="1" value="0" name="olive-green" id="olive-green" value="olive-green">
-                </div>
-              </div>
-            </div>
-
+          <div class="mb2">
+            <h3 class="inline mr1">{{ page.form.color-selection }}</h3>
+            <small class="gray italic">{{ page.form.microcopy2 }}</small>
           </div>
 
           <div class="clearfix py1">
-
-            <div class="mb2 mt3">
-              <h3 class="inline mr1">{{ page.form.additional-comments }}</h3>
-              <small class="gray italic">{{ page.form.microcopy3 }}</small>
+            <div class="col mr4 center">
+              <img class="mb1 center" src="/imgs/colors/dark-grey.jpg" alt="Hangload banner grey">
+              <div>
+                <label class="label" for="dark-grey" name="dark-grey">{{ page.form.dark-grey }}</label>
+                <input class="input border py1 rounded center" type="number" min="0"  max="10" maxlength="1" value="0" name="dark-grey" id="dark-grey" value="dark-grey">
+              </div>
             </div>
 
-            <textarea class="textarea border block rounded max-width-3 mb3" style="height: 100px; width: 100%" name="comments"></textarea>
-
-            <!-- Honeypot field against bots -->
-            <input type="text" name="_gotcha" style="display:none">
-
-            <div class="col py1">
-              <input class="input p1 mr1" type="checkbox" name="tac" id="tac" value="confirmed" required>
-              <label class="label" for="tac">{{ page.form.tac }}</label>
-            </div>
-          </div>
-
-          <div class="clearfix py3">
-            <div class="col">
-              <input class="input" type="hidden" name="_next" value="/shop/thanks">
-              <button type="submit" class="btn btn-primary bg-orange white">{{ page.form.submit }}</button>
-              <button type="reset" class="btn btn-primary black bg-gray">{{ page.form.clear }}</button>
+            <div class="col center">
+              <img class="mb1" src="/imgs/colors/olive-green.jpg" alt="Hangload banner grey">
+              <div>
+                <label class="label" for="farbe4" name="olive-green" >{{ page.form.olive-green }}</label> 
+                <input class="input border py1 rounded center" type="number" min="0"  max="10" maxlength="1" value="0" name="olive-green" id="olive-green" value="olive-green">
+              </div>
             </div>
           </div>
 
-        </form>
-      </section>
-    </main>
-    {% include footer.html %}
-    {% include script.html %}
-  </body>
+        </div>
+
+        <div class="clearfix py1">
+
+          <div class="mb2 mt3">
+            <h3 class="inline mr1">{{ page.form.additional-comments }}</h3>
+            <small class="gray italic">{{ page.form.microcopy3 }}</small>
+          </div>
+
+          <textarea class="textarea border block rounded max-width-3 mb3" style="height: 100px; width: 100%" name="comments"></textarea>
+
+          <!-- Honeypot field against bots -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <div class="col py1">
+            <input class="input p1 mr1" type="checkbox" name="tac" id="tac" value="confirmed" required>
+            <label class="label" for="tac">{{ page.form.tac }}</label>
+          </div>
+        </div>
+
+        <div class="clearfix py3">
+          <div class="col">
+            <input class="input" type="hidden" name="_next" value="/shop/thanks">
+            <button type="submit" class="btn btn-primary bg-orange white">{{ page.form.submit }}</button>
+            <button type="reset" class="btn btn-primary black bg-gray">{{ page.form.clear }}</button>
+          </div>
+        </div>
+
+      </form>
+    </section>
+  </main>
+  {% include footer.html %}
+  {% include script.html %}
+</body>
 </html>

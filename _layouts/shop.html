@@ -1,61 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
-  <body class="black">
-    {% include header.html %}
+{% include doctype.html %}
+{% include head.html %}
+<body class="black">
+  {% include header.html %}
 
-    <main role="main" class="mx-auto mt4">
+  <main role="main" class="mx-auto mt4">
 
-      <section class="max-width-4 mx-auto mb4 py3 px1 overflow-hidden">
-        <section class="clearfix mxn2">
-          <div class="md-col md-col-6 center">
-            <ul class="rslides">
-              <li><img class="fit" src="/imgs/shop/hangload-2-colors-min.jpg"></li>
-              <li><img class="fit" src="/imgs/shop/hangload-blue-2-min.jpg"></li>
-              <li><img class="fit" src="/imgs/shop/hangload-blue-min.jpg"></li>
-              <li><img class="fit" src="/imgs/shop/hangload-colors-min.jpg"></li>
-              <li><img class="fit" src="/imgs/shop/hangload-side-min.jpg"></li>
-              <li><img class="fit" src="/imgs/shop/hangload-toggle-2-min.jpg"></li>
-            </ul>
-          </div>
-          <div class="md-col md-col-6 px2 py2">
-            <div class="clearfix">
-              <div class="col col-6">
-                <h1 class="m0 mb1">&euro; {{ page.price }}<span class="h6 regular inline-block px1 olive border rounded align-top ml1">{{ page.in-stock }}</span></h1>
-                <p class="m0 h6 mb1 gray">{{ page.plus-shipping }}</p>
-                <h5 class="m0 gray"></h5>
-              </div>
-              <div class="col col-6 right-align h6">
-                <a class="caps block btn bg-orange center white snipcart-add-item"
-                  data-item-id="1"
-                  data-item-url=http://hangload.com/shop"
-                  data-item-name="Hangload"
-                  data-item-description="The new way to load your bike"
-                  data-item-image="http://hangload.com/images/pictures/hangload-components.jpg"
-                  data-item-price="{{ page.price }}"
-                  data-item-custom1-name="Color"
-                  data-item-custom1-options="Asphalt Grey| Olive Green"
-                  >
-                  {{ page.add-to-cart }}
-                </a>
-                <p class="mt2 gray">{{ page.microcopy }}</p>
-              </div>
+    <section class="max-width-4 mx-auto mb4 py3 px1 overflow-hidden">
+      <section class="clearfix mxn2">
+        <div class="md-col md-col-6 center">
+          <ul class="rslides">
+            <li><img class="fit" src="/imgs/shop/hangload-2-colors-min.jpg"></li>
+            <li><img class="fit" src="/imgs/shop/hangload-blue-2-min.jpg"></li>
+            <li><img class="fit" src="/imgs/shop/hangload-blue-min.jpg"></li>
+            <li><img class="fit" src="/imgs/shop/hangload-colors-min.jpg"></li>
+            <li><img class="fit" src="/imgs/shop/hangload-side-min.jpg"></li>
+            <li><img class="fit" src="/imgs/shop/hangload-toggle-2-min.jpg"></li>
+          </ul>
+        </div>
+        <div class="md-col md-col-6 px2 py2">
+          <div class="clearfix">
+            <div class="col col-6">
+              <h1 class="m0 mb1">&euro; {{ page.price }}<span class="h6 regular inline-block px1 olive border rounded align-top ml1">{{ page.in-stock }}</span></h1>
+              <p class="m0 h6 mb1 gray">{{ page.plus-shipping }}</p>
+              <h5 class="m0 gray"></h5>
             </div>
-            <section class="mt4" id="product-description">
-              {% for section in page.product %}
-                <h1 class="h5 caps gray">{{ section.title }}</h1>
-                {{ section.copy | markdownify }}
-              {% endfor %}
-            </section>
+            <div class="col col-6 right-align h6">
+              <a class="caps block btn bg-orange center white snipcart-add-item"
+                data-item-id="1"
+                data-item-url=http://hangload.com/shop"
+                data-item-name="Hangload"
+                data-item-description="The new way to load your bike"
+                data-item-image="http://hangload.com/images/pictures/hangload-components.jpg"
+                data-item-price="{{ page.price }}"
+                data-item-custom1-name="Color"
+                data-item-custom1-options="Asphalt Grey| Olive Green"
+                >
+                {{ page.add-to-cart }}
+              </a>
+              <p class="mt2 gray">{{ page.microcopy }}</p>
+            </div>
           </div>
-        </section>
-
+          <section class="mt4" id="product-description">
+            {% for section in page.product %}
+              <h1 class="h5 caps gray">{{ section.title }}</h1>
+              {{ section.copy | markdownify }}
+            {% endfor %}
+          </section>
+        </div>
       </section>
 
-    </main>
+    </section>
 
-    {% include footer.html %}
-    {% include script.html %}
+  </main>
 
-  </body>
+  {% include footer.html %}
+  {% include script.html %}
+
+</body>
 </html>
