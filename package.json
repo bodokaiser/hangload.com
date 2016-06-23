@@ -35,7 +35,7 @@
     "build:html": "bundle exec jekyll build --watch --incremental",
     "build:css": "node scripts/css.js && watch 'node scripts/css.js' src/",
     "clean": "rm -rf _site",
-    "server": "browser-sync start --files '_site/**/*.html' --server _site --no-notify"
+    "server": "browser-sync start --files '_site/**/*.html' --server _site --no-notify --no-open"
   },
   "dependencies": {
     "basscss": "^8.0.1",
