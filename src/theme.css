@@ -22,6 +22,8 @@ h6 { font-size: .75rem }
 body { font-family: 'Droid-Sans', sans-serif; }
 
 a { text-decoration: none; }
+a { color: var(--blue); }
+a:visited { color: var(--blue); }
 
 nav li:hover { background-color: var(--silver); }
 footer a:hover { color: var(--gray); }
