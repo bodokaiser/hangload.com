@@ -1,8 +1,8 @@
 <header class="fixed z3 top-0 left-0 right-0 px1 bg-white">
 
-  <h1 class="inline-block mr2 h4 regular"> <a class="caps no-spacing black" href="/">Hangload</a> </h1>
+  <h1 class="inline-block m0 mr2 py2 h4 regular"> <a class="caps no-spacing black" href="/">Hangload</a> </h1>
 
-  <a href="#" id="nav-toggle" class="nav-toggle right">
+  <a href="#" id="nav-toggle" class="nav-toggle right py1">
     <svg class="fill-black" height="32" viewBox="0 0 32 32" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
       <path d="M4 10h24c1.104 0 2-.896 2-2s-.896-2-2-2H4c-1.104 0-2 .896-2 2s.896 2 2 2zm24 4H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2zm0 8H4c-1.104 0-2 .896-2 2s.896 2 2 2h24c1.104 0 2-.896 2-2s-.896-2-2-2z"/>
     </svg>
@@ -12,7 +12,11 @@
   </a>
 
   {% unless page.title == "Alternative Order Form" or page.title == "Thank you" %}
-    {% include cart-icon.html %}
+    <div class="snipcart-summary inline right py2 mr4">
+      <a href="#" class="snipcart-checkout h5 black">
+        Cart (<span class="snipcart-total-items"></span>)
+      </a>
+    </div>
   {% endunless %}
 
   <nav class="inline nav-collapse">
