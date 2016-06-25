@@ -66,7 +66,7 @@ faq:
 - id: long-handles
   question: Can I use Hangload with bags that have long handles?
   answer: |
-    Some bags, especially shopping bags or some women handbags, have very long handles (longer than 17 cm). If you would hang this on your Hangload Banner the bag dangling by the long handles and possibly interfere with pedaling. To avoid this, wrap your bag handle around your rear rack and Hangload Banner toggle, as shown in this video.
+    Some bags, especially shopping bags or some women handbags, have very long handles (longer than 17 cm). If you would hang this on your Hangload Banner the bag dangling by the long handles and possibly interfere with pedaling. To avoid this, wrap your bag handle around your rear rack and Hangload Banner toggle, as shown in the video above.
 - id: what-size
   question: What size is a Hangload?
   answer: |
