@@ -447,6 +447,7 @@ a:visited { color: #0074d9; }
 .black:visited { color: #111111;}
 .blue:visited { color: #0074d9;}
 .white:visited { color: #FFFFFF;}
+.gray:visited { color: #AAAAAA;}
 
 nav li:hover { background-color: #DDDDDD; }
 footer a:hover { color: #AAAAAA; }
