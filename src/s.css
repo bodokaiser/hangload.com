@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "theme.css";
 @import "responsive-nav.css";
 @import "responsive-slides.css";
 @import "basscss";
@@ -14,7 +15,6 @@
 @import "snipcart-overrides.css";
 @import "responsive-embed.css";
 @import "colors.css";
-@import "theme.css";
 @import "utilities.css";
 
 

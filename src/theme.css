@@ -25,6 +25,10 @@ a { text-decoration: none; }
 a { color: var(--blue); }
 a:visited { color: var(--blue); }
 
+.black:visited { color: var(--black);}
+.blue:visited { color: var(--blue);}
+.white:visited { color: var(--white);}
+
 nav li:hover { background-color: var(--silver); }
 footer a:hover { color: var(--gray); }
 

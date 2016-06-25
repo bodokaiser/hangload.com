@@ -417,6 +417,68 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+@font-face {
+  font-family: 'Droid-Sans';
+  src: url('/fonts/droid-sans.ttf') format('truetype');;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Droid-Sans';
+	src: url('/fonts/droid-sans-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
+
+body { font-family: 'Droid-Sans', sans-serif; }
+
+a { text-decoration: none; }
+a { color: #0074d9; }
+a:visited { color: #0074d9; }
+
+.black:visited { color: #111111;}
+.blue:visited { color: #0074d9;}
+.white:visited { color: #FFFFFF;}
+
+nav li:hover { background-color: #DDDDDD; }
+footer a:hover { color: #AAAAAA; }
+
+#shop-pic { height: 400px }
+
+@media (min-width: 40em) {
+  #shop-pic { height: 450px; }
+}
+
+@media (min-width: 52em) {
+  #shop-pic { height: 500px; }
+}
+
+textarea {
+  box-sizing: border-box;
+}
+
+blockquote {
+  quotes: "“" "”";
+}
+
+blockquote:before {
+  font-size: 2em;
+  color: #AAAAAA;
+  content: open-quote;
+  line-height: 0.1em;
+  vertical-align: -0.2em;
+}
+blockquote p {
+  display: inline;
+}
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
 .nav-collapse.opened {
@@ -1753,62 +1815,6 @@ height: 100%;
 .stroke-gray { stroke: #AAAAAA; }
 .stroke-silver { stroke: #DDDDDD; }
 .stroke-black { stroke: #111111; }
-@font-face {
-  font-family: 'Droid-Sans';
-  src: url('/fonts/droid-sans.ttf') format('truetype');;
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Droid-Sans';
-	src: url('/fonts/droid-sans-bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-h1 { font-size: 2rem }
-h2 { font-size: 1.5rem }
-h3 { font-size: 1.25rem }
-h4 { font-size: 1rem }
-h5 { font-size: .875rem }
-h6 { font-size: .75rem }
-
-body { font-family: 'Droid-Sans', sans-serif; }
-
-a { text-decoration: none; }
-
-nav li:hover { background-color: #DDDDDD; }
-footer a:hover { color: #AAAAAA; }
-
-#shop-pic { height: 400px }
-
-@media (min-width: 40em) {
-  #shop-pic { height: 450px; }
-}
-
-@media (min-width: 52em) {
-  #shop-pic { height: 500px; }
-}
-
-textarea {
-  box-sizing: border-box;
-}
-
-blockquote {
-  quotes: "“" "”";
-}
-
-blockquote:before {
-  font-size: 2em;
-  color: #AAAAAA;
-  content: open-quote;
-  line-height: 0.1em;
-  vertical-align: -0.2em;
-}
-blockquote p {
-  display: inline;
-}
 .no-spacing { letter-spacing: normal; }
 
 .normal { font-style: normal; }
