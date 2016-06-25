@@ -16,7 +16,7 @@ faq:
 - id: who-creator
   question: Who is the creator?
   answer: |
-    Hangload was invented by Darius Hajiani, a UK-expat living in Berlin.  He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials,and extensive testing, he came up with the patented Hangload system.
+    Hangload was invented by Darius Hajiani, a UK-expat living in Berlin.  He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials, and extensive testing, he came up with the patented Hangload system.
 
     Invented and created in Berlin, Hangload was a finalist at the Innovation Price Berlin (Innovationpreis Berlin Brandenburg) and garnered media interest.  
 
@@ -26,9 +26,9 @@ faq:
   answer: |
     We ship worldwide and offer the following rates:
 
-    - **Germany**: &eur; 3.50
-    - **EU**: &eur; 10
-    - **Worldwide**: &eur; 20
+    - **Germany**: € 3.50
+    - **EU**: € 10
+    - **Worldwide**: € 20
 - id: which-payment
   question: Which payment methods do you support?
   answer: |
@@ -36,7 +36,7 @@ faq:
 - id: how-attach
   question: How is the Hangload attached?
   answer: |
-    The Hangload comes with a toggle and durable rubber bands. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package (PDF here). Check out the video above to see how a Hangload is installed in real-time.
+    The Hangload comes with a toggle and durable rubber bands. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video above to see how a Hangload is installed in real-time.
 - id: where-attach
   question: Where on a bicycle can I attach a Hangload?
   answer: |
@@ -83,7 +83,7 @@ faq:
 - id: how-produced
   question: How is Hangload produced?
   answer: |
-    Hangload uses sustainable materiHangload is hand-made in Germany by bending board, a simple and energy-saving procedure. We care about the environment and only use sustainable materials which can be recycled. 
+    Hangload is hand-made in Germany by bending board, a simple and energy-saving procedure. We care about the environment and only use sustainable materials which can be recycled. 
 ---
 
 Hangload is a versatile and practical system for carrying various loads on bicycles whether shopping or commuting.
