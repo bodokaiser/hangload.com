@@ -1,6 +1,6 @@
 name: Hangload
 description: "Hangload -- The new way to load your bike"
-exclude: [README.md, package.json, index.js, Rakefile, node_modules, src, backups, de/]
+exclude: [README.md, package.json, index.js, Rakefile, node_modules, src, backups]
 permalink: pretty
 repository: hangload/static
 phone: +49 177 5067837
