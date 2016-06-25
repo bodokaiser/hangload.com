@@ -14,7 +14,7 @@
       <div class="clearfix mxn1 py1">
         {% for image in page.gallery %}
           <div class="sm-col sm-col-4 px1 py2">
-            <figure>
+            <figure class="py2">
               <img class="fit" src="{{ image.url }}" alt="Hangload {{ image.caption | downcase }}">
               <figcaption class="h6 left mt1 gray">{{ image.caption }}</figcaption>
             </figure>
