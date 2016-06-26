@@ -5,6 +5,9 @@ var nav = responsiveNav(".nav-collapse", {
   openPos: "static"
 });
 
+// Remove margin top from first paragraph in about page
+$(".intro p:first-child").addClass("mt0");
+
 // Hook up and configure responsive slides plugin
 
 $(".rslides").responsiveSlides({
