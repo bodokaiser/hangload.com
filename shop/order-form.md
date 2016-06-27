@@ -20,7 +20,7 @@ form:
   olive-green: Olive green
   additional-comments: Additional comments
   microcopy3: Any special request? This is the right place to tell us
-  tac: I agree with the <a class="blue" target="_blank" href="/agb">Terms &amp; Conditions</a>
+  tac: I agree with the <a class="blue" target="_blank" href="/terms">Terms &amp; Conditions</a>
   submit: Submit
   clear: Clear
 ---
