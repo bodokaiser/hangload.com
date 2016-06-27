@@ -16,11 +16,11 @@ faq:
 - id: who-creator
   question: Who is the creator?
   answer: |
-    Hangload was invented by Darius Hajiani, a UK-expat living in Berlin.  He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials, and extensive testing, he came up with the patented Hangload system.
+    Hangload was invented by Darius Hajiani, a UK-expat living in Berlin.  He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials, and extensive testing, he came up with the Hangload system.
 
     Invented and created in Berlin, Hangload was a finalist at the Innovation Price Berlin (Innovationpreis Berlin Brandenburg) and garnered media interest.  
 
-    Hangload was invited to exhibit at the VeloBerlin generating much interest and requests from the public and bicycle shops in Berlin.  With strong emphasis on using sustainable materials and practises, each Hangload is hand-made in Berlin.  
+    Hangload was invited to exhibit at the Velo Berlin generating much interest and requests from the public and bicycle shops in Berlin.
 - id: which-shipping
   question: Do you ship to my country and how much does it cost?
   answer: |
@@ -32,11 +32,11 @@ faq:
 - id: which-payment
   question: Which payment methods do you support?
   answer: |
-    Right now we support the most common credit cards (Visa, Mastercard) and PayPal. You can also pay via bank transfer (advance payment) to our bank account.
+    Right now we support the most common credit cards (Visa, Mastercard) and PayPal. You can also pay via bank transfer to our bank account.
 - id: how-attach
   question: How is the Hangload attached?
   answer: |
-    The Hangload comes with a toggle and durable rubber bands. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video above to see how a Hangload is installed in real-time.
+    The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video above to see how a Hangload is installed in real-time.
 - id: where-attach
   question: Where on a bicycle can I attach a Hangload?
   answer: |
@@ -58,19 +58,15 @@ faq:
 - id: how-protect
   question: How can I protect my Hangload from getting stolen?
   answer: |
-    Hangload is made of one closed steel frame with no bolts or screws attached. This way, it can be easily secured with a regular bike lock to the bike itself.
+    Hangload is made of one closed steel frame with no bolts or screws attached. Just pass your bike lock or chain through the Hangload frame when locking your bike.
 - id: what-bags
   question: What type of bags can I use with a Hangload?
   answer: |
-    Hangload is ideal for carrying various bags and city-rucksacks in all shapes and sizes. It works best for bags with a max. handle length of 17cm.
+    Hangload is ideal for carrying various bags and city-rucksacks in all shapes and sizes. It works best with bags with a soft handle.
 - id: long-handles
-  question: Can I use Hangload with bags that have long handles?
+  question: Can hangload work with bags that have straps but no handle?
   answer: |
-    Some bags, especially shopping bags or some women handbags, have very long handles (longer than 17 cm). If you would hang this on your Hangload Banner the bag dangling by the long handles and possibly interfere with pedaling. To avoid this, wrap your bag handle around your rear rack and Hangload Banner toggle, as shown in the video above.
-- id: what-size
-  question: What size is a Hangload?
-  answer: |
-    The design of the Hangload makes it easy to move according to your needs, e.g. taller people would want to slide it a bit further back to avoid interfering with their pedalling.
+    Hangload can work with certain bags with thinner straps.
 - id: which-materials
   question: Which materials are used?
   answer: |
@@ -80,17 +76,13 @@ faq:
     - **Textile**: Nylon (80% nylon, 20% polyurethane) in grey and green.
     - **Attachment**: Bungee cords made of polypropylene toggle.
     - **Handle**: Beech wood, stainless steel, polyacryl.
-- id: how-produced
-  question: How is Hangload produced?
-  answer: |
-    Hangload is hand-made in Germany by bending board, a simple and energy-saving procedure. We care about the environment and only use sustainable materials which can be recycled. 
 ---
 
 Hangload is a versatile and practical system for carrying various loads on bicycles whether shopping or commuting.
 
-Hangload can carry many different types of bags easily and safely while increasing freedom, flexibility and convenience when traveling by bike.
+Hangload can carry many different types of bags easily and safely while increasing freedom, flexibility and convenience when travelling by bike.
 
-A Hangload consists of 2 parts: An **unibody steel frame** and panel
+A Hangload consists of 2 parts: An **uni-body steel frame** and panel
 which is attached to the side of the bike rack to keep any bag in safe distance to the bike’s chain, spokes, and pedals, and a **strong wooden toggle**, to hang bags of various shapes and sizes.
 
 The Hangload can be fitted onto either or both sides of a bicycle rack. It provides a lean and elegant alternative to pannier bike bags or bike baskets.
