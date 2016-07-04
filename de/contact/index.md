@@ -1,16 +1,16 @@
 ---
 layout: contact
-title: Contact us
-language: en
-description: How to contact us
-lead: If you want to receive more information about Hangload, give feedback, or work with us, please email us at <a class="blue py1" href="mailto:info@hangload.com">info@hangload.com</a>
-address: Address
-phone: Phone
+title: Nehmen Sie Kontakt auf
+language: de
+description: Wie Sie uns kontaktieren können
+lead: "Wenn Sie an weiteren Informationen zu Hangload interessiert sind, Feedback haben oder mit uns kooperieren möchten, wenden Sie sich gern per E-Mail an <a class='blue py1' href='mailto:info@hangload.com'>info@hangload.com</a> und wir melden uns schnellstmöglich zurück."
+address: Adresse
+phone: Telefon
 email: Email
 ---
 
-If you’re a blogger or journalist and would like to write about Hangload, you’re welcome to use the pictures, logos, and information provided in our [Press Kit](https://www.dropbox.com/sh/38k8pwgyy3iztof/AAB9vqq_IoCSi5qsNgzaQQIaa?dl=0).
+Wenn Sie Journalist oder Blogger sind und über Hangload berichten möchten, greifen Sie gern auf unsere [Pressematerialien](https://www.dropbox.com/sh/38k8pwgyy3iztof/AAB9vqq_IoCSi5qsNgzaQQIaa?dl=0) wie Bilder, Logos und Pressetexte zur freien Verwendung zurück.
 
-If you’d like to receive the latest updates from Hangload, you can [subscribe to our newsletter](http://hangload.us8.list-manage2.com/subscribe?u=17786494a7f7d575faf855738&id=f87a66271b), or follow us on [Twitter](https://twitter.com/HangLoadBLN) or [Facebook](https://www.facebook.com/hangload).
+Wenn Sie Updates über Hangload erhalten möchten, freuen wir uns, wenn Sie uns auf [Twitter](https://twitter.com/HangLoadBLN) oder [Facebook](https://www.facebook.com/hangload) folgen oder einfach [unseren Newsletter](http://hangload.us8.list-manage2.com/subscribe?u=17786494a7f7d575faf855738&id=f87a66271b) abonnieren.
 
 Hangload is based in Berlin where the product is also created.
