@@ -3,22 +3,16 @@
 <body class="black">
   {% include header.html %}
   <main role="main" class="mx-auto mt4">
-    <section class="max-width-4 mx-auto py3 px1 mb4 overflow-hidden">
 
+    <section class="max-width-4 mx-auto py3 px1 mb4 overflow-hidden">
       <h1>{{ page.title }}</h1>
 
       <div class="clearfix mxn2">
-
         <div class="sm-col sm-col-9 px2 py2">
-
           <div class="mb2 h3">{{ page.lead }}</div>
-
           {{ content }}
-
         </div>
-
         <div class="sm-col sm-col-3 px2 py2 h5">
-
           <h1 class="h6 caps">{{ page.address }}</h1>
           <address class="normal">
             <span class="bold">Hangload UG</span> <br>
@@ -31,7 +25,6 @@
           <h1 class="h6 caps">{{ page.email }}</h1>
           <a class="black block" href="mailto:{{ site.email }}">{{ site.email }}</a>
         </div>
-
       </div>
 
     </section>

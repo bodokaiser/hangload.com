@@ -2,11 +2,9 @@
 {% include head.html %}
 <body class="black">
   {% include header.html %}
-
   <main role="main" class="mx-auto mt4">
 
     <section class="max-width-4 mx-auto center py2 px1 overflow-hidden">
-
       <h1>{{ page.description }}</h1>
       <p class="h2 max-width-3 mx-auto">{{ page.lead1 }}</p>
       <p class="h3 max-width-3 mx-auto">{{ page.lead2 }}</p> 
@@ -21,50 +19,33 @@
           </div>
         {% endfor %}
       </div>
-
     </section>
 
     <section class="h3 max-width-3 mx-auto px1 center">
-
       {{ page.copy | markdownify }}
-
       <div class="max-width-2 mx-auto h3 olive border py3 mt3 rounded">
         {{ page.get-in-touch }}
       </div>
-
     </section>
 
     <section class="mb4 px1 py2">
-
       <form class="max-width-2 mx-auto mt3" action="https://formspree.io/sales@hangload.com" method="post" id="partners" name="partners">
-
         <label class="label caps gray h5 regular" for="name">{{ page.form.name }}*</label>
         <input class="input border rounded py1 mb1" type="text" name="name" id="name" required>
-
         <label class="label caps gray h5" for="address">{{ page.form.company }}*</label>
         <input class="input border rounded py1 mb1" type="text" name="company" id="company" required>
-
         <label class="label caps gray h5" for="country">{{ page.form.country }}*</label>
         <input class="input border rounded py1 mb1" type="text" name="country" id="country">
-
         <label class="label caps gray h5" for="email">{{ page.form.email }}*</label>
         <input class="input border rounded py1 mb1" type="email" name="email" id="email" required>
-
         <label class="label caps gray h5" for="email">{{ page.form.phone }}</label>
         <input class="input border rounded py1 mb1" type="phone" name="email" id="email">
-
         <label class="label caps gray h5" for="comments">{{ page.form.message }}</label>
-        <textarea class="textarea border py1 mb3" style="height: 100px; width: 100%" id="comments" name="comments" placeholder="Please let us know if you would like to receive a quote or if you have any other questions.">
-        </textarea>
-
-        <!-- Honeypot anti-spam field -->
-        <input type="text" name="_gotcha" style="display:none">
-
+        <textarea class="textarea border py1 mb3" style="height: 100px; width: 100%" id="comments" name="comments" placeholder="Please let us know if you would like to receive a quote or if you have any other questions."></textarea>
+        <input type="text" name="_gotcha" style="display:none"> <!-- Honeypot anti-spam field -->
         <input type="hidden" name="_next" value="/partners/thanks">
-
         <button type="submit" class="btn btn-primary white bg-orange not-rounded">{{ page.form.submit }}</button>
         <button type="reset" class="btn btn-primary black bg-gray not-rounded">{{ page.form.clear }}</button>
-
       </form>
 
     </section>
