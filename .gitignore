@@ -1,10 +1,8 @@
-# Jekyll things
 .jekyll-metadata
 Gemfile.lock
 _site
-
-# npm files
 node_modules/
+still-to-translate.md
 
 # OS X files
 .DS_Store
