@@ -36,7 +36,7 @@ faq:
 - id: how-attach
   question: How is the Hangload attached?
   answer: |
-    The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video above to see how a Hangload is installed in real-time.
+    The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video [above](#instructions-video) to see how a Hangload is installed in real-time.
 - id: where-attach
   question: Where on a bicycle can I attach a Hangload?
   answer: |
@@ -48,7 +48,7 @@ faq:
   answer: |
     The design of the Hangload makes it easy to move according to your needs, e.g. taller people would want to slide it a bit further back to avoid interfering with their pedalling.
 
-    See the instructions in this video on how to securely position your Hangload.
+    See the instructions in [this video](https://vimeo.com/164288217) on how to securely position your Hangload.
 - id: how-much-weight
   question: How much weight can a Hangload carry?
   answer: |
