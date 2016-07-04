@@ -1,88 +1,85 @@
 ---
 layout: about
 title: About
-lang: en
-description: About Hangload
+lang: de
+description: Über Hangload
 check-out-video: Check out the video below to see how easy it is to get going.
 read-faq: Still questions? Read our FAQ below or <a class="blue" href="/contact">get in touch with us</a>!
-faq-title: Frequently asked questions
+faq-title: Häufig gestellte Fragen
 faq:
 - id: what-is
-  question: What is Hangload?
+  question: Was ist Hangload?
   answer: |
-    Hangload is a unique, new and inexpensive alternative for carrying bags and rucksacks on the bicycle. Bicycle baskets and bags are useful, but can restrict the type of bag or load that can be transported.
+    Hangload ist ein neuartiger seitlicher Gepäckträger um Einkaufsbeutel, Rucksäcke und andere Taschen verschiedener Größe mit dem Fahrrad zu transportieren.
 
-    Hangload is different: it provides a lean system to carry all types of bags of various shapes and sizes. Thanks to Hangload, any bag can be a bicycle bag.
+    Hangload ist eine Alternative zur Fahrradtasche und auch eine Ergänzung dazu. Fahrradkörbe und Taschen sind nützlich, geben jedoch Form und Größe des Gepäcks vor und sind für größere oder sperrige Einkäufe oft zu unflexibel.
+
+    Mit Hangload ist das anders. Das leichte abnehmbare System funktioniert mit Taschen jeder Art---oder sogar [Kästen](https://www.youtube.com/watch?v=kPxS3nGMboY)---bis zu einem Gewicht von 15 kg pro Seite. Dank Hangload wird jede Tasche zur Fahrradtasche!
 - id: who-creator
-  question: Who is the creator?
+  question: Wer ist der Erschaffer?
   answer: |
-    Hangload was invented by Darius Hajiani, a UK-expat living in Berlin.  He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials, and extensive testing, he came up with the Hangload system.
-
-    Invented and created in Berlin, Hangload was a finalist at the Innovation Price Berlin (Innovationpreis Berlin Brandenburg) and garnered media interest.  
-
-    Hangload was invited to exhibit at the Velo Berlin generating much interest and requests from the public and bicycle shops in Berlin.
+    Hangload wurde von Darius Hajiani erfunden, er stammt aus Großbritannien und lebt seit 2002 in Berlin. Hier kam ihm die Idee zu Hangload nach einem Großeinkauf. Er fragte sich, warum es keinen einfachen Weg gibt, um auch größere Einkäufe flexibel per Fahrrad transportieren zu können. Nach intensiver Recherche und vielen Prototypen und Versuchen erfand er das Hangload-System. 
+    Beim **Innovationpreis Berlin Brandenburg** 2013 wurde Hangload als einer von drei Finalisten ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  Daraufhin wurde Hangload als Aussteller auf die VeloBerlin 2014 eingeladen, wo weitere Partnerschaften mit Fahrradläden geschlossen wurden.
 - id: which-shipping
-  question: Do you ship to my country and how much does it cost?
+  question: Versendet Hangload in mein Land und wie teuer ist das?
   answer: |
-    We ship worldwide and offer the following rates:
+    Wir bieten weltweiten Versand zu folgenden Preisen an:
 
-    - **Germany**: € 3.50
-    - **EU**: € 10
-    - **Worldwide**: € 20
+    - **Deutschland**: 3,50 €
+    - **EU**: 10,- €
+    - **Rest der Welt**: 20 €
+
+    Bei größeren Bestellungen ist Mengenrabatt möglich, schreiben Sie uns einfach eine Nachricht an [info@hangload.com](mailto:info@hangload.com).
 - id: which-payment
-  question: Which payment methods do you support?
+  question: Welche Zahlungsmethoden werden unterstützt?
   answer: |
-    Right now we support the most common credit cards (Visa, Mastercard) and PayPal. You can also pay via bank transfer to our bank account.
+    Wir nehmen die gängigen Kreditkarten sowie Zahlungen per PayPal entgegen. Auch Vorauskasse per Banküberweisung ist möglich. Stellen Sie eine Anfrage im [Shop](../shop/order-form) und wir lassen Ihnen die Bankverbindung und Details zukommen.
 - id: how-attach
-  question: How is the Hangload attached?
+  question: Wie wird Hangload befestigt?
   answer: |
-    The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video above to see how a Hangload is installed in real-time.
+    Hangload wird mit einem Holzgriff und zwei stabilen Gummibändern zur Befestigung geliefert. Ihn am Fahrrad zu befestigen dauert weniger als eine Minute. Man braucht weder Werkzeug noch technische Kenntnisse dafür. Eine ausführliche gedruckte Anleitung wird mitgeliefert (hier als PDF). In dem Video [oben](#instructions-video) sieht man, wie Hangload installiert wird.
 - id: where-attach
-  question: Where on a bicycle can I attach a Hangload?
+  question: Kann ich Hangload überall am Fahrrad anbringen?
   answer: |
-    Hangload is specifically designed to be attached to a bike’s rear bike rack/rear carrier.
-
-    Do not mount it on seat post carrier or a front rack.
+    Hangload ausschließlich für den Gebrauch mit Rückgepäckträgern entworfen. Bitte nutzen Sie ihn nicht an Frontgepäckträgern oder Sattelgepäckträgern.
 - id: how-position
-  question: How is the Hangload best positioned on a bike rack?
+  question: Wie finde ich die optimale Position am Gepäckträger für Hangload?
   answer: |
-    The design of the Hangload makes it easy to move according to your needs, e.g. taller people would want to slide it a bit further back to avoid interfering with their pedalling.
+    Hangload kann nach individuellen Bedürfnissen verschoben werden. Zum Beispiel bevorzugen größere Menschen es, den Hangload weiter nach hinten zu schieben, damit er nicht mit den Füßen in Kontakt gerät.
 
-    See the instructions in this video on how to securely position your Hangload.
+    In [diesem Video](https://vimeo.com/164288217) finden Sie Anleitungen zur richtigen und sicheren Positionierung des Hangload.
 - id: how-much-weight
-  question: How much weight can a Hangload carry?
+  question: Wie viel Gewicht kann ein Hangload tragen?
   answer: |
-    The recommended maximum weight for one Hangload is 15 kg. So if you use two Hangloads, the maximum weight to carry one your bike is 30 kg.
+    Das empfohlene Maximalgewicht, mit dem ein Hangload belastet werden kann beträgt 15kg. Wenn Sie zwei Hangloads verwenden, erhöht sich die Maximalladung auf 30 kg.
 
-    Do not overload or use your Hangload if in damaged conditions. Don't load more weight than your bike rack can carry. Make sure your Hangload and fastened bag are firmly and securely attached.
+    Bitte überladen Sie Hangload niemals und verwenden Sie Hangload nie in beschädigten Zustand.  Vergewissern Sie sich vor jeder Fahrt, dass sowohl Hangload als auch die angebrachte Tasche fest und sicher angebracht sind.
 - id: how-protect
-  question: How can I protect my Hangload from getting stolen?
+  question: Wie kann ich mein Hangload vor Diebstahl schützen?
   answer: |
-    Hangload is made of one closed steel frame with no bolts or screws attached. Just pass your bike lock or chain through the Hangload frame when locking your bike.
+    Hangload ist aus einem geschlossenen Stahlrahmen hergestellt. Daher lässt er sich leicht mittels Fahrradschloss sichern, das einfach beim Anschließen des Rads durch den Hangload gesteckt wird.
 - id: what-bags
-  question: What type of bags can I use with a Hangload?
+  question: Welche Taschen funktionieren mit dem Hangload?
   answer: |
-    Hangload is ideal for carrying various bags and city-rucksacks in all shapes and sizes. It works best with bags with a soft handle.
+    Hangload eignet sich ideal für Taschen und City-Rucksäcke aller Art und Größe. Es funktioniert am besten mit Taschen mit Henkeln einer maximalen Länge von 17 cm.
 - id: long-handles
-  question: Can hangload work with bags that have straps but no handle?
+  question: Wie kann ich auch Taschen mit längeren Henkeln verwenden?
   answer: |
-    Hangload can work with certain bags with thinner straps.
+    Hangload eignet sich ideal für Taschen und City-Rucksäcke aller Art und Größe. Es funktioniert am besten mit Taschen mit Henkeln einer maximalen Länge von 17 cm.
 - id: which-materials
-  question: Which materials are used?
+  question: Welche Materialien werden verwendet?
   answer: |
-    Hangload uses sustainable materials. The light and simple design ensures an efficient use of raw materials and energy consumption in the process. Tha materials used are:
-
-    - **Frame**: 100% stainless steel with perbunan tubing.
-    - **Textile**: Nylon (80% nylon, 20% polyurethane) in grey and green.
-    - **Attachment**: Bungee cords made of polypropylene toggle.
-    - **Handle**: Beech wood, stainless steel, polyacryl.
+    Hangload verwendet möglichst nachhaltige Materialien. Das leichte, einfache Design spart Rohstoffe und Energie bei der Herstellung.
 ---
 
-Hangload is a versatile and practical system for carrying various loads on bicycles whether shopping or commuting.
 
-Hangload can carry many different types of bags easily and safely while increasing freedom, flexibility and convenience when travelling by bike.
+Hangload ist ein praktisches System, um Taschen seitlich am Gepäckträger hängend zu transportieren.
 
-A Hangload consists of 2 parts: An **uni-body steel frame** and panel
-which is attached to the side of the bike rack to keep any bag in safe distance to the bike’s chain, spokes, and pedals, and a **strong wooden toggle**, to hang bags of various shapes and sizes.
+Hangload ist für verschiedenste Taschen geeignet, zum Einkauf, für Pendler oder in der Freizeit.
 
-The Hangload can be fitted onto either or both sides of a bicycle rack. It provides a lean and elegant alternative to pannier bike bags or bike baskets.
+Dank Hangload bleibt das Gepäck sicher außer Reichweite der Speichen und Pedale, während Fahrradfahrer sich ganz aufs Fahren konzentrieren können.
+
+Ein Hangload besteht aus zwei Komponenten. Erstens, ein **Stahlrahmen mit Stoff bespannt**, der am hinteren Gepäckträger befestigt wird. Mit seiner patentierten Konstruktion sorgt der Rahmen für Abstand zu Pedalen und Speichen.
+Zweitens, ein **stabiler Holzgriff**, an dem verschiedene Taschen angehängt werden können.
+ 
+Hangload kann auf beiden Seiten eines Rückgepäckträgers befestigt werden. Er ist die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben.  
