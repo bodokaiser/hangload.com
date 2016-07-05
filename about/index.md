@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-lang: en
+language: en
 description: About Hangload
 check-out-video: Check out the video below to see how easy it is to get going.
 read-faq: Still questions? Read our FAQ below or <a class="blue" href="/contact">get in touch with us</a>!
