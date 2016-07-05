@@ -1,15 +1,14 @@
- // Responsive navigation settings
+// Remove margin top from first paragraph in about page
+$(".intro p:first-child").addClass("mt0");
+
+ // Responsive navigation
 var nav = responsiveNav(".nav-collapse", {
   customToggle: "nav-toggle",
   closeOnNavClick: true,
   openPos: "static"
 });
 
-// Remove margin top from first paragraph in about page
-$(".intro p:first-child").addClass("mt0");
-
-// Hook up and configure responsive slides plugin
-
+// Responsive slides 
 $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
   speed: 500,            // Integer: Speed of the transition, in milliseconds
@@ -29,7 +28,7 @@ $(".rslides").responsiveSlides({
   after: function(){}     // Function: After callback
 });
 
-// FAQ-related js
+// FAQ accordion
 $('.js-faq-trigger').click(function(e) {
   // Grab current anchor value
   var currentAttrValue = $(this).attr('href');
@@ -38,7 +37,7 @@ $('.js-faq-trigger').click(function(e) {
   e.preventDefault();
 });
 
-// Snipcart-related js
+// Snipcart
 
 // Show button to continue shopping
 Snipcart.api.configure('show_continue_shopping', true);
