@@ -7,83 +7,75 @@ description: Legal information
 
 # {{page.title}}
 
-Owner of this homepage and first contact person is:
+#### CEO/Inventor
+{: .mb0}
+Darius Matthew Hajiani  
+{: .mt0}
 
-**Darius Matthew Hajiani**  
-Forster Straße 3, 10999 Berlin  
-Mobile: [+49 (0) 177 506 7837](tel:+491775067837)  
-Email: <info@hangload.com>
+#### Design/Development 
+{: .mb0}
+[Mattia Tezzele](http://mrzool.cc)  
+{: .mt0}
+
+#### Copywriting/Translation:
+{: .mb0}
+[Regina Leuwer](https://reginaleuwer.com/)
+{: .mt0}
+
+#### Photography
+{: .mb0}
+Photographer
+{: .mt0}
+
+#### Artworks/Illustrations
+{: .mb0}
+Joe
+{: .mt0}
+
+#### Logo
+{: .mb0}
+Bodo Kaiser
+{: .mt0}
+
+## Legal information
 
 **Hangload UG (Haftungsbeschränkt)**  
-Forsterstr. 3, 10999 Berlin  
-registered in Amtsgericht Berlin-Charlottenburg  
-158563 Berlin  
+Forsterstr. 3  
+10999 Berlin  
+Phone: [+49 (0) 177 506 7837](tel:+491775067837)  
+Email: <info@hangload.com>
+
+Registered in Amtsgericht Berlin-Charlottenburg, 158563 Berlin  
 Managing Director: Darius Matthew Hajiani  
 Tax-Nr. (DE): 29/403/01628  
 USt-ID (VAT): DE295400469  
 
-Web development: [Mattia Tezzele](http://mrzool.cc)  
-Copywriting: [Regina Leuwer](https://reginaleuwer.com/)
 
-For questions, problems and other needed information, please write an
-email to <info@hangload.com>.
+This page contains all the legal information about our website [www.hangload.com](http://hangload.com).
 
-## Legal information about the website
+All texts, pictures and additional information that are released here, are subject to the copyright of the provider, as long as there are no copyrights by a third party. In any case, the reproduction, distribution or publication is only allowed in the case of a revocable and non-transferable consent of the provider.
 
-This page contains all the legal information about our website
-[www.hangload.com](http://hangload.com).
+Links, that refer to contents of the website at hand, require consent of the provider. Such approval must be newly requested at any fundamental alteration of the content of the website from which the link is referring to. It may be revoked informally at any time. A linking of site with illegal, offensive, misleading or defamatory content is excluded in any case.
 
-All texts, pictures and additional information that are released here,
-are subject to the copyright of the provider, as long as there are no
-copyrights by a third party. In any case, the reproduction, distribution
-or publication is only allowed in the case of a revocable and
-non-transferable consent of the provider.
+The contents of this website are created with great care. However, no guarantee can be made for timeliness and totality.
 
-Links, that refer to contents of the website at hand, require consent of
-the provider. Such approval must be newly requested at any fundamental
-alteration of the content of the website from which the link is
-referring to. It may be revoked informally at any time. A linking of
-site with illegal, offensive, misleading or defamatory content is
-excluded in any case.
+The provider takes no responsibility for all web contents that are linked to, due to those contents not being our own content. External links were checked for illicit content, at the time of the linking, such contents were not to be found. Regarding third-party content, however, there is no general monitoring and assessment requirement. Listed trademarks and tradenames are the property of their respective owners.  Upon notification of violation, however, the corresponding link will be removed immediately.
 
-The contents of this website are created with great care. However, no
-guarantee can be made for timeliness and totality.
-
-The provider takes no responsibility for all web contents that are
-linked to, due to those contents not being our own content. External
-links were checked for illicit content, at the time of the linking, such
-contents were not to be found. Regarding third-party content, however,
-there is no general monitoring and assessment requirement. Listed
-trademarks and tradenames are the property of their respective owners.
-Upon notification of violation, however, the corresponding link will be
-removed immediately.
-
-Press releases on the website are not protected by copyright. All press
-releases may be reproduced without prior consent.
+Press releases on the website are not protected by copyright. All press releases may be reproduced without prior consent.
 
 ## Privacy Policy
 
 ### Collection and processing of your data
 
-Data protection is a matter of trust and your privacy is important to
-us. We respect your personal privacy. Hence we would like to inform you
-in detail about our data use.
+Data protection is a matter of trust and your privacy is important to us. We respect your personal privacy. Hence we would like to inform you in detail about our data use.
 
-You can visit our website without giving us personal information. In
-this regard, we will not save any personal data.
+You can visit our website without giving us personal information. In this regard, we will not save any personal data.
 
-As a user of this site you are leaving private information (e.g. the
-browser you use) which we take responsible care of in order to make up
-statics about page visitors.
+As a user of this site you are leaving private information (e.g. the browser you use) which we take responsible care of in order to make up statics about page visitors.
 
-By agreeing to the following privacy policy of Hangload UG
-(haftungsbeschränkt), Forsterstr. 3, 10999 Berlin you admit in the
-collection, processing and use of your personal data in compliance with
-data protection laws and the following provisions.
+By agreeing to the following privacy policy of Hangload UG (haftungsbeschränkt), Forsterstr. 3, 10999 Berlin you admit in the collection, processing and use of your personal data in compliance with data protection laws and the following provisions.
 
-You always have the right to free information about your stored data and
-the right to rectification, erasure or blocking. Call us in case you
-have a request. Contact details can be found [here](../contact).
+You always have the right to free information about your stored data and the right to rectification, erasure or blocking. Call us in case you have a request. Contact details can be found [here](../contact).
 
 ### Collection, processing, use and dissemination of personal data
 
