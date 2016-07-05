@@ -42,7 +42,7 @@
         <label class="label caps gray h5" for="email">{{ page.form.phone }}</label>
         <input class="input border rounded py1 mb1" type="phone" name="email" id="email">
         <label class="label caps gray h5" for="comments">{{ page.form.message }}</label>
-        <textarea class="textarea border py1 mb3" style="height: 100px; width: 100%" id="comments" name="comments" placeholder="Please let us know if you would like to receive a quote or if you have any other questions."></textarea>
+        <textarea class="textarea border py1 mb3" style="height: 100px; width: 100%" id="comments" name="comments" placeholder="{{ page.form.textarea-placeholder }}"></textarea>
         <input type="text" name="_gotcha" style="display:none"> <!-- Honeypot anti-spam field -->
         <input type="hidden" name="_next" value="/partners/thanks">
         <button type="submit" class="btn btn-primary white bg-orange not-rounded">{{ page.form.submit }}</button>

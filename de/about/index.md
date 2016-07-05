@@ -3,8 +3,8 @@ layout: about
 title: About
 lang: de
 description: Über Hangload
-check-out-video: Check out the video below to see how easy it is to get going.
-read-faq: Still questions? Read our FAQ below or <a class="blue" href="/contact">get in touch with us</a>!
+check-out-video: "Im Video unten sieht man, wie einfach es geht:"
+read-faq: Noch Fragen? Lesen Sie unsere FAQ oder <a class="blue" href="../contact">kontaktieren Sie uns!</a>
 faq-title: Häufig gestellte Fragen
 faq:
 - id: what-is

@@ -1,13 +1,13 @@
 ---
 layout: simple
 title: Thank you
-language: en
+language: de
 ---
 
-## Thank you.
+## Danke
 
-Your request was submitted! We'll get back to you as soon as possible.
+Ihre Bestellung wurde übermittelt. Wir melden uns schnellstmöglich mit den Zahlungsinformationen. 
 
-Please write us at <business@hangload.com> if you have any question.
+Bei weiteren Fragen schreiben Sie uns bitte an <info@hangload.com>.
 
-Return to the [homepage](/).
+Zurück zur [Startseite](/de).

@@ -13,4 +13,4 @@ Wenn Sie Journalist oder Blogger sind und über Hangload berichten möchten, gre
 
 Wenn Sie Updates über Hangload erhalten möchten, freuen wir uns, wenn Sie uns auf [Twitter](https://twitter.com/HangLoadBLN) oder [Facebook](https://www.facebook.com/hangload) folgen oder einfach [unseren Newsletter](http://hangload.us8.list-manage2.com/subscribe?u=17786494a7f7d575faf855738&id=f87a66271b) abonnieren.
 
-Hangload is based in Berlin where the product is also created.
+Hangload hat seinen Firmensitz in Berlin, hier wurde das Produkt erfunden und umgesetzt.
