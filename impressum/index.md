@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: impressum
 title: Impressum
 language: en
 description: Legal information
