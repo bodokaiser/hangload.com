@@ -11,6 +11,12 @@
     <![endif]-->
   </a>
 
+  {% if page.language == "en" %}
+    <a href="{% unless page.language == "de" %}/de{% endunless %}{{ page.url }}" class="h5 block right sm-px1 py2 black mr3 sm-mr2">DE</a>
+  {% elsif page.language == "de" %}
+    <a href="/{{ page.layout }}" class="h5 block right sm-px1 py2 black mr3 sm-mr2">EN</a>
+  {% endif %}
+
   {% unless page.title == "Alternative Order Form" or page.title == "Thank you" %}
     <div class="snipcart-summary inline right py2 mr3">
       <a href="#" class="snipcart-checkout h5 black">
