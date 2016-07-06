@@ -149,7 +149,7 @@
           <input type="hidden" name="u" value="17786494a7f7d575faf855738">
           <input type="hidden" name="id" value="f87a66271b">
           <input class="input border gray rounded" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" value="" placeholder="{{ page.your-email }}">
-          <input class="btn btn-primary white bg-olive col-12" type="submit" name="submit" value="Subscribe">
+          <input class="btn btn-primary white bg-olive col-12" type="submit" name="submit" value="{% if page.language == 'en' %}Subscribe{% elsif page.language == 'de' %}Abbonieren{% endif %}">
         </form>
         <p class="h5 gray">{{ page.newsletter-microcopy }}</p>
       </div>
