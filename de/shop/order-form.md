@@ -1,7 +1,7 @@
 ---
 layout: alternative-order-form
 title: Zahlung per Vorkasse
-language: en
+language: de
 description: Zahlung per Vorkasse
 form:
   shipping-address: Lieferadresse
