@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: thanks
 title: Thank you
 language: en
 ---
