@@ -462,13 +462,9 @@ footer a:hover { color: #AAAAAA; }
   #shop-pic { height: 500px; }
 }
 
-textarea {
-  box-sizing: border-box;
-}
+textarea { box-sizing: border-box; }
 
-blockquote {
-  quotes: "“" "”";
-}
+blockquote { quotes: "“" "”"; }
 
 blockquote:before {
   font-size: 2em;
@@ -477,9 +473,7 @@ blockquote:before {
   line-height: 0.1em;
   vertical-align: -0.2em;
 }
-blockquote p {
-  display: inline;
-}
+blockquote p { display: inline; }
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
 .nav-collapse.opened {
