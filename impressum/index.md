@@ -7,6 +7,17 @@ description: Legal information
 
 # {{page.title}}
 
+**Hangload UG**  
+Forsterstr. 3  
+10999 Berlin  
+Phone: [+49 (0) 177 506 7837](tel:+491775067837)  
+Email: <info@hangload.com>
+
+Registered in Amtsgericht Berlin-Charlottenburg, 158563 Berlin  
+Managing Director: Darius Matthew Hajiani  
+Tax-Nr. (DE): 29/403/01628  
+USt-ID (VAT): DE295400469  
+
 #### CEO/Inventor
 {: .mb0}
 Darius Matthew Hajiani  
@@ -38,18 +49,6 @@ Bodo Kaiser
 {: .mt0}
 
 ## Legal information
-
-**Hangload UG (Haftungsbeschränkt)**  
-Forsterstr. 3  
-10999 Berlin  
-Phone: [+49 (0) 177 506 7837](tel:+491775067837)  
-Email: <info@hangload.com>
-
-Registered in Amtsgericht Berlin-Charlottenburg, 158563 Berlin  
-Managing Director: Darius Matthew Hajiani  
-Tax-Nr. (DE): 29/403/01628  
-USt-ID (VAT): DE295400469  
-
 
 This page contains all the legal information about our website [www.hangload.com](http://hangload.com).
 
