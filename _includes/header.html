@@ -19,7 +19,7 @@
     <a href="/{% unless page.layout == "home"%}{{ page.layout }}{% endunless %}" class="h5 block right sm-px1 py2 black mr3 sm-mr2">EN</a>
   {% endif %}
 
-  {% unless page.title == "Alternative Order Form" or page.title == "Thank you" %}
+  {% unless page.layout == "alternative-order-form" or page.layout == "thanks"%}
     <div class="snipcart-summary inline right mr3">
       <a href="#" class="block h5 black sm-px1 py2 snipcart-checkout">
         Cart &#40;<span class="snipcart-total-items"></span>&#41;
