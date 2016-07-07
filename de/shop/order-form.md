@@ -1,34 +1,35 @@
 ---
 layout: alternative-order-form
-title: Alternative Order Form
+title: Zahlung per Vorkasse
 language: en
-description: Order a Hangload by paying in advance
+description: Zahlung per Vorkasse
 form:
-  shipping-address: Shipping address
-  microcopy1: Please double-check for errors before submitting!
+  shipping-address: Lieferadresse
+  microcopy1:  Bitte vor Absenden nochmals gründlich prüfen
   name: Name
-  street-address: Street Address
-  street-address2: Street Address 2
-  city: City
-  country: Country
-  zip: Zip/Postal Code
-  phone: Phone
+  street-address: Adresse
+  street-address2: Adresse 2
+  city: Stadt
+  country: Land
+  zip: PLZ
+  phone: Telefon
   email: Email
-  color-selection: Color Selection
-  microcopy2: Select how many Hangloads you want for each color available
-  dark-grey: Dark grey
-  olive-green: Olive green
-  additional-comments: Additional comments
-  microcopy3: Any special request? This is the right place to tell us
-  tac: I agree with the <a class="blue" target="_blank" href="/terms">Terms &amp; Conditions</a>
-  submit: Submit
-  clear: Clear
+  color-selection: Farbauswahl
+  microcopy2: Wählen Sie die gewünschte Menge und Farbe aus
+  dark-grey: Asphaltgrau
+  olive-green: Olivgrün
+  additional-comments: Weitere Anmerkungen
+  microcopy3: Haben Sie besondere Wünsche oder Anmerkungen? Hier ist Platz dafür
+  tac: Ich stimme den <a class="blue" target="_blank" href="/de/terms">AGB</a> zu.
+  submit: Senden
+  clear: Löschen
 ---
 
-# Alternative order form
+# Zahlung per Vorkasse
 
-**Pay in advance**: Use this method if you don't have access to credit card or PayPal.
+Wenn Sie keine Kreditkarte oder PayPal nutzen möchten, können Sie Hangload auch per Vorkasse bezahlen: 
 
-1. Fill out the form below with your order details
-2. We'll send you the necessary payment information for bank transfer
-3. After we've received your payment, you get a confirmation email and we send out your Hangload right away
+1. Füllen Sie das Formular zur Bestellung aus
+2. Wir senden Ihnen die Kontoinformationen zur Überweisung
+3. Nachdem wir Ihre Zahlung erhalten haben, bekommen Sie eine Bestätigung und Ihr Hangload wird umgehend versandt
+
