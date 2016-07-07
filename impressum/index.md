@@ -24,12 +24,12 @@ Darius Matthew Hajiani
 
 #### Photography
 {: .mb0}
-Photographer
+[Rajko Knobloch](http://www.ostwestfoto.de/)
 {: .mt0}
 
 #### Artworks/Illustrations
 {: .mb0}
-Joe
+Joe Armstrong
 {: .mt0}
 
 #### Logo
