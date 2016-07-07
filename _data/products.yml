@@ -1,7 +1,0 @@
-- name: Hangload
-  price: 30.00
-  sku: 1
-  image: http://d.gr-assets.com/books/1333576876l/10127019.jpg
-  colors:
-    - gray
-    - green
