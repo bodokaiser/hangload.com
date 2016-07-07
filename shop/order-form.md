@@ -16,7 +16,7 @@ form:
   email: Email
   color-selection: Color Selection
   microcopy2: Select how many Hangloads you want for each color available
-  dark-grey: Dark grey
+  dark-grey: Asphalt grey
   olive-green: Olive green
   additional-comments: Additional comments
   microcopy3: Any special request? This is the right place to tell us
