@@ -82,7 +82,7 @@ Hangload is a versatile and practical system for carrying various loads on bicyc
 
 Hangload can carry many different types of bags easily and safely while increasing freedom, flexibility and convenience when travelling by bike.
 
-A Hangload consists of 2 parts: An **uni-body steel frame** and panel
+A Hangload consists of 2 parts: A **unibody steel frame** and panel
 which is attached to the side of the bike rack to keep any bag in safe distance to the bike’s chain, spokes, and pedals, and a **strong wooden toggle**, to hang bags of various shapes and sizes.
 
 The Hangload can be fitted onto either or both sides of a bicycle rack. It provides a lean and elegant alternative to pannier bike bags or bike baskets.
