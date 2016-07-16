@@ -4,7 +4,7 @@ title: About
 language: de
 description: Über Hangload
 check-out-video: "Im Video unten sieht man, wie einfach es geht:"
-read-faq: Noch Fragen? Lesen Sie unsere FAQ oder <a class="blue" href="../contact">kontaktieren Sie uns!</a>
+read-faq: Mehr Fragen? Lesen Sie unsere FAQ oder <a class="blue" href="../contact">kontaktieren Sie uns!</a>
 faq-title: Häufig gestellte Fragen
 faq:
 - id: what-is
