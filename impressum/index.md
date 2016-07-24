@@ -28,11 +28,6 @@ Darius Matthew Hajiani
 [Mattia Tezzele](http://mrzool.cc)  
 {: .mt0}
 
-#### Copywriting/Translation:
-{: .mb0}
-[Regina Leuwer](https://reginaleuwer.com/)
-{: .mt0}
-
 #### Photography
 {: .mb0}
 [Rajko Knobloch](http://www.ostwestfoto.de/)
