@@ -40,7 +40,7 @@ $('.js-faq-trigger').click(function(e) {
 // Snipcart
 
 // Show button to continue shopping
-Snipcart.api.configure('show_continue_shopping', true);
+// Snipcart.api.configure('show_continue_shopping', true);
 
 // Display shipping options based on customer address
 
