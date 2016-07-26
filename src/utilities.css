@@ -1,6 +1,9 @@
 .no-spacing { letter-spacing: normal; }
 
-.normal { font-style: normal; }
+.normal { 
+  font-style: normal;
+  font-weight: normal;
+}
 
 .strikethrough { text-decoration: line-through; }
 
