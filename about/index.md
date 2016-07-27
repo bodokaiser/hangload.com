@@ -13,6 +13,15 @@ faq:
     Hangload is a unique, new and inexpensive alternative for carrying bags and rucksacks on the bicycle. Bicycle baskets and bags are useful, but can restrict the type of bag or load that can be transported.
 
     Hangload is different: it provides a lean system to carry all types of bags of various shapes and sizes. Thanks to Hangload, any bag can be a bicycle bag.
+- id: components-uncommon
+  question: The Hangload components look uncommon, please explain?
+  answer: |
+    In developing the Hangload many elements, materials and components were tested. It was probably the inventor's experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). 
+
+    These fitting means prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique (see the video [above](#instructions-video)).
+
+    All of these components were invented by Darius Hajiani, you won't come across them anywhere else.
+
 - id: who-creator
   question: Who is the creator?
   answer: |
