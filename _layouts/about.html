@@ -41,7 +41,7 @@
           {% for question in page.faq %}
             <h3><a class="block strong black bold js-faq-trigger" href="#{{ question.id }}">{{ question.question }}</a></h3>
             <div id="{{ question.id }}" class="dn p1 bg-silver">{{ question.answer | markdownify }}</div>
-            {% if forloop.index == 6 %}
+            {% if forloop.index == 7 %}
             </div>
             <div class="sm-col sm-col-6 px3">
             {% endif %}
