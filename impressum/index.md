@@ -13,7 +13,7 @@ Forsterstr. 3
 Phone: [+49 (0) 177 506 7837](tel:+491775067837)  
 Email: <info@hangload.com>
 
-Registered in Amtsgericht Berlin-Charlottenburg, 158563 Berlin  
+Registered in Amtsgericht Berlin-Charlottenburg (HRB158563B)
 Managing Director: Darius Matthew Hajiani  
 Tax-Nr. (DE): 29/403/01628  
 USt-ID (VAT): DE295400469  
