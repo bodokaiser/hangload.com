@@ -21,11 +21,10 @@ faq:
     These fitting means prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique (see the video [above](#instructions-video)).
 
     All of these components were invented by Darius Hajiani, you won't come across them anywhere else.
-
 - id: who-creator
   question: Who is the creator?
   answer: |
-    Hangload was invented by Darius Hajiani, a UK-expat living in Berlin.  He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials, and extensive testing, he came up with the Hangload system.
+    The Hangload system was invented by Darius Hajiani, inventor of English-Iranian background living in Berlin. He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials, and extensive testing, he came up with the Hangload system.
 
     Invented and created in Berlin, Hangload was a finalist at the Innovation Price Berlin (Innovationpreis Berlin Brandenburg) and garnered media interest.  
 
@@ -33,7 +32,7 @@ faq:
 - id: which-shipping
   question: Do you ship to my country and how much does it cost?
   answer: |
-    We ship worldwide and offer the following rates:
+    We ship worldwide and offer the following rates at the moment:
 
     - **Germany**: € 3.50
     - **EU**: € 10
@@ -45,13 +44,13 @@ faq:
 - id: how-attach
   question: How is the Hangload attached?
   answer: |
-    The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video [above](#instructions-video) to see how a Hangload is installed in real-time.
+    The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video [above](#instructions-video) to see how a Hangload is installed in real-time, or check out this <a href="/imgs/pdf/instructions-en.pdf" target="_blank">PDF</a>.
 - id: where-attach
   question: Where on a bicycle can I attach a Hangload?
   answer: |
-    Hangload is specifically designed to be attached to a bike’s rear bike rack/rear carrier.
+    Hangload is specifically designed to be attached to a bike’s rear rack or carrier.
 
-    Do not mount it on seat post carrier or a front rack.
+    Do not mount it on the seat post carrier or the front rack.
 - id: how-position
   question: How is the Hangload best positioned on a bike rack?
   answer: |
@@ -61,9 +60,7 @@ faq:
 - id: how-much-weight
   question: How much weight can a Hangload carry?
   answer: |
-    The recommended maximum weight for one Hangload is 15 kg. So if you use two Hangloads, the maximum weight to carry one your bike is 30 kg.
-
-    Do not overload or use your Hangload if in damaged conditions. Don't load more weight than your bike rack can carry. Make sure your Hangload and fastened bag are firmly and securely attached.
+    Hangload is sturdy, whether using only one or one on each side it can carry up to the maximum weight that your fitted luggage-rack is designed to carry. This is usually 25-30kg max. Please check your rack carrying capacity.
 - id: how-protect
   question: How can I protect my Hangload from getting stolen?
   answer: |
@@ -75,7 +72,9 @@ faq:
 - id: long-handles
   question: Can hangload work with bags that have straps but no handle?
   answer: |
-    Hangload can work with certain bags with thinner straps.
+    Mostly yes, check out this video for an example:
+
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/108349418' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 - id: which-materials
   question: Which materials are used?
   answer: |
