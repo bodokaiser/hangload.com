@@ -16,7 +16,7 @@ faq:
 
     Mit Hangload ist das anders. Das leichte abnehmbare System funktioniert mit Taschen jeder Art---oder sogar [Kästen](https://www.youtube.com/watch?v=kPxS3nGMboY)---bis zu einem Gewicht von 15 kg pro Seite. Dank Hangload wird jede Tasche zur Fahrradtasche!
 - id: who-creator
-  question: Wer ist der Erschaffer?
+  question: Wer steckt hinter Hangload?
   answer: |
     Hangload wurde von Darius Hajiani erfunden, er stammt aus Großbritannien und lebt seit 2002 in Berlin. Hier kam ihm die Idee zu Hangload nach einem Großeinkauf. Er fragte sich, warum es keinen einfachen Weg gibt, um auch größere Einkäufe flexibel per Fahrrad transportieren zu können. Nach intensiver Recherche und vielen Prototypen und Versuchen erfand er das Hangload-System. 
     Beim **Innovationpreis Berlin Brandenburg** 2013 wurde Hangload als einer von drei Finalisten ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  Daraufhin wurde Hangload als Aussteller auf die VeloBerlin 2014 eingeladen, wo weitere Partnerschaften mit Fahrradläden geschlossen wurden.
@@ -65,7 +65,10 @@ faq:
 - id: long-handles
   question: Wie kann ich auch Taschen mit längeren Henkeln verwenden?
   answer: |
-    Hangload eignet sich ideal für Taschen und City-Rucksäcke aller Art und Größe. Es funktioniert am besten mit Taschen mit Henkeln einer maximalen Länge von 17 cm.
+    Um zu verhindern, dass längere Henkel beim Radfahren stören, kann man diese einmal um den Gepäckträger wickeln und dann mit dem Hangload verwenden. Wie das geht, wird in diesem Video erklärt:
+
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/108349418' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
 - id: which-materials
   question: Welche Materialien werden verwendet?
   answer: |
