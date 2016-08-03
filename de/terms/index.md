@@ -80,7 +80,7 @@ Bis zur vollständigen Bezahlung verbleiben die gelieferten Waren im Eigentum de
 - an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die letzte Ware in Besitz genommen haben bzw. hat, sofern Sie mehrere Waren im Rahmen einer einheitlichen Bestellung bestellt haben und diese getrennt geliefert werden
 - an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die letzte Teilsendung oder das letzte Stück in Besitz genommen haben bzw. hat, sofern Sie eine Ware bestellt haben, die in mehreren Teilsendungen oder Stücken geliefert wird
 
-**(3)** Um Ihr Widerrufsrecht auszuüben, müssen Sie uns Hangload UG (haftungsbeschränkt), Forsterstr. 3, 10999 Berlin, E-Mail-Adresse: <info@hangload.com> mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.
+**(3)** Um Ihr Widerrufsrecht auszuüben, müssen Sie uns Hangload UG (haftungsbeschränkt), Forsterstr. 3, 10999 Berlin, E-Mail-Adresse: <info@hangload.com> mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte [Muster-Widerrufsformular](/imgs/pdf/widerrufsbelehrung-de.pdf) verwenden, das jedoch nicht vorgeschrieben ist.
 
 Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.
 
