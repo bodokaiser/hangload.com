@@ -49,13 +49,13 @@ var euCountries = [ "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", 
 
 function setSnipcartShippingMethods(address) {
   if (address.country == "DE") {
-    Snipcart.api.configure('allowed_shipping_methods', ['germany']);
+    Snipcart.api.configure('allowed_shipping_methods', ['germany-shipping']);
   }
   else if ($.inArray(address.country, euCountries) > -1) {
-    Snipcart.api.configure('allowed_shipping_methods', ['eu']);
+    Snipcart.api.configure('allowed_shipping_methods', ['eu-shipping']);
   }
   else {
-    Snipcart.api.configure('allowed_shipping_methods', ['worldwide']);
+    Snipcart.api.configure('allowed_shipping_methods', ['worldwide-shipping']);
   }
 }
 
