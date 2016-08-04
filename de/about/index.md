@@ -72,7 +72,12 @@ faq:
 - id: which-materials
   question: Welche Materialien werden verwendet?
   answer: |
-    Hangload verwendet möglichst nachhaltige Materialien. Das leichte, einfache Design spart Rohstoffe und Energie bei der Herstellung.
+    Hangload verwendet möglichst nachhaltige Materialien. Das leichte, einfache Design spart Rohstoffe und Energie bei der Herstellung. Die von uns verwendet Materialen sind:
+
+    - **Rahmen**: 100% rostfreier Stahl
+    - **Stoff**: Nylon (80% Nylon, 20% Polyurethan)
+    - **Befestigung**: 2 x Aufhängung aus Polypropylen
+    - **Griff**: Buchenholz, rostfreier Stahl, Polyacryl
 ---
 
 
