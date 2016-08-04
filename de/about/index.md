@@ -55,7 +55,9 @@ faq:
 - id: how-protect
   question: Wie kann ich mein Hangload vor Diebstahl schützen?
   answer: |
-    Hangload ist aus einem geschlossenen Stahlrahmen hergestellt. Daher lässt er sich leicht mittels Fahrradschloss sichern, das einfach beim Anschließen des Rads durch den Hangload gesteckt wird.
+    Hangload ist aus einem geschlossenen Stahlrahmen hergestellt. Daher lässt er sich leicht mittels Fahrradschloss sichern, das einfach beim Anschließen des Rads durch den Hangload gesteckt wird, wie hier unten gezeigt.
+
+    <img class="fit" src="/imgs/hangload-locked-min.jpg" alt="Hangload locked">
 - id: what-bags
   question: Welche Taschen funktionieren mit dem Hangload?
   answer: |

@@ -62,7 +62,9 @@ faq:
 - id: how-protect
   question: How can I protect my Hangload from getting stolen?
   answer: |
-    Hangload is made of one closed steel frame with no bolts or screws attached. Just pass your bike lock or chain through the Hangload frame when locking your bike.
+    Hangload is made of one closed steel frame with no bolts or screws attached. Just pass your bike lock or chain through the Hangload frame when locking your bike as shown below.
+
+    <img class="fit" src="/imgs/hangload-locked-min.jpg" alt="Hangload locked">
 - id: what-bags
   question: What type of bags can I use with a Hangload?
   answer: |
