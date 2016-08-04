@@ -16,7 +16,7 @@ faq:
 - id: components-uncommon
   question: The Hangload components look uncommon, please explain?
   answer: |
-    In developing the Hangload many elements, materials and components were tested. It was probably the inventor's experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). 
+    In developing the Hangload many elements, materials and components were tested. It was probably the inventor's experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). We call this system **toggle&cord**.
 
     These fitting means prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique (see the video [above](#instructions-video)).
 
@@ -55,8 +55,6 @@ faq:
   question: How is the Hangload best positioned on a bike rack?
   answer: |
     The design of the Hangload makes it easy to move according to your needs, e.g. taller people would want to slide it a bit further back to avoid interfering with their pedalling.
-
-    See the instructions in [this video](https://vimeo.com/164288217) on how to securely position your Hangload.
 - id: how-much-weight
   question: How much weight can a Hangload carry?
   answer: |
@@ -82,8 +80,8 @@ faq:
 
     - **Frame**: 100% stainless steel with perbunan tubing.
     - **Textile**: Nylon (80% nylon, 20% polyurethane) in grey and green.
-    - **Attachment**: Bungee cords made of polypropylene toggle.
-    - **Handle**: Beech wood, stainless steel, polyacryl.
+    - **Attachment**: Bungee cords made of polypropylene.
+    - **Toggle**: Beech wood, stainless steel, polyacryl.
 ---
 
 Hangload is a versatile and practical system for carrying various loads on bicycles whether shopping or commuting.

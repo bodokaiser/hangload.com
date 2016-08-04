@@ -46,8 +46,6 @@ faq:
   question: Wie finde ich die optimale Position am Gepäckträger für Hangload?
   answer: |
     Hangload kann nach individuellen Bedürfnissen verschoben werden. Zum Beispiel bevorzugen größere Menschen es, den Hangload weiter nach hinten zu schieben, damit er nicht mit den Füßen in Kontakt gerät.
-
-    In [diesem Video](https://vimeo.com/164288217) finden Sie Anleitungen zur richtigen und sicheren Positionierung des Hangload.
 - id: how-much-weight
   question: Wie viel Gewicht kann ein Hangload tragen?
   answer: |

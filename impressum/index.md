@@ -7,7 +7,7 @@ description: Legal information
 
 # {{page.title}}
 
-**Hangload UG**  
+**Hangload UG (haftungsbeschränkt)**  
 Forsterstr. 3  
 10999 Berlin  
 Phone: [+49 (0) 177 506 7837](tel:+491775067837)  
