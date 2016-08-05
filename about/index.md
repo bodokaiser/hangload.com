@@ -18,7 +18,9 @@ faq:
   answer: |
     In developing the Hangload many elements, materials and components were tested. It was probably the inventor's experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). We call this system **toggle&cord**.
 
-    These fitting means prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique (see the video [above](#instructions-video)).
+    These fitting means prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique:
+
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/177610351' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
     All of these components were invented by Darius Hajiani, you won't come across them anywhere else.
 - id: who-creator
