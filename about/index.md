@@ -42,7 +42,7 @@ faq:
 - id: which-payment
   question: Which payment methods do you support?
   answer: |
-    Right now we support the most common credit cards (Visa, Mastercard) and PayPal. You can also pay via bank transfer to our bank account.
+    We support the most common credit cards, PayPal and SOFORT in our [online shop](/shop). If you want to pay in advance via bank transfer, just fill up our [order form](/shop/order-form) and we'll get right back to you with our bank details.
 - id: how-attach
   question: How is the Hangload attached?
   answer: |
