@@ -15,6 +15,16 @@ faq:
     Hangload ist eine Alternative zur Fahrradtasche und auch eine Ergänzung dazu. Fahrradkörbe und Taschen sind nützlich, geben jedoch Form und Größe des Gepäcks vor und sind für größere oder sperrige Einkäufe oft zu unflexibel.
 
     Mit Hangload ist das anders. Das leichte abnehmbare System funktioniert mit Taschen jeder Art---oder sogar [Kästen](https://www.youtube.com/watch?v=kPxS3nGMboY)---bis zu einem Gewicht von 15 kg pro Seite. Dank Hangload wird jede Tasche zur Fahrradtasche!
+- id: components-uncommon
+  question: Die Komponenten des Hangload wirken ungewöhnlich - warum?
+  answer: |
+    Bei der Entwicklung des Hangloads wurden viele Elemente, Materialien und Komponenten getestet. Wahrscheinlich war es die Erfahrung mit Segelknoten, die den Erfinder auf die Idee zur Befestigung mittels einstellbarem Griff und flexiblen Gummibändern brachten. Diese lassen sich mittels eines simplen Knotens festziehen (einfacher als Schuhe binden!). Wir nennen dieses System **toggle&cord** (Griff & Band).
+
+    Diese effektive Art der Befestigung ist haltbar und einfach zu verwenden (Montage ohne Werkzeug). Außerdem lassen sich mithilfe der Gummibänder die transportierten Taschen zusätzlich fixieren und so vor Diebstahl während der Fahrt schützen: die sogenannte Ariana Technik:
+
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/177610351' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+    Alle diese Komponenten wurden von Darius Hajiani erfunden und sind einmalig für Hangload. 
 - id: who-creator
   question: Wer steckt hinter Hangload?
   answer: |
@@ -33,7 +43,7 @@ faq:
 - id: which-payment
   question: Welche Zahlungsmethoden werden unterstützt?
   answer: |
-    Wir nehmen die gängigen Kreditkarten sowie Zahlungen per PayPal entgegen. Auch Vorauskasse per Banküberweisung ist möglich. Stellen Sie eine Anfrage im [Shop](../shop/order-form) und wir lassen Ihnen die Bankverbindung und Details zukommen.
+    Im [Online-Shop](../shop) nehmen wir nehmen die gängigen Kreditkarten, PayPal und Sofortüberweisung entgegen. Wenn Sie lieber per Überweisung (Vorauskasse) zahlen möchten, stellen Sie einfach eine Anfrage per [Bestellformular](../shop/order-form) und wir schicken Ihnen unsere Bankverbindung und Zahlungs-Details umgehend zu.
 - id: how-attach
   question: Wie wird Hangload befestigt?
   answer: |
@@ -49,9 +59,7 @@ faq:
 - id: how-much-weight
   question: Wie viel Gewicht kann ein Hangload tragen?
   answer: |
-    Das empfohlene Maximalgewicht, mit dem ein Hangload belastet werden kann beträgt 15kg. Wenn Sie zwei Hangloads verwenden, erhöht sich die Maximalladung auf 30 kg.
-
-    Bitte überladen Sie Hangload niemals und verwenden Sie Hangload nie in beschädigten Zustand.  Vergewissern Sie sich vor jeder Fahrt, dass sowohl Hangload als auch die angebrachte Tasche fest und sicher angebracht sind.
+    Hangload ist sehr stabil. An einer oder beiden Seiten des Gepäckträgers befestigt, kann es das maximale Gewicht, für das der Gepäckträger zugelassen ist, tragen. In der Regel sind dies ca. 25-30 kg. Vergewissern Sie sich bitte beim Hersteller Ihres Gepäckträgers über das zulässige Maximalgewicht. 
 - id: how-protect
   question: Wie kann ich mein Hangload vor Diebstahl schützen?
   answer: |
