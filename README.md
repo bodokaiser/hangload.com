@@ -1,6 +1,6 @@
 # hangload.com
 
-Official Jekyll-based homepage of [hangload](http://hangload.com).
+Official Jekyll-based homepage of [Hangload](http://hangload.com).
 
 ## Local development
 
@@ -10,13 +10,4 @@ Refer to the `scripts` section in the `package.json` for details about the build
 
 ## License
 
-### Artwork
-
-Copyright © 2014 Bodo Kaiser <i@bodokaiser.io>
-
-You are allowed to use all Hangload related artwork if it happens in a
-context towards Hangload else please contact me for permission.
-
-### Technology
-
-Copyright © 2014 Bodo Kaiser <i@bodokaiser.io>
+Copyright &copy; 2016 Hangload UG (haftungsbeschränkt)
