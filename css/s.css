@@ -1676,6 +1676,9 @@ blockquote p { display: inline; }
   letter-spacing: .2em; 
   font-weight: normal;
 }
+.snip-layout input[type=password], .snip-layout input[type=text], .snip-layout select {
+  border-radius: 0;
+}
 .embed-container { 
 position: relative; 
 padding-bottom: 56.25%; 
