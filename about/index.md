@@ -83,9 +83,9 @@ faq:
     Hangload uses sustainable materials. The light and simple design ensures an efficient use of raw materials and energy consumption in the process. Tha materials used are:
 
     - **Frame**: 100% stainless steel with perbunan tubing
-    - **Textile**: Nylon (80% nylon, 20% polyurethane) in grey and green
-    - **Attachment**: Bungee cords made of polypropylene
-    - **Toggle**: Beech wood, stainless steel, polyacryl
+    - **Textile**: Oxford nylon tarp (80% nylon, 20% polyurethane)
+    - **Attachments**: 2 Bungee cords (polypropylene) with rustproof cord clips
+    - **Toggle**: Beech wood, 2 rustproof D rings, polyacryl webbing straps
 ---
 
 Hangload is a versatile and practical system for carrying various loads on bicycles whether shopping or commuting.

@@ -28,19 +28,19 @@ faq:
 - id: who-creator
   question: Wer steckt hinter Hangload?
   answer: |
-    Hangload wurde von Darius Hajiani erfunden, er stammt aus Großbritannien und lebt seit 2002 in Berlin. Hier kam ihm die Idee zu Hangload nach einem Großeinkauf. Er fragte sich, warum es keinen einfachen Weg gibt, um auch größere Einkäufe flexibel per Fahrrad transportieren zu können. Nach intensiver Recherche und vielen Prototypen und Versuchen erfand er das Hangload-System. 
+    Hangload wurde von Darius Hajiani, Erfinder mit anglo-iranischen Wurzeln, entwickelt. In Berlin, wo er gerade wohnt, kam ihm die Idee zu Hangload nach einem Großeinkauf. Er fragte sich, warum es keinen einfachen Weg gibt, um auch größere Einkäufe flexibel per Fahrrad transportieren zu können. Nach intensiver Recherche und vielen Prototypen und Versuchen erfand er das Hangload-System. 
 
-    Beim **Innovationpreis Berlin Brandenburg** 2013 wurde Hangload als einer von drei Finalisten ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  
+    Beim **Innovationpreis Berlin Brandenburg** wurde Hangload als Finalist ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  
 
-    Daraufhin wurde Hangload als Aussteller auf die VeloBerlin 2014 eingeladen, wo weitere Partnerschaften mit Fahrradläden geschlossen wurden.
+    Daraufhin wurde Hangload als Aussteller auf die VeloBerlin eingeladen, wo weitere Partnerschaften mit Fahrradläden geschlossen wurden.
 - id: which-shipping
   question: Versendet Hangload in mein Land und wie teuer ist das?
   answer: |
     Wir bieten weltweiten Versand zu folgenden Preisen an:
 
-    - **Deutschland**: 3,50 €
-    - **EU**: 10,- €
-    - **Rest der Welt**: 20 €
+    - **Deutschland**: € 3,50
+    - **EU**: € 10,-
+    - **Rest der Welt**: € 20,-
 
     Bei größeren Bestellungen ist Mengenrabatt möglich, schreiben Sie uns einfach eine Nachricht an [info@hangload.com](mailto:info@hangload.com).
 - id: which-payment
@@ -85,10 +85,10 @@ faq:
   answer: |
     Hangload verwendet möglichst nachhaltige Materialien. Das leichte, einfache Design spart Rohstoffe und Energie bei der Herstellung. Die von uns verwendet Materialen sind:
 
-    - **Rahmen**: 100% rostfreier Stahl
-    - **Stoff**: Nylon (80% Nylon, 20% Polyurethan)
-    - **Befestigung**: 2 x Aufhängung aus Polypropylen
-    - **Griff**: Buchenholz, rostfreier Stahl, Polyacryl
+    - **Rahmen**: 100% Edelstahl mit Perbunan Schläuchen
+    - **Stoff**: Oxford Nylon-Plane (80% Nylon, 20% Polyurethan)
+    - **Befestigung**: 2 Gummiseile aus Polypropylen mit rostfreien Clips
+    - **Griff**: Buchenholz, 2 rostfreie D-Ringe, Gurtband aus Polyacryl
 ---
 
 
