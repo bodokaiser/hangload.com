@@ -14,7 +14,7 @@ faq:
 
     Hangload ist eine Alternative zur Fahrradtasche und auch eine Ergänzung dazu. Fahrradkörbe und Taschen sind nützlich, geben jedoch Form und Größe des Gepäcks vor und sind für größere oder sperrige Einkäufe oft zu unflexibel.
 
-    Mit Hangload ist das anders. Das leichte abnehmbare System funktioniert mit Taschen jeder Art---oder sogar [Kästen](https://www.youtube.com/watch?v=kPxS3nGMboY)---bis zu einem Gewicht von 15 kg pro Seite. Dank Hangload wird jede Tasche zur Fahrradtasche!
+    Mit Hangload ist das anders. Das leichte abnehmbare System funktioniert mit Taschen jeder Art---oder sogar [Kästen](https://www.youtube.com/watch?v=kPxS3nGMboY). Dank Hangload wird jede Tasche zur Fahrradtasche!
 - id: components-uncommon
   question: Die Komponenten des Hangload wirken ungewöhnlich - warum?
   answer: |
@@ -72,7 +72,7 @@ faq:
 - id: what-bags
   question: Welche Taschen funktionieren mit dem Hangload?
   answer: |
-    Hangload eignet sich ideal für Taschen und City-Rucksäcke aller Art und Größe. Es funktioniert am besten mit Taschen mit Henkeln einer maximalen Länge von 17 cm.
+    Hangload eignet sich ideal für Taschen und City-Rucksäcke aller Art und Größe. Es funktioniert am besten mit Taschen mit einem weichen Griff.
 - id: long-handles
   question: Wie kann ich auch Taschen mit längeren Henkeln verwenden?
   answer: |
