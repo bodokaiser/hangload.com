@@ -36,7 +36,7 @@ faq:
 - id: which-shipping
   question: Versendet Hangload in mein Land und wie teuer ist das?
   answer: |
-    Wir bieten weltweiten Versand zu folgenden Preisen an:
+    Wir bieten weltweiten Versand (mit Ausnahme von Vereinigten Staaten und Kanada) zu folgenden Preisen an:
 
     - **Deutschland**: € 3,50
     - **EU**: € 10,-

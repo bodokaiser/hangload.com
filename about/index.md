@@ -34,7 +34,7 @@ faq:
 - id: which-shipping
   question: Do you ship to my country and how much does it cost?
   answer: |
-    We ship worldwide and offer the following rates at the moment:
+    We ship worldwide with the exception of United States and Canada. At the moment we offer the following rates:
 
     - **Germany**: € 3.50
     - **EU**: € 10
