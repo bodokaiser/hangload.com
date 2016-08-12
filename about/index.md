@@ -24,9 +24,9 @@ faq:
 
     All of these components were invented by Darius Hajiani, you won't come across them anywhere else.
 - id: who-creator
-  question: Who is the creator?
+  question: Who's behind the Hangload?
   answer: |
-    The Hangload system was invented by Darius Hajiani, inventor of English-Iranian background living in Berlin. He was looking for a better way to transport grocery bags by bicycle.  After researching, experimenting with different materials, and extensive testing, he came up with the Hangload system.
+    The Hangload system was invented by Darius Hajiani. He has English-Iranian background, lives in Berlin, and was looking for a better way to transport grocery bags by bicycle. After researching, experimenting with different materials, and testing extensively, he came up with the Hangload system.
 
     Invented and created in Berlin, Hangload was a finalist at the Innovation Price Berlin (Innovationpreis Berlin Brandenburg) and garnered media interest.  
 

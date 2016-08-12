@@ -28,7 +28,7 @@ faq:
 - id: who-creator
   question: Wer steckt hinter Hangload?
   answer: |
-    Hangload wurde von Darius Hajiani, Erfinder mit anglo-iranischen Wurzeln, entwickelt. In Berlin, wo er gerade wohnt, kam ihm die Idee zu Hangload nach einem Großeinkauf. Er fragte sich, warum es keinen einfachen Weg gibt, um auch größere Einkäufe flexibel per Fahrrad transportieren zu können. Nach intensiver Recherche und vielen Prototypen und Versuchen erfand er das Hangload-System. 
+    Hangload wurde von Darius Hajiani entwickelt. Er hat anglo-iranischen Wurzeln und lebt in Berlin. Da kam ihm die Idee zu Hangload nach einem Großeinkauf. Er fragte sich, warum es keinen einfachen Weg gibt, um auch größere Einkäufe flexibel per Fahrrad transportieren zu können. Nach intensiver Recherche und vielen Prototypen und Versuchen erfand er das Hangload-System. 
 
     Beim **Innovationpreis Berlin Brandenburg** wurde Hangload als Finalist ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  
 
