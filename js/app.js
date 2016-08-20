@@ -1,5 +1,5 @@
 // Remove margin top from first paragraph in about page
-$(".intro p:first-child").addClass("mt0");
+// $(".intro p:first-child").addClass("mt0");
 
  // Responsive navigation
 var nav = responsiveNav(".nav-collapse", {
