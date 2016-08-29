@@ -5,7 +5,6 @@ language: en
 description: What is Hangload?
 check-out-video: Check out the video below to see how easy it is to get going.
 read-faq: More questions? Read our FAQ below or <a class="blue" href="/contact">get in touch with us</a>!
-get-in-touch: More questions? Feel free to get in touch
 copy1: |
     Hangload is a bag carrier for bicycles that can carry many different types of bags easily and safely, increasing freedom, flexibility and convenience. It is not a container, like a bicycle basket or a bicycle bag, but more like an attachable side-rack. Hangload opens up many more possibilities as to the size, type and shape of bags that can be transported by bicycle.
 
