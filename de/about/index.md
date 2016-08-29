@@ -3,8 +3,16 @@ layout: about
 title: About
 language: de
 description: Über Hangload
-check-out-video: "Im Video unten sieht man, wie einfach es geht:"
 read-faq: Mehr Fragen? Lesen Sie unsere FAQ oder <a class="blue" href="../contact">kontaktieren Sie uns!</a>
+copy1: |
+    Hangload ist ein Taschenhalter für Fahrräder, der viele verschiedene Arten von Taschen einfach und sicher tragen kann. Für mehr Freiheit, Flexibilität und Komfort! Die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben ist kein geschlossener Behälter, sondern funktioniert wie ein zusätzlicher seitlicher Gepäckträger. Das eröffnet ungeahnte Möglichkeiten für den Transport großer, sperriger oder ungewöhnlicher Lasten auf dem Rad. Hangload trägt auch sehr große Taschen.
+
+    Ein Hangload besteht aus 3 Teilen: Ein **mit Stoff bespannter Edelstahlrahmen** (1) wird befestigt mit **elastischen Bändern** (2). Seitlich am Gepäckträger angebracht, hält der Rahmen Abstand zu Kette, Speichen und Pedalen. Ein stabiler **Holzgriff mit Band** (3) dient zum Anhängen von Taschen verschiedener Größe.
+copy2: |
+    Dieses einzigartige **toggle&cord** (Griff&Band) System wurde ausgiebig mit schweren Lasten getestet. Es ist sehr einfach, extrem robust und ideal geeignet für diese Anwendung.
+ 
+    Hangload kann beliebig an einer oder beiden Seiten des Gepäckträgers angebracht werden. Er ist die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben.
+go-to-shop: Weiter zum Shop
 faq-title: Häufig gestellte Fragen
 faq:
 - id: what-is
@@ -90,15 +98,3 @@ faq:
     - **Befestigung**: 2 Gummiseile aus Polypropylen mit rostfreien Clips
     - **Griff**: Buchenholz, 2 rostfreie D-Ringe, Gurtband aus Polyacryl
 ---
-
-
-Hangload ist ein praktisches System, um Taschen seitlich am Gepäckträger hängend zu transportieren.
-
-Hangload ist für verschiedenste Taschen geeignet, zum Einkauf, für Pendler oder in der Freizeit.
-
-Dank Hangload bleibt das Gepäck sicher außer Reichweite der Speichen und Pedale, während Fahrradfahrer sich ganz aufs Fahren konzentrieren können.
-
-Ein Hangload besteht aus zwei Komponenten. Erstens, ein **Stahlrahmen mit Stoff bespannt**, der am hinteren Gepäckträger befestigt wird. Mit seiner patentierten Konstruktion sorgt der Rahmen für Abstand zu Pedalen und Speichen.
-Zweitens, ein **stabiler Holzgriff**, an dem verschiedene Taschen angehängt werden können.
- 
-Hangload kann auf beiden Seiten eines Rückgepäckträgers befestigt werden. Er ist die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben.  
