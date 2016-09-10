@@ -7,7 +7,7 @@ read-faq: Mehr Fragen? Lesen Sie unsere FAQ oder <a class="blue" href="../contac
 copy1: |
     Hangload ist ein Taschenhalter für Fahrräder, der viele verschiedene Arten von Taschen einfach und sicher tragen kann. Für mehr Freiheit, Flexibilität und Komfort! 
 
-    Die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben ist kein geschlossener Behälter, sondern funktioniert wie ein zusätzlicher seitlicher Gepäckträger. Das eröffnet ungeahnte Möglichkeiten für den Transport großer, sperriger oder ungewöhnlicher Lasten auf dem Rad. Hangload trägt auch sehr große Taschen.
+    Die Alternative zu Fahrradtaschen oder Fahrradkörben ist kein geschlossener Behälter, sondern funktioniert wie ein zusätzlicher seitlicher Gepäckträger. Das eröffnet ungeahnte Möglichkeiten für den Transport großer, sperriger oder ungewöhnlicher Lasten auf dem Rad. Hangload trägt auch sehr große Taschen.
 
     Ein Hangload besteht aus 3 Teilen: Ein **mit Stoff bespannter Edelstahlrahmen (1)** wird befestigt mit **elastischen Bändern (2)**. Seitlich am Gepäckträger angebracht, hält der Rahmen Abstand zu Kette, Speichen und Pedalen. Ein stabiler **Holzgriff mit Band (3)** dient zum Anhängen von Taschen verschiedener Größe.
 copy2: |
