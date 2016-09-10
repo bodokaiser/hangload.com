@@ -15,6 +15,7 @@ copy2: |
     Our unique **toggle&cord** system is easy to use, has been tested thoroughly with heavy weights and is extremely robust and suitable for its purpose (watch the video to see how easy it works).
 
     The Hangload can be fitted onto either or both sides of a bicycle rack. It provides a lean and elegant alternative to pannier bike bags or bike baskets.
+video-caption: How to attach Hangload with our toggle&cord system
 go-to-shop: Proceed to our shop
 faq-title: Frequently asked questions
 faq:

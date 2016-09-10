@@ -19,18 +19,18 @@
     </section>
 
     <section class="py3 mt3 px1 overflow-hidden">
-      {% comment %} <p class="h3 center">{{ page.check-out-video }}</p> {% endcomment %}
       <div class="clearfix mxn2">
         <div class="col-right col-12 md-col-6 px2 mb3 center" id="instructions-video">
           <div class="embed-container">
             <iframe 
               src="https://player.vimeo.com/video/177609818?title=0&byline=0&portrait=0&autoplay=0&loop=0"
               frameborder="0" 
-              title="How to attach Hangload"
+              title="{{ page.video-caption }}"
               webkitAllowFullScreen 
               mozallowfullscreen 
               allowFullScreen></iframe>
           </div>
+          <p class="left-align h5 gray">{{ page.video-caption }}</p>
         </div>
         <div class="px2 h3 intro"> 
           {{ page.copy2 | markdownify }}
