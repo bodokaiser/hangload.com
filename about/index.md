@@ -12,7 +12,7 @@ copy1: |
 
     A Hangload consists of 3 parts: A **unibody steel frame (1)** with banner, which is attached by **elasticated cords (2)** to the side of the bike rack to keep your bag at a safe distance from the bike’s chain, spokes, and pedals, and a **strong wooden toggle (3)**, to hang bags of various shapes and sizes.
 copy2: |
-    Our unique **toggle&cord** system is easy to use, has been tested thoroughly with heavy weights and is extremely robust and suitable for its purpose.
+    Our unique **toggle&cord** system is easy to use, has been tested thoroughly with heavy weights and is extremely robust and suitable for its purpose (watch the video to see how easy it works).
 
     The Hangload can be fitted onto either or both sides of a bicycle rack. It provides a lean and elegant alternative to pannier bike bags or bike baskets.
 go-to-shop: Proceed to our shop

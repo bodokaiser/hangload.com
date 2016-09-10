@@ -11,7 +11,7 @@ copy1: |
 
     Ein Hangload besteht aus 3 Teilen: Ein **mit Stoff bespannter Edelstahlrahmen (1)** wird befestigt mit **elastischen Bändern (2)**. Seitlich am Gepäckträger angebracht, hält der Rahmen Abstand zu Kette, Speichen und Pedalen. Ein stabiler **Holzgriff mit Band (3)** dient zum Anhängen von Taschen verschiedener Größe.
 copy2: |
-    Dieses einzigartige **toggle&cord** (Griff&Band) System wurde ausgiebig mit schweren Lasten getestet. Es ist sehr einfach, extrem robust und ideal geeignet für diese Anwendung.
+    Dieses einzigartige **toggle&cord** (Griff&Band) System wurde ausgiebig mit schweren Lasten getestet. Es ist sehr einfach, extrem robust und ideal geeignet für diese Anwendung (im Video sieht man, wie einfach es geht).
  
     Hangload kann beliebig an einer oder beiden Seiten des Gepäckträgers angebracht werden. Er ist die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben.
 go-to-shop: Weiter zum Shop
