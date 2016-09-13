@@ -26,8 +26,17 @@
             allowFullScreen></iframe>
         </div>
       </div>
-      <div class="mt2 py4">
-        {{ page.description }}
+      <div class="py4 clearfix mxn2 max-width-3 mx-auto left-align">
+        <div class="sm-col sm-col-7 px3 py2">
+          {{ page.description }}
+        </div>
+        <div class="sm-col sm-col-5 px3 h4 py2">
+          <ul class="m0 p0">
+            {% for perk in page.perks %}
+              <li class="m0 mb1">{{ perk }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </section>
 
