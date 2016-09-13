@@ -42,7 +42,7 @@ faq:
 
     Invented and created in Berlin, Hangload was a finalist at the Innovation Price Berlin (Innovationpreis Berlin Brandenburg) and garnered media interest.  
 
-    Hangload was invited to exhibit at the Velo Berlin generating much interest and requests from the public and bicycle shops in Berlin.
+    When exhibiting at the acclaimed VeloBerlin Expo, Hangload generated much interest and requests from the public and bicycle shops in Berlin.
 - id: which-shipping
   question: Do you ship to my country and how much does it cost?
   answer: |

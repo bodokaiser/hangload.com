@@ -43,7 +43,7 @@ faq:
 
     Beim **Innovationpreis Berlin Brandenburg** wurde Hangload als Finalist ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  
 
-    Daraufhin wurde Hangload als Aussteller auf die VeloBerlin eingeladen, wo weitere Partnerschaften mit Fahrradläden geschlossen wurden.
+    Auf der VeloBelin Expo präsentiert, Hangload hat großes Interesse sowohl bei Privatkunden als auch bei Fahrradladen hervorgerufen.
 - id: which-shipping
   question: Versendet Hangload in mein Land und wie teuer ist das?
   answer: |
