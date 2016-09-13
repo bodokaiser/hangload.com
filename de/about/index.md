@@ -19,7 +19,7 @@ go-to-shop: Weiter zum Shop
 faq-title: Häufig gestellte Fragen
 faq:
 - id: what-is
-  question: Was ist Hangload?
+  question: Warum Hangload?
   answer: |
     Hangload ist ein neuartiger seitlicher Gepäckträger um Einkaufsbeutel, Rucksäcke und andere Taschen verschiedener Größe mit dem Fahrrad zu transportieren.
 
