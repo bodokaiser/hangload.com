@@ -59,6 +59,18 @@ faq:
   question: How is the Hangload attached?
   answer: |
     The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video [above](#instructions-video) to see how a Hangload is installed in real-time, or check out this <a href="/imgs/pdf/instructions-en.pdf" target="_blank">PDF</a>.
+- id: when-not-use
+  question: When should I not use the Hangload?
+  answer: |
+    - When your bicycle wheels are smaller than 24 inches --- Hangload only works on bikes with wheels of 24 inches or larger.
+
+    - When you have a mountain bike rack. Most mountain bike racks are only connected to the seat stay and usually have a 10 kg carrying capacity. Hangload only works with standard racks that are also connected to the rear wheel axle and have larger load capacity. 
+
+    - When your bicycle rack/carrier is broken or fitted incorrectly --- the carrier of your rack should be parallel to the ground when fitted correctly.
+
+    - When your bag is weak or damaged, or its handle does not fit onto the Hangload toggle properly. Make sure your bags are strong enough.
+
+    - Hangload is not to be used in conjunction with bicycle child seats.
 - id: where-attach
   question: Where on a bicycle can I attach a Hangload?
   answer: |

@@ -62,6 +62,14 @@ faq:
   question: Wie wird Hangload befestigt?
   answer: |
     Hangload wird mit einem Holzgriff und zwei stabilen Gummibändern zur Befestigung geliefert. Ihn am Fahrrad zu befestigen dauert weniger als eine Minute. Man braucht weder Werkzeug noch technische Kenntnisse dafür. Eine ausführliche gedruckte Anleitung wird mitgeliefert (hier als PDF). In dem Video [oben](#instructions-video) und in diesem <a href="/imgs/pdf/instructions-de.pdf" target="_blank">PDF</a> sieht man, wie Hangload installiert wird.
+- id: when-not-use
+  question: When should I not use the Hangload?
+  answer: |
+     - Wenn Ihre Räder kleiner als 24 Zoll sind --- Hangload funktioniert nur bei 24-Zoll oder gröβeren Rädern.
+     - Wenn Sie ein Mountainbike haben und Ihr Gepäckträger nur an der Sitzstrebe befestigt ist und dadurch maximal 10 kg Tragfähigkeit hat. Hangload funktioniert nur bei Standard-Gepackträgern, die auch an der Hinterachse befestigt sind und eine hohe Belastbarkeit haben.
+     - Wenn Ihr Gepäckträger defekt bzw. falsch montiert ist. Bitte stellen Sie sicher, dass der Gepäckträger parallel zum Boden montiert ist.
+     - Wenn Ihre Taschen schwach oder beschädigt sind, oder die Tragegriffe der Tasche nicht zur Hangload-Befestigung passen.
+     - Wenn einen Fahrradkindersitz bereits montiert ist (beide können nicht gleichzeitig verwendet werden).
 - id: where-attach
   question: Kann ich Hangload überall am Fahrrad anbringen?
   answer: |
