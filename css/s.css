@@ -474,6 +474,8 @@ blockquote:before {
   vertical-align: -0.2em;
 }
 blockquote p { display: inline; }
+
+li { margin-bottom: .5em }
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
 .nav-collapse.opened {
