@@ -25,23 +25,21 @@ faq:
 
     Hangload ist eine Alternative zur Fahrradtasche und auch eine Ergänzung dazu. Fahrradkörbe und Taschen sind nützlich, geben jedoch Form und Größe des Gepäcks vor und sind für größere oder sperrige Einkäufe oft zu unflexibel.
 
-    Mit Hangload ist das anders. Das leichte abnehmbare System funktioniert mit Taschen jeder Art---oder sogar [Kästen](https://www.youtube.com/watch?v=kPxS3nGMboY). Dank Hangload wird jede Tasche zur Fahrradtasche!
+    Mit Hangload ist das anders. Das leichte abnehmbare System funktioniert mit Taschen jeder Art---oder sogar [Kästen](https://www.youtube.com/watch?v=kPxS3nGMboY). Mit Hangload wird jede Tasche zur Fahrradtasche!
 - id: components-uncommon
-  question: Die Komponenten des Hangload wirken ungewöhnlich - warum?
+  question: Hangload Teilen sehen ungewönlich aus, warum?
   answer: |
-    Bei der Entwicklung des Hangloads wurden viele Elemente, Materialien und Komponenten getestet. Wahrscheinlich war es die Erfahrung mit Segelknoten, die den Erfinder auf die Idee zur Befestigung mittels einstellbarem Griff und flexiblen Gummibändern brachten. Diese lassen sich mittels eines simplen Knotens festziehen (einfacher als Schuhe binden!). Wir nennen dieses System **toggle&cord** (Griff & Band).
+    Bei der Entwicklung des Hangloads wurden viele Elemente, Materialien und Komponenten getestet. Wahrscheinlich war es die Erfahrung mit Segelknoten, die Darius auf die Idee zur Befestigung mittels einstellbarem Griff und flexiblen Gummibändern brachten. Diese lassen sich mittels eines simplen Knotens festziehen (einfacher als Schuhe binden!). Wir nennen dieses System **toggle&cord** (Griff & Band).
 
-    Diese effektive Art der Befestigung ist haltbar und einfach zu verwenden (Montage ohne Werkzeug). Außerdem lassen sich mithilfe der Gummibänder die transportierten Taschen zusätzlich fixieren und so vor Diebstahl während der Fahrt schützen: die sogenannte Ariana Technik:
+    Diese effektive und einzigartige Art der Befestigung ist haltbar und einfach zu verwenden (Montage ohne Werkzeug). Außerdem lassen sich mithilfe der Gummibänder die transportierten Taschen zusätzlich fixieren und so vor Diebstahl während der Fahrt schützen: die sogenannte Ariana Technik:
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/177610351' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-
-    Alle diese Komponenten wurden von Darius Hajiani erfunden und sind einmalig für Hangload. 
 - id: who-creator
   question: Wer steckt hinter Hangload?
   answer: |
     Hangload wurde von Darius Hajiani entwickelt. Er hat anglo-iranischen Wurzeln und lebt in Berlin. Da kam ihm die Idee zu Hangload nach einem Großeinkauf. Er fragte sich, warum es keinen einfachen Weg gibt, um auch größere Einkäufe flexibel per Fahrrad transportieren zu können. Nach intensiver Recherche und vielen Prototypen und Versuchen erfand er das Hangload-System. 
 
-    Beim **Innovationpreis Berlin Brandenburg** wurde Hangload als Finalist ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  
+    Beim **Innovationspreis Berlin Brandenburg** wurde Hangload als Finalist ausgezeichnet und konnte erstes Interesse von Kunden, Medien und Partnern generieren.  
 
     Auf der VeloBelin Expo präsentiert, Hangload hat großes Interesse sowohl bei Privatkunden als auch bei Fahrradladen hervorgerufen.
 - id: which-shipping
@@ -63,7 +61,7 @@ faq:
   answer: |
     Hangload wird mit einem Holzgriff und zwei stabilen Gummibändern zur Befestigung geliefert. Ihn am Fahrrad zu befestigen dauert weniger als eine Minute. Man braucht weder Werkzeug noch technische Kenntnisse dafür. Eine ausführliche gedruckte Anleitung wird mitgeliefert (hier als PDF). In dem Video [oben](#instructions-video) und in diesem <a href="/imgs/pdf/instructions-de.pdf" target="_blank">PDF</a> sieht man, wie Hangload installiert wird.
 - id: when-not-use
-  question: In welchen Fällen sollte ich Hangload nicht benutzen?
+  question: In welchen Fällen sollte ich Hangload <span class="underline">nicht</span> benutzen?
   answer: |
     - Wenn Ihre Räder kleiner als 24 Zoll sind --- Hangload funktioniert nur bei 24-Zoll oder gröβeren Rädern.
     - Wenn Sie ein Mountainbike haben und Ihr Gepäckträger nur an der Sitzstrebe befestigt ist und dadurch maximal 10 kg Tragfähigkeit hat. Hangload funktioniert nur bei Standard-Gepäckträgern, die auch an der Hinterachse befestigt sind und eine hohe Belastbarkeit haben.

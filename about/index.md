@@ -24,23 +24,21 @@ faq:
   answer: |
     Hangload is a unique, new and inexpensive alternative for carrying bags and rucksacks on the bicycle. Bicycle baskets and bags are useful, but can restrict the type of bag or load that can be transported.
 
-    Hangload is different: it provides a lean system to carry all types of bags of various shapes and sizes, or even [drink crates](https://www.youtube.com/watch?v=kPxS3nGMboY). Thanks to Hangload, any bag can be a bicycle bag.
+    Hangload is different: it provides a lean system to carry all types of bags of various shapes and sizes, or even [drink crates](https://www.youtube.com/watch?v=kPxS3nGMboY). With Hangload, any bag can be a bicycle bag.
 - id: components-uncommon
   question: The Hangload components look uncommon, please explain?
   answer: |
-    In developing the Hangload many elements, materials and components were tested. It was probably the inventor's experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). We call this system **toggle&cord**.
+    In developing the Hangload many elements, materials and components were tested. It was probably the Darius' experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). We call this system **toggle&cord**.
 
-    These fitting means prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique:
+    These fitting means are unique to Hangload prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique:
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/177610351' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-
-    All of these components were invented by Darius Hajiani, you won't come across them anywhere else.
 - id: who-creator
   question: Who's behind the Hangload?
   answer: |
-    The Hangload system was invented by Darius Hajiani. He has English-Iranian background, lives in Berlin, and was looking for a better way to transport grocery bags by bicycle. After researching, experimenting with different materials, and testing extensively, he came up with the Hangload system.
+    The Hangload system was developed by Darius Hajiani. He is of English-Iranian background, lives in Berlin, and was looking for a better way to transport grocery bags by bicycle. After researching, experimenting with different materials, and testing extensively, he came up with the Hangload system.
 
-    Invented and created in Berlin, Hangload was a finalist at the Innovation Price Berlin (Innovationpreis Berlin Brandenburg) and garnered media interest.  
+    Created and developed in Berlin, Hangload was a finalist at the Innovationspreis Berlin Brandenburg and garnered media interest.
 
     When exhibiting at the acclaimed VeloBerlin Expo, Hangload generated much interest and requests from the public and bicycle shops in Berlin.
 - id: which-shipping
@@ -60,7 +58,7 @@ faq:
   answer: |
     The Hangload comes with a toggle and durable bungee cords. Attaching it to your bike takes under a minute and requires no tools or technical skills. Detailed printed descriptions are included in the package. Check out the video [above](#instructions-video) to see how a Hangload is installed in real-time, or check out this <a href="/imgs/pdf/instructions-en.pdf" target="_blank">PDF</a>.
 - id: when-not-use
-  question: When should I not use the Hangload?
+  question: When should I <span class="underline">NOT</span> use the Hangload?
   answer: |
     - When your bicycle wheels are smaller than 24 inches --- Hangload only works on bikes with wheels of 24 inches or larger.
     - When you have a mountain bike rack. Most mountain bike racks are only connected to the seat stay and usually have a 10 kg carrying capacity. Hangload only works with standard racks that are also connected to the rear wheel axle and have larger load capacity. 
