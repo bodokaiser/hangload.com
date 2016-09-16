@@ -19,7 +19,7 @@ video-caption: How to attach Hangload with our toggle&cord system
 go-to-shop: Proceed to our shop
 faq-title: Frequently asked questions
 faq:
-- id: what-is
+- id: why
   question: Why Hangload?
   answer: |
     Hangload is a unique, new and inexpensive alternative for carrying bags and rucksacks on the bicycle. Bicycle baskets and bags are useful, but can restrict the type of bag or load that can be transported.
