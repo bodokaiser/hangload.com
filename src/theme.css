@@ -55,3 +55,5 @@ blockquote:before {
   vertical-align: -0.2em;
 }
 blockquote p { display: inline; }
+
+li { margin-bottom: .5em }
