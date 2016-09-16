@@ -57,3 +57,9 @@ blockquote:before {
 blockquote p { display: inline; }
 
 li { margin-bottom: .5em }
+
+/* Hacks for anchor links with fixed header */
+#withdrawal, #widerrufsrecht {
+  padding-top: 60px;
+  margin-top: -60px;
+}
