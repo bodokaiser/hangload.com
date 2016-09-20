@@ -28,7 +28,7 @@ faq:
 - id: components-uncommon
   question: The Hangload components look uncommon, please explain?
   answer: |
-    In developing the Hangload many elements, materials and components were tested. It was probably the Darius' experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). We call this system **toggle&cord**.
+    In developing the Hangload many elements, materials and components were tested. It was probably Darius' experience with sailing knots and equipment that helped him develop the robust and adjustable toggle used together with the bungee cords, which fasten with a simple knotting procedure (easier than tying shoe laces). We call this system **toggle&cord**.
 
     These fitting means are unique to Hangload prove most effective, strong and easy to use. They provide an additional and useful function for securing the bags further that no other embodiments can match---the Ariana technique:
 
