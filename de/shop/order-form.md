@@ -20,7 +20,7 @@ form:
   olive-green: Olivgrün
   additional-comments: Weitere Anmerkungen
   microcopy3: Haben Sie besondere Wünsche oder Anmerkungen? Hier ist Platz dafür
-  tac: Ich stimme den <a class="blue" target="_blank" href="/de/terms">AGB</a> zu.
+  tac: Ich stimme den <a class="blue" target="_blank" href="/de/terms">AGB und Widerrufsbelehrung</a> zu.
   submit: Senden
   clear: Löschen
 ---
