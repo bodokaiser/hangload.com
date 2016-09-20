@@ -90,7 +90,7 @@ faq:
   answer: |
     Hangload is ideal for carrying various bags and city-rucksacks in all shapes and sizes. It works best with bags with a soft handle.
 - id: long-handles
-  question: Can hangload work with bags that have straps but no handle?
+  question: Can Hangload work with bags that have straps but no handle?
   answer: |
     Mostly yes, check out this video for an example:
 
