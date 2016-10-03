@@ -46,7 +46,7 @@ faq:
   answer: |
     We ship worldwide with the exception of United States and Canada. At the moment we offer the following rates:
 
-    - **Germany**: € 3.50
+    - **Germany**: € 4.15
     - **EU**: € 10
     - **Worldwide**: € 20
 - id: which-payment

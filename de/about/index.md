@@ -47,7 +47,7 @@ faq:
   answer: |
     Wir bieten weltweiten Versand (mit Ausnahme von Vereinigten Staaten und Kanada) zu folgenden Preisen an:
 
-    - **Deutschland**: € 3,50
+    - **Deutschland**: € 4,15
     - **EU**: € 10,-
     - **Rest der Welt**: € 20,-
 
