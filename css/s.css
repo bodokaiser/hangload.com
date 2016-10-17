@@ -502,6 +502,10 @@ li { margin-bottom: .5em }
   width: 100%;
 }
 
+.opened ul {
+  margin-top: 0;
+}
+
 .nav-collapse li {
   display: block;
 }
@@ -514,6 +518,7 @@ li { margin-bottom: .5em }
 }
 
 @media (min-width: 40em) {
+  
   .js .nav-collapse {
     position: relative;
   }
@@ -533,6 +538,15 @@ li { margin-bottom: .5em }
   .js .nav-collapse {
     display: inline;
   }
+}
+
+@media (max-width: 40em) {
+  
+  .nav-collapse {
+    background-color: white;
+  }
+  
+  
 }
 /*! http://responsiveslides.com v1.54 by @viljamis */
 

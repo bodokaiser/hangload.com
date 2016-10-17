@@ -14,33 +14,33 @@
   </a>
 
   {% if page.language == "en" %}
-    <a href="/de{{ page.url }}" class="h5 block right sm-px1 py2 black mr3 sm-mr2">DE</a>
+    <a href="/de{{ page.url }}" class="h5 block right sm-px1 py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/german-flag.png" alt="DE"></a>
   {% elsif page.language == "de" %}
-    <a href="{% if page.layout == "home" %}/{% endif %}{% unless page.layout == "home"%}{{ page.url | remove: "de/" }}{% endunless %}" class="h5 block right sm-px1 py2 black mr3 sm-mr2">EN</a>
+    <a href="{% if page.layout == "home" %}/{% endif %}{% unless page.layout == "home"%}{{ page.url | remove: "de/" }}{% endunless %}" class="h5 block right sm-px1 py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/english-flag.png" alt="DE"></a>
   {% endif %}
 
   {% unless page.layout == "alternative-order-form" or page.layout == "thanks"%}
     <div class="snipcart-summary inline right mr3">
       <a href="#" class="block h5 black sm-px1 py2 snipcart-checkout">
-        Cart &#40;<span class="snipcart-total-items"></span>&#41;
+        <img src="{{site.url}}/imgs/shopping-cart-icon.png" class="align-middle">&#40;<span class="snipcart-total-items"></span>&#41;
       </a>
     </div>
   {% endunless %}
 
   <nav class="inline nav-collapse">
-    <ul class="inline-block list-reset m29 p0">
+    <ul class="inline-block list-reset m25 p0">
       {% if page.language == "en" %}
-        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/shop">Shop</a></li>
-        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/business">Business</a></li>
-        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/about">About</a></li>
+        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/about">Explained</a></li>
         <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/about#faq">FAQ</a></li>
+        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/business">Business</a></li>
         <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/contact">Contact</a></li>
+        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/shop">Shop</a></li>
       {% elsif page.language == "de" %}
-        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/shop">Shop</a></li>
-        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/business">Business</a></li>
-        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/about">Über uns</a></li>
+        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/about">Erklären</a></li>
         <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/about#faq">FAQ</a></li>
+        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/business">Business</a></li>
         <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/contact">Kontakt</a></li>
+        <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/shop">Shop</a></li>
       {% endif %}
     </ul>
 
