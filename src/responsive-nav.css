@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.opened ul {
+  margin-top: 0;
+}
+
 .nav-collapse li {
   display: block;
 }
@@ -30,6 +34,7 @@
 }
 
 @media (--breakpoint-sm) {
+  
   .js .nav-collapse {
     position: relative;
   }
@@ -49,4 +54,13 @@
   .js .nav-collapse {
     display: inline;
   }
+}
+
+@media (--breakpoint-xs) {
+  
+  .nav-collapse {
+    background-color: white;
+  }
+  
+  
 }
