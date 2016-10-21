@@ -12,17 +12,16 @@
     Menu
     <![endif]-->
   </a>
-
   {% if page.language == "en" %}
-    <a href="/de{{ page.url }}" class="h5 block right sm-px1 py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/german-flag.png" alt="DE"></a>
+    <a href="/de{{ page.url }}" class="h5 block right sm-px1 py3 xs-py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/german-flag.png" alt="DE"></a>
   {% elsif page.language == "de" %}
-    <a href="{% if page.layout == "home" %}/{% endif %}{% unless page.layout == "home"%}{{ page.url | remove: "de/" }}{% endunless %}" class="h5 block right sm-px1 py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/english-flag.png" alt="DE"></a>
+    <a href="{% if page.layout == "home" %}/{% endif %}{% unless page.layout == "home"%}{{ page.url | remove: "de/" }}{% endunless %}" class="h5 block right sm-px1 py3 xs-py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/english-flag.png" alt="DE"></a>
   {% endif %}
 
   {% unless page.layout == "alternative-order-form" or page.layout == "thanks"%}
     <div class="snipcart-summary inline right mr3">
-      <a href="#" class="block h5 black sm-px1 py2 snipcart-checkout">
-        <img src="{{site.url}}/imgs/shopping-cart-icon.png" class="align-middle">&#40;<span class="snipcart-total-items"></span>&#41;
+      <a href="#" class="block h5 black sm-px1 py3 xs-py2 snipcart-checkout">
+        {% if page.language == "en" %}Cart{% elsif page.language == "de" %}Warenkorb{% endif %}&nbsp;&#40;<span class="snipcart-total-items"></span>&#41;
       </a>
     </div>
   {% endunless %}

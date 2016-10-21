@@ -3,7 +3,7 @@
 
 <body class="black">
   {% include header.html %}
-  <main role="main" class="max-width-4 mx-auto mt4 py3">
+  <main role="main" class="max-width-4 mx-auto py3">
 
     <h1 class="center mb4">{{ page.description }}</h1>
 
@@ -18,9 +18,10 @@
       </div>
     </section>
 
-    <section class="py2 mt3 px1 overflow-hidden">
+    <section class="py2 mt2 px1 overflow-hidden">
       <div class="clearfix mxn2">
-        <div class="col-right col-12 md-col-6 px2 mb2 center" id="instructions-video">
+        <div class="col-right col-12 md-col-6 px2 mb4 center" id="instructions-video">
+          <h3 class="lg-hide">{{ page.video-title }}</h3>
           <div class="embed-container">
             <iframe 
               src="https://player.vimeo.com/video/177609818?title=0&byline=0&portrait=0&autoplay=0&loop=0"
@@ -30,7 +31,8 @@
               mozallowfullscreen 
               allowFullScreen></iframe>
           </div>
-          <p class="left-align h5 gray">{{ page.video-caption }}</p>
+          <h3 class="xs-hide">{{ page.video-title }}</h3>
+         <!-- <p class="left-align h5 gray">{{ page.video-caption }}</p>-->
         </div>
         <div class="px2 h3 intro"> 
           {{ page.copy2 | markdownify }}

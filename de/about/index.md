@@ -15,6 +15,7 @@ copy2: |
  
     Hangload kann beliebig an einer oder beiden Seiten des Gepäckträgers angebracht werden. Er ist die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben.
 video-caption: Wie Hangload mit unserem toggle&cord-System befestigt wird
+video-title: Anleitung
 go-to-shop: Weiter zum Shop
 faq-title: Häufig gestellte Fragen
 faq:

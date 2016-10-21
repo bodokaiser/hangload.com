@@ -1141,6 +1141,7 @@ li { margin-bottom: .5em }
 
 @media (max-width: 40em) {
   .xs-hide { display: none !important }
+  .xs-py2 {padding-top: 1rem; padding-bottom: 1rem;}
 }
 
 @media (min-width: 40em) and (max-width: 52em) {
