@@ -23,7 +23,7 @@ USt-ID (VAT): DE295400469
 Darius Matthew Hajiani  
 {: .mt0}
 
-#### Design/Development 
+#### Web Design/Web Development 
 {: .mb0}
 [Mattia Tezzele](http://mrzool.cc)  
 {: .mt0}
