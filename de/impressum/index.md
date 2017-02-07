@@ -30,17 +30,7 @@ Darius Matthew Hajiani
 
 #### Photography
 {: .mb0}
-Photographer
-{: .mt0}
-
-#### Artworks/Illustrations
-{: .mb0}
-Joe
-{: .mt0}
-
-#### Logo
-{: .mb0}
-Bodo Kaiser
+[Rajko Knobloch](http://www.ostwestfoto.de/), Christopher Schmidt
 {: .mt0}
 
 ## Legal information
