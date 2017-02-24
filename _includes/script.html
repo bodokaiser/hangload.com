@@ -42,7 +42,11 @@ window.cookieconsent.initialise({
   },
   "theme": "edgeless",
   "content": {
+  {% if page.language == "en" %}
     "message": "This website uses cookies to ensure you get the best experience on our website.",
+  {% elsif page.language == "de" %}
+    "message": "Diese Webseite verwendet Cookies, um Ihnen das beste Erlebnis auf unserer Website bieten zu können.",
+  {% endif %}
     "dismiss": "Ok",
     "href": "http://hangload.com/impressum#privacy-policy"
   }
