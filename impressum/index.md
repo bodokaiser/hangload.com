@@ -79,38 +79,22 @@ Our website uses social plugins (“plugins”) from the social networking site 
 
 If you do not have a Facebook account, it is still possible for Facebook to identify and store your IP address after you have clicked the Facebook note. To find out more about the reasons why and the extent to which Facebook collects data, how the data is further processed and used, your rights in the matter, and settings options you can choose that protect your privacy, please see Facebook's Data Protection Policy.
 
-If you have a Facebook account and do not want Facebook to collect data
-about you from our website and connect it to your member data saved on
-Facebook, you must log out of Facebook before visiting our website and
-clicking the Facebook note. It is also possible to block Facebook social
-plugins by using add-ons for your browser.
+If you have a Facebook account and do not want Facebook to collect data about you from our website and connect it to your member data saved on Facebook, you must log out of Facebook before visiting our website and clicking the Facebook note. It is also possible to block Facebook social plugins by using add-ons for your browser.
 
 ### Usage of Twitter
 
-Functions of the service Twitter are integrated on our website. These
-functions are offered by Twitter Inc., Twitter, Inc. 1355 Market St,
-Suite 900, San Francisco, CA 94103, USA. Through the use of Twitter and
-the "re-tweet" the web pages you visit are linked to your Twitter
-account and made known to other users. This data is also transmitted to
-Twitter.
+Functions of the service Twitter are integrated on our website. These functions are offered by Twitter Inc., Twitter, Inc. 1355 Market St, Suite 900, San Francisco, CA 94103, USA. Through the use of Twitter and the "re-tweet" the web pages you visit are linked to your Twitter account and made known to other users. This data is also transmitted to Twitter.
 
-We point out that we as providers of the sites have no knowledge of the
-content of the transmitted data and use of them through Twitter. For
-more information, please see the privacy statement of Twitter at http://twitter.com/privacy.
+We point out that we as providers of the sites have no knowledge of the content of the transmitted data and use of them through Twitter. For more information, please see the privacy statement of Twitter at http://twitter.com/privacy.
 
-Your privacy preferences at Twitter, you can change in the account
-settings on http://twitter.com/account/settings.
+Your privacy preferences at Twitter, you can change in the account settings on http://twitter.com/account/settings.
 
 ## Liability for website
 
 ### No warranties
 
-This online service is provided "as is". We do not take any
-representations or warranties neither this online service nor any
-related resources.
+This online service is provided "as is". We do not take any representations or warranties neither this online service nor any related resources.
 
 ### Limitations of liability
 
-The owner of this online service does not take any responsibility or
-liability neither on the provided content nor any related content which
-extends liability forced by local laws.
+The owner of this online service does not take any responsibility or liability neither on the provided content nor any related content which extends liability forced by local laws.
