@@ -2,115 +2,150 @@
 layout: impressum
 title: Impressum
 language: de
-description: Legal information
+description: Allgemeine Geschäftsbedingungen (AGB)
 ---
 
 # {{page.title}}
 
 **Hangload UG (haftungsbeschränkt)**  
-Forsterstr. 3  
+Forster Straße 3  
 10999 Berlin  
-Phone: [+49 (0) 177 506 7837](tel:+491775067837)  
+Telefon: [+49 (0) 177 506 7837](tel:+491775067837)  
 Email: <info@hangload.com>
 
-Registered in Amtsgericht Berlin-Charlottenburg (HRB158563B)
-Managing Director: Darius Matthew Hajiani  
-Tax-Nr. (DE): 29/403/01628  
+Angemeldet im Amtsgericht (HRB158563B)  
+Geschäftsführer: Darius Matthew Hajiani  
+Steuernummer: 29/403/01628  
 USt-ID (VAT): DE295400469  
 
-#### CEO/Inventor
+#### Geschäftsführer/Erfinder
 {: .mb0}
 Darius Matthew Hajiani  
 {: .mt0}
 
-#### Web Design/Web Development 
+#### Web-Design/Web-Entwicklung
 {: .mb0}
 [Mattia Tezzele](http://mrzool.cc)  
 {: .mt0}
 
-#### Photography
+#### Fotographie
 {: .mb0}
 [Rajko Knobloch](http://www.ostwestfoto.de/), Christopher Schmidt
 {: .mt0}
 
-## Legal information
+Bei Fragen, Problemen und anderen gebrauchten Informationen schreiben
+Sie uns bitte eine E-Mail an:
+<info@hangload.com> .
 
-This page contains all the legal information about our website [www.hangload.com](http://hangload.com).
+## Rechtliche Hinweise
 
-All texts, pictures and additional information that are released here, are subject to the copyright of the provider, as long as there are no copyrights by a third party. In any case, the reproduction, distribution or publication is only allowed in the case of a revocable and non-transferable consent of the provider.
+Diese Seite enthält alle rechtliche Informationen zur Website [www.hangload.com](http://hangload.com).
 
-Links, that refer to contents of the website at hand, require consent of the provider. Such approval must be newly requested at any fundamental alteration of the content of the website from which the link is referring to. It may be revoked informally at any time. A linking of site with illegal, offensive, misleading or defamatory content is excluded in any case.
+Alle Texte, Bilder und weiter hier veröffentlichten Informationen
+unterliegen dem Urheberrecht des Anbieters, soweit nicht Urheberrechte
+Dritter bestehen. In jedem Fall ist eine Vervielfältigung, Verbreitung
+oder öffentliche Wiedergabe ausschließlich im Falle einer widerruflichen
+und nicht übertragbaren Zustimmung des Anbieters gestattet.
 
-The contents of this website are created with great care. However, no guarantee can be made for timeliness and totality.
+Linksetzungen, welche auf die Inhalte der vorliegenden Website
+verweisen, bedürfen der Zustimmung des Anbieters. Eine solche Zustimmung
+ist bei jeder grundlegenden Veränderung des Inhaltes der Webseite, von
+welcher die Verlinkung erfolgt, neu zu beantragen, sie kann jederzeit
+formlos widerrufen werden. Eine Verlinkung von Seiten mit illegalen,
+anstößigen, irreführenden oder diffamierenden Inhalten ist in jedem Fall
+ausgeschlossen.
 
-The provider takes no responsibility for all web contents that are linked to, due to those contents not being our own content. External links were checked for illicit content, at the time of the linking, such contents were not to be found. Regarding third-party content, however, there is no general monitoring and assessment requirement. Listed trademarks and tradenames are the property of their respective owners.  Upon notification of violation, however, the corresponding link will be removed immediately.
+Die Inhalte der Webseite werden mit größter Sorgfalt erstellt. Dennoch
+kann keine Garantie für Aktualität und Vollständigkeit übernommen
+werden.
 
-Press releases on the website are not protected by copyright. All press releases may be reproduced without prior consent.
+Für alle mittels Querverweis (Link) verbundenen Webinhalte übernimmt der
+Anbieter keine Verantwortung, da es sich hierbei nicht um eigene Inhalte
+handelt. Die verlinkten Seiten wurden auf rechtswidrige Inhalte
+überprüft, zum Zeitpunkt der Verlinkung waren solche nicht erkennbar.
+Verantwortlich für den Inhalt der verlinkten Seiten ist deren Betreiber.
+Der Anbieter hat hierzu keine allgemeine Überwachungs- und
+Prüfungspflicht. Bei Bekanntwerden einer Rechtsverletzung wird der
+entsprechende Link jedoch umgehend entfernt.
 
-## Privacy Policy
+Pressemitteilungen auf der Website sind nicht durch Urheberrechte
+geschützt. Alle Pressemitteilungen können ohne vorherige Zustimmung
+reproduziert werden.
 
-### Collection and processing of your data
+## Allgemeine Geschäftsbedingungen (AGB) und Verbraucherinformationen
 
-Data protection is a matter of trust and your privacy is important to us. We respect your personal privacy. Hence we would like to inform you in detail about our data use.
+Allgemeine Geschäftsbedingungen und Verbraucherinformationen im Rahmen von Kaufverträgen, die über den Onlineshop zwischen Hangload UG - im Folgenden „Verkäufer“ - und dem Kunden - im Folgenden „Kunde“ - geschlossen werden.
 
-You can visit our website without giving us personal information. In this regard, we will not save any personal data.
+### § 1 Geltungsbereich und allgemeine Hinweise
 
-As a user of this site you are leaving private information (e.g. the browser you use) which we take responsible care of in order to make up statics about page visitors.
+1. Vorbehaltlich individueller Absprachen und Vereinbarungen, die Vorrang vor diesen AGB haben, gelten für die Geschäftsbeziehung zwischen dem Verkäufer und dem Kunden ausschließlich die nachfolgenden Allgemeinen Geschäftsbedingungen. Soweit nichts anderes vereinbart, wird der Einbeziehung von eigenen Bedingungen des Kunden widersprochen.
 
-By agreeing to the following privacy policy of Hangload UG (haftungsbeschränkt), Forsterstr. 3, 10999 Berlin you admit in the collection, processing and use of your personal data in compliance with data protection laws and the following provisions.
+2. Der Kunde ist Verbraucher, soweit er den Vertrag zu Zwecken abschließt, die überwiegend weder seiner gewerblichen noch seiner selbständigen beruflichen Tätigkeit zugerechnet werden können. Dagegen ist Unternehmer jede natürliche oder juristische Person oder eine rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer gewerblichen oder selbständigen beruflichen Tätigkeit handelt.
 
-You always have the right to free information about your stored data and the right to rectification, erasure or blocking. Call us in case you have a request. Contact details can be found [here](../contact).
+### § 2 Vertragsschluss
 
-### Collection, processing, use and dissemination of personal data
+1. Der Vertrag kommt zustande mit Hangload UG (Forster Straße 3, 10999 Berlin).
+2. Die wesentlichen Merkmale der Ware ergeben sich aus der jeweiligen vom Verkäufer eingestellten Produktbeschreibung.
+3. Sie können ein verbindliches Kaufangebot (Bestellung) über das Online-Formular abgeben.  Mit dem Absenden der Bestellung über die Schaltfläche "absenden" geben Sie ein verbindliches Angebot bei uns ab.
+4. Die Annahme des Angebots (und damit der Vertragsabschluss) erfolgt nach Bestellung durch Bestätigung in Textform (z.B. E-Mail), in welcher Ihnen die Ausführung der Bestellung oder Auslieferung der Ware bestätigt wird (Auftragsbestätigung). Sollten Sie keine entsprechende Nachricht erhalten haben, sind Sie nicht mehr an Ihre Bestellung gebunden.  Gegebenenfalls bereits erbrachte Leistungen werden in diesem Fall unverzüglich zurückerstattet.
+5. Ihre Anfragen zur Erstellung eines Angebotes via Kontaktformular oder E-Mail sind für Sie unverbindlich. Wir unterbreiten Ihnen hierzu ein verbindliches Angebot in Textform (z.B. per E-Mail), welches Sie innerhalb von 7 Tagen annehmen können.
+6. Die Abwicklung der Bestellung und Übermittlung aller im Zusammenhang mit dem Vertragsschluss erforderlichen Informationen erfolgt per E-Mail zum Teil automatisiert. Sie haben deshalb sicherzustellen, dass die von Ihnen bei uns hinterlegte E-Mail-Adresse zutreffend ist, der Empfang der E-Mails technisch sichergestellt und insbesondere nicht durch SPAM-Filter verhindert wird.
 
-We collect, store and process your data for processing your purchase on the Site and any possible later claims, and to provide you with our services. We may collect your name,adress, email and telephone number.  We will use the information you provide to enable us to process your orders and to provide you with the services and information offered through our website and which you request through the contact.  After completion of contract, all personal data are initially saved for tax and commercial law reasons for retention periods.  After this period, they will be deleted, unless you have agreed to further processing and use.
+### § 3 Vertragsgegenstand, Beschaffenheit, Lieferung, Warenverfügbarkeit
 
-We will not share any of your personal information with third parties We may pass your name and address on to a third party in order to make delivery of the product to you (for example to our courier or supplier).  In these cases, we observe the provisions of the Federal Data Protection Act. The transmitted data are limited to the minimum.
+1. Vertragsgegenstand sind die im Rahmen der Bestellung vom Kunden spezifizierten und der Bestell- und/oder Auftragsbestätigung genannten Waren und Dienstleistungen zu den im Onlineshop genannten Endpreisen.  Fehler und Irrtümer dort sind vorbehalten, insbesondere was die Warenverfügbarkeit betrifft.
+2. Die Beschaffenheit der bestellten Waren ergibt sich aus den Produktbeschreibungen im Onlineshop. Abbildungen auf der Internetseite geben die Produkte unter Umständen nur ungenau wieder; insbesondere Farben können aus technischen Gründen erheblich abweichen. Bilder dienen lediglich als Anschauungsmaterial und können vom Produkt abweichen.  Technische Daten, Gewichts-, Maß und Leistungsbeschreibung sind so präzise wie möglich angegeben, können aber die üblichen Abweichungen aufweisen. Die hier beschriebenen Eigenschaften stellen keine Mängel der vom Verkäufer gelieferten Produkte dar.
+3. Sind zum Zeitpunkt der Bestellung des Kunden keine Exemplare des von ihm ausgewählten Produkts verfügbar, so teilt der Verkäufer dem Kunden dies in der Auftragsbestätigung mit. Ist das Produkt dauerhaft nicht lieferbar, sieht der Verkäufer von einer Annahmeerklärung ab. Ein Vertrag kommt in diesem Fall nicht zustande.
+4. Ist das vom Kunden in der Bestellung bezeichnete Produkt nur vorübergehend nicht verfügbar, teilt der Verkäufer dem Kunden dies ebenfalls unverzüglich in der Auftragsbestätigung mit. Bei einer Lieferungsverzögerung von mehr als zwei Wochen hat der Kunde das Recht, vom Vertrag zurückzutreten. Im Übrigen ist in diesem Fall auch der Verkäufer berechtigt, sich vom Vertrag zu lösen. Hierbei wird er eventuell bereits geleistete Zahlungen des Kunden unverzüglich erstatten.
 
-You have always the right to obtain information about your stored data or to have them edited, erased or blocked. Contact us in this case please under <info@hangload.com>.
+### § 4 Zahlung
 
-### Usage of Google Analytics
+Die Zahlung erfolgt per Vorkasse (PayPal, Überweisung) oder per Nachnahme.
 
-This website uses Google Analytics, a web analytics tool service provided by Google Inc. ("Google"). Google Analytics uses Cookies to help the website analyse how users use the site. The information assigned to your cookie (Browser, visited links, duration, ...) will be transmitted to Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compilling reports on website activity for website operators. Google also may transmit this information to third parties. Google will not associate your ip address with any other service held by Google. You may disable this function by disabling JavaScript on this site. This will still cause the site to function properly but will give you reduced user experience.
+### § 5 Zurückbehaltungsrecht, Eigentumsvorbehalt
 
-### Usage of Facebook Social Plugins
+1. Ein Zurückbehaltungsrecht können Sie nur ausüben, soweit es sich um Forderungen aus demselben Vertragsverhältnis handelt.
+2. Die Ware bleibt bis zur vollständigen Zahlung des Kaufpreises plus Versand unser Eigentum.
 
-Our website uses social plugins (“plugins”) from the social networking site facebook.com, operated by Facebook Inc., 1601 South California Ave, Palo Alto, CA 94304, USA (“Facebook”). The plugins can be identified by one of Facebook’s logos (a white "f" on a blue tile or a “thumbs-up” icon), or the phrase “Facebook Social Plugin”. The list of Facebook social plugins and their appearances can be found here. In case you access a website of our internet presence using such a plugin, your browser will contact the Facebook server and load the visual presentation of the plugin as well as present it to you. During this exercise, the Facebook server receives information concerning your visit of the website of our internet presence as well as further data like your IP address. Facebook transmits the content of the then visible plugin directly to your browser and integrates it into the page on our website. We therefore have no influence on the amount of data that Facebook is able to collect using these plugins. Information concerning the subject matter is made available by Facebook here. These activated plugins allow Facebook to know that you have visited this particular page on our website. If you are logged in to Facebook at the time, it can associate your visit to the page to your Facebook account. If you interact with the plugins, for example by clicking the 'Like’ button or by posting a comment, the information you give is then sent directly to Facebook and saved there. 
+### § 6 Transportschäden
 
-If you do not have a Facebook account, it is still possible for Facebook to identify and store your IP address after you have clicked the Facebook note. To find out more about the reasons why and the extent to which Facebook collects data, how the data is further processed and used, your rights in the matter, and settings options you can choose that protect your privacy, please see Facebook's Data Protection Policy.
+1. Werden Waren mit offensichtlichen Transportschäden angeliefert, wird der Kunden gebeten, diese Fehler sofort bei dem Zusteller zu reklamieren und schnellstmöglich Kontakt zu dem Verkäufer aufzunehmen.
+2. Die Versäumung einer Reklamation oder der Kontaktaufnahme hat für die gesetzlichen Gewährleistungsrechte des Kunden keinerlei Konsequenzen, hilft dem Verkäufer aber, eigene Ansprüche gegenüber dem Frachtführer bzw. der Transportversicherung geltend machen zu können.
 
-If you have a Facebook account and do not want Facebook to collect data
-about you from our website and connect it to your member data saved on
-Facebook, you must log out of Facebook before visiting our website and
-clicking the Facebook note. It is also possible to block Facebook social
-plugins by using add-ons for your browser.
+### § 7 Sachmängelgewährleistung
 
-### Usage of Twitter
+1. Der Anbieter haftet für Sachmängel nach den hierfür geltenden gesetzlichen Vorschriften, insbesondere §§ 434 ff BGB.
+2. Eine Garantie besteht bei den vom Anbieter gelieferten Waren nur, wenn diese ausdrücklich in der Auftragsbestätigung zu dem jeweiligen Artikel abgegeben wurde.
+3. Beanstandungen und Mängelhaftungsansprüche können Sie unter der in der Anbieterkennzeichnung angegebenen Adresse vorbringen.
 
-Functions of the service Twitter are integrated on our website. These
-functions are offered by Twitter Inc., Twitter, Inc. 1355 Market St,
-Suite 900, San Francisco, CA 94103, USA. Through the use of Twitter and
-the "re-tweet" the web pages you visit are linked to your Twitter
-account and made known to other users. This data is also transmitted to
-Twitter.
+### § 8 Eigentumsvorbehalt
 
-We point out that we as providers of the sites have no knowledge of the
-content of the transmitted data and use of them through Twitter. For
-more information, please see the privacy statement of Twitter at http://twitter.com/privacy.
+Bis zur vollständigen Bezahlung verbleiben die gelieferten Waren im Eigentum des Verkäufers.  
 
-Your privacy preferences at Twitter, you can change in the account
-settings on http://twitter.com/account/settings.
+### § 9 Haftung
 
-## Liability for website
+1. Wir haften jeweils uneingeschränkt für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit, in allen Fällen des Vorsatzes und grober Fahrlässigkeit, bei arglistigem Verschweigen eines Mangels, bei Übernahme der Garantie für die Beschaffenheit des Kaufgegenstandes, bei Schäden nach dem Produkthaftungsgesetz und in allen anderen gesetzlich geregelten Fällen.
+2. Sofern wesentliche Vertragspflichten betroffen sind, ist unsere Haftung bei leichter Fahrlässigkeit auf den vertragstypischen, vorhersehbaren Schaden beschränkt. Wesentliche Vertragspflichten sind wesentliche Pflichten, die sich aus der Natur des Vertrages ergeben und deren Verletzung die Erreichung des Vertragszweckes gefährden würden sowie Pflichten, die der Vertrag uns nach seinem Inhalt zur Erreichung des Vertragszwecks auferlegt, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst möglich machen und auf deren Einhaltung Sie regelmäßig vertrauen dürfen.
+3. Bei der Verletzung unwesentlicher Vertragspflichten ist die Haftung bei leicht fahrlässigen Pflichtverletzungen ausgeschlossen.
+4. Die Datenkommunikation über das Internet kann nach dem derzeitigen Stand der Technik nicht fehlerfrei und/oder jederzeit verfügbar gewährleistet werden. Wir haften insoweit weder für die ständige noch ununterbrochene Verfügbarkeit der Webseite und der dort angebotenen Dienstleistung.
 
-### No warranties
+### § 10 Widerrufsrecht
 
-This online service is provided "as is". We do not take any
-representations or warranties neither this online service nor any
-related resources.
+1. Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbstständigen beruflichen Tätigkeit zugerechnet werden kann.
+2. Sie haben das Recht, binnen 14 Tagen ohne Angabe von Gründen diesen Vertrag zu wiederrufen. Die Widerrufsfrist beträgt 14 Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.
+3. Um Ihr Widerrufsrecht auszuüben, müssen Sie uns Hangload UG (haftungsbeschränkt), Forsterstr. 3, 10999 Berlin, E-Mail-Adresse: <info@hangload.com> mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.  Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist
+absenden.
+4. Folgen des Widerrufs: Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, exklusive der Lieferkosten (ebenso mit Ausnahme von zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist.  Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.  Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist. Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben.  Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden.  Sie tragen die unmittelbaren Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht ordnungsgemäßen Umgang mit ihnen zurückzuführen ist.
+5. Ausschluss- bzw. Erlöschensgründe des Widerrufs: Das Widerrufsrecht besteht nicht bei Verträgen zur Lieferung von Waren, die nicht vorgefertigt sind und für deren Herstellung eine individuelle Auswahl oder Bestimmung durch den Verbraucher maßgeblich ist oder die eindeutig auf die persönlichen Bedürfnisse des Verbrauchers zugeschnitten sind.
 
-### Limitations of liability
+### § 11 Rechtswahl, Erfüllungsort, Gerichtsstand
 
-The owner of this online service does not take any responsibility or
-liability neither on the provided content nor any related content which
-extends liability forced by local laws.
+1. Es gilt deutsches Recht. Bei Verbrauchern gilt diese Rechtswahl nur, soweit hierdurch der durch zwingende Bestimmungen des Rechts des Staates des gewöhnlichen Aufenthaltes des Verbrauchers gewährte Schutz nicht entzogen wird (Günstigkeitsprinzip).
+2. Erfüllungsort für alle Leistungen aus den mit uns bestehenden Geschäftsbeziehungen sowie Gerichtsstand ist unser Sitz, soweit Sie nicht Verbraucher, sondern Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen sind. Dasselbe gilt, wenn Sie keinen allgemeinen Gerichtsstand in Deutschland oder der EU haben oder der Wohnsitz oder gewöhnliche Aufenthalt im Zeitpunkt der Klageerhebung nicht bekannt ist. Die Befugnis, auch das Gericht an einem anderen gesetzlichen Gerichtsstand anzurufen, bleibt hiervon unberührt.
+3. Die Bestimmungen des UN-Kaufrechts finden ausdrücklich keine Anwendung.
+
+### § 11 Schlussbestimmungen
+
+1. Die Vertragssprache ist deutsch.
+2. Auf Verträge zwischen dem Verkäufer und den Kunden findet das Recht der Bundesrepublik Deutschland unter Ausschluss der Gesetze über den internationalen Kauf beweglicher Waren Anwendung. Diese Rechtswahl gilt bei Verbrauchern nur, soweit der durch zwingende Bestimmungen des Rechts des Staates des gewöhnlichen Aufenthaltes des Verbrauchers gewährte Schutz dem Kunden nicht entzogen wird.
+3. Sofern es sich beim Kunden um einen Kaufmann, eine juristische Person des öffentlichen Rechts oder um ein öffentlich-rechtliches Sondervermögen handelt, ist Gerichtsstand für alle Streitigkeiten aus Vertragsverhältnissen zwischen dem Kunden und dem Verkäufer der Sitz des Verkäufers. Dies gilt auch, sofern der Kunde keinen allgemeinen Gerichtsstand in Deutschland oder der EU hat, oder sein Wohnsitz oder sein gewöhnlicher Aufenthalt im Zeitpunkt der Klageerhebung nicht bekannt ist.
