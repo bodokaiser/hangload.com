@@ -16,6 +16,7 @@
 @import "responsive-embed.css";
 @import "colors.css";
 @import "utilities.css";
+@import "cookieconsent.min.css";
 
 
 :root {
