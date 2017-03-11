@@ -30,7 +30,7 @@ a:visited { color: var(--blue); }
 .white:visited { color: var(--white);}
 .gray:visited { color: var(--gray);}
 
-nav li:hover { background-color: var(--silver); }
+.hover-silver:hover { background-color: var(--silver); }
 footer a:hover { color: var(--gray); }
 
 #shop-pic { height: 400px }
