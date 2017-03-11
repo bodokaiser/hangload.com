@@ -13,9 +13,9 @@
     <![endif]-->
   </a>
   {% if page.language == "en" %}
-    <a href="/de{{ page.url }}" class="h5 block right sm-px1 py3 xs-py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/german-flag.png" alt="DE"></a>
+    <a href="{{ '/de' | append: page.url }}" class="h5 block right sm-px1 py3 xs-py2 black mr3 sm-mr2">DE</a>
   {% elsif page.language == "de" %}
-    <a href="{% if page.layout == "home" %}/{% endif %}{% unless page.layout == "home"%}{{ page.url | remove: "de/" }}{% endunless %}" class="h5 block right sm-px1 py3 xs-py2 black mr3 sm-mr2"><img src="{{site.url}}/imgs/english-flag.png" alt="DE"></a>
+    <a href="{% if page.layout == "home" %}/{% endif %}{% unless page.layout == "home"%}{{ page.url | remove: "de/" }}{% endunless %}" class="h5 block right sm-px1 py3 xs-py2 black mr3 sm-mr2">EN</a>
   {% endif %}
 
   {% unless page.layout == "alternative-order-form" or page.layout == "thanks"%}
