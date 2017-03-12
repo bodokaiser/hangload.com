@@ -29,19 +29,36 @@
   {% endunless %}
 
   <nav class="inline nav-collapse">
+    {% assign current = page.url | downcase | split: '/' %}
     <ul class="inline-block list-reset p0">
       {% if page.language == "en" %}
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/about">About &amp; FAQ</a></li>
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/shop">Shop</a></li>
+        <li class="h5 inline-block hover-border-bottom {% if current[1] == 'about' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/about">About &amp; FAQ</a>
+        </li>
+        <li class="h5 inline-block hover-border-bottom {% if current[1] == 'shop' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/shop">Shop</a>
+        </li>
         {% comment %} <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/about#faq">FAQ</a></li> {% endcomment %}
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/business">Business</a></li>
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/contact">Contact</a></li>
+        <li class="h5 inline-block hover-border-bottom {% if current[1] == 'business' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/business">Business</a>
+        </li>
+        <li class="h5 inline-block hover-border-bottom {% if current[1] == 'contact' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/contact">Contact</a>
+        </li>
       {% elsif page.language == "de" %}
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/de/about">Über &amp; FAQ</a></li>
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/de/shop">Shop</a></li>
+        <li class="h5 inline-block hover-border-bottom {% if current[2] == 'about' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/de/about">Über &amp; FAQ</a>
+        </li>
+        <li class="h5 inline-block hover-border-bottom {% if current[2] == 'shop' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/de/shop">Shop</a>
+        </li>
         {% comment %} <li class="h5 inline-block"><a class="block sm-px1 py2 black" href="/de/about#faq">FAQ</a></li> {% endcomment %}
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/de/business">Business</a></li>
-        <li class="h5 inline-block hover-border-bottom"><a class="block sm-px1 py1 black" href="/de/contact">Kontakt</a></li>
+        <li class="h5 inline-block hover-border-bottom {% if current[2] == 'business' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/de/business">Business</a>
+        </li>
+        <li class="h5 inline-block hover-border-bottom {% if current[2] == 'contact' %}border-bottom{% endif %}">
+          <a class="block sm-px1 py1 black" href="/de/contact">Kontakt</a>
+        </li>
       {% endif %}
     </ul>
 
