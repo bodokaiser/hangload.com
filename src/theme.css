@@ -16,7 +16,7 @@ a:visited { color: var(--blue); }
 .white:visited { color: var(--white);}
 .gray:visited { color: var(--gray);}
 
-.hover-border-bottom:hover { border-bottom: 2px solid var(--black); }
+.hover-border-bottom:hover { border-bottom: 1px solid var(--black); }
 footer a:hover { color: var(--gray); }
 
 #shop-pic { height: 400px }
