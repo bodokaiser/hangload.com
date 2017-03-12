@@ -417,20 +417,6 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
-@font-face {
-  font-family: 'Droid-Sans';
-  src: url('/fonts/droid-sans.ttf') format('truetype');;
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Droid-Sans';
-	src: url('/fonts/droid-sans-bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
 h1 { font-size: 2rem }
 h2 { font-size: 1.5rem }
 h3 { font-size: 1.25rem }
@@ -438,7 +424,7 @@ h4 { font-size: 1rem }
 h5 { font-size: .875rem }
 h6 { font-size: .75rem }
 
-body { font-family: 'Droid-Sans', sans-serif; }
+body { font-family: Avenir Next, Avenir, sans-serif; }
 
 a { text-decoration: none; }
 a { color: #0074d9; }
@@ -449,7 +435,7 @@ a:visited { color: #0074d9; }
 .white:visited { color: #FFFFFF;}
 .gray:visited { color: #AAAAAA;}
 
-.hover-silver:hover { background-color: #DDDDDD; }
+.hover-border-bottom:hover { border-bottom: 1px solid #111111; }
 footer a:hover { color: #AAAAAA; }
 
 #shop-pic { height: 400px }
