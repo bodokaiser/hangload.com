@@ -60,7 +60,7 @@ faq:
 - id: how-attach
   question: Wie wird Hangload befestigt?
   answer: |
-    Hangload wird mit einem Holzgriff und zwei stabilen Gummibändern zur Befestigung geliefert. Ihn am Fahrrad zu befestigen dauert weniger als eine Minute. Man braucht weder Werkzeug noch technische Kenntnisse dafür. Eine ausführliche gedruckte Anleitung wird mitgeliefert (hier als PDF). In dem Video [oben](#instructions-video) und in diesem <a href="/imgs/pdf/instructions-de.pdf" target="_blank">PDF</a> sieht man, wie Hangload installiert wird.
+    Hangload wird mit einem Holzgriff und zwei stabilen Gummibändern zur Befestigung geliefert. Ihn am Fahrrad zu befestigen dauert weniger als eine Minute. Man braucht weder Werkzeug noch technische Kenntnisse dafür. Eine ausführliche gedruckte Anleitung wird mitgeliefert. In dem Video [oben](#instructions-video) und in diesem <a href="/imgs/pdf/hangload-instructions-de.pdf" target="_blank">PDF</a> sieht man, wie Hangload installiert wird.
 - id: when-not-use
   question: In welchen Fällen sollte ich Hangload <span class="underline">NICHT</span> benutzen?
   answer: |
