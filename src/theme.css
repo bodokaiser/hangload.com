@@ -11,10 +11,13 @@ a { text-decoration: none; }
 a { color: var(--blue); }
 a:visited { color: var(--blue); }
 
-.black:visited { color: var(--black);}
-.blue:visited { color: var(--blue);}
-.white:visited { color: var(--white);}
-.gray:visited { color: var(--gray);}
+.black:visited { color: var(--black); }
+.blue:visited { color: var(--blue); }
+.white:visited { color: var(--white); }
+.gray:visited { color: var(--gray); }
+
+.velo-blue { color: #379fff; }
+.bg-velo-blue { background-color: #379fff; }
 
 .hover-border-bottom:hover { border-bottom: 1px solid var(--black); }
 footer a:hover { color: var(--gray); }

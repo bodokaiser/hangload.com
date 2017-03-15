@@ -430,10 +430,13 @@ a { text-decoration: none; }
 a { color: #0074d9; }
 a:visited { color: #0074d9; }
 
-.black:visited { color: #111111;}
-.blue:visited { color: #0074d9;}
-.white:visited { color: #FFFFFF;}
-.gray:visited { color: #AAAAAA;}
+.black:visited { color: #111111; }
+.blue:visited { color: #0074d9; }
+.white:visited { color: #FFFFFF; }
+.gray:visited { color: #AAAAAA; }
+
+.velo-blue { color: #379fff; }
+.bg-velo-blue { background-color: #379fff; }
 
 .hover-border-bottom:hover { border-bottom: 1px solid #111111; }
 footer a:hover { color: #AAAAAA; }
