@@ -18,6 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
+    "basscss-utility-headings": "^0.1.0",
     "browser-sync": "^2.9.6",
     "node-minify": "^1.2.1",
     "parallelshell": "^2.0.0",
