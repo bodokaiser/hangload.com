@@ -5,6 +5,10 @@ h4 { font-size: 1rem }
 h5 { font-size: .875rem }
 h6 { font-size: .75rem }
 
+@media (--breakpoint-sm) {
+  .sm-h0 {  font-size: 3rem }
+}
+
 body { font-family: Avenir Next, Avenir, sans-serif; }
 
 a { text-decoration: none; }
