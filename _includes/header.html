@@ -1,6 +1,6 @@
 <header class="z3 top-0 left-0 right-0 px1">
 
-  <h1 class="inline-block m0 mr2 py2 h4 regular"> 
+  <h1 class="inline-block m0 mt1 sm-mt0 mr2 py2 h4 regular"> 
     <a class="caps no-spacing black" href="{% if page.language == 'en' %}/{% elsif page.language == 'de' %}/de{% endif %}">Hangload</a> 
   </h1>
 
@@ -13,7 +13,7 @@
     <![endif]-->
   </a>
   {% if page.language == "en" %}
-    <a href="{{ '/de' | append: page.url }}" class="h5 block right sm-px1 mt2 p1 xs-py1 black hover-border-bottom mr1 sm-mr2">DE</a>
+    <a href="{{ '/de' | append: page.url }}" class="h5 block right sm-px1 mt2 p1 black hover-border-bottom mr1 sm-mr2">DE</a>
   {% elsif page.language == "de" %}
     <a href="{% if page.layout == "home" %}/{% endif %}
       {% unless page.layout == "home"%}{{ page.url | remove: "de/" }}{% endunless %}" 
