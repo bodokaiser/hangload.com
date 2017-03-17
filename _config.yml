@@ -4,6 +4,7 @@ exclude: [README.md, package.json, index.js, Rakefile, node_modules, src, backup
 permalink: pretty
 repository: hangload/static
 phone: +49 177 5067837
+lead: simply more <br class="xs-hide"> <span class="bold">freedom</span>
 email: info@hangload.com
 address:
   - Forster Straße 3
