@@ -28,27 +28,27 @@
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#ffffff",
-      "text": "#111111"
-    },
-    "button": {
-      "background": "#3d9970",
-      "text": "#ffffff"
-    }
-  },
-  "theme": "edgeless",
-  "content": {
-  {% if page.language == "en" %}
-    "message": "This website uses cookies to ensure you get the best experience on our website.",
-  {% elsif page.language == "de" %}
-    "message": "Diese Webseite verwendet Cookies, um Ihnen das beste Erlebnis auf unserer Website bieten zu können.",
-  {% endif %}
-    "dismiss": "Ok",
-    "href": "http://hangload.com/impressum#privacy-policy"
-  }
-})});
-</script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#ffffff",
+          "text": "#111111"
+        },
+        "button": {
+          "background": "#3d9970",
+          "text": "#ffffff"
+        }
+      },
+      "theme": "edgeless",
+      "content": {
+        {% if page.language == "en" %}
+          "message": "This website uses cookies to ensure you get the best experience on our website.",
+        {% elsif page.language == "de" %}
+          "message": "Diese Webseite verwendet Cookies, um Ihnen das beste Erlebnis auf unserer Website bieten zu können.",
+        {% endif %}
+        "dismiss": "Ok",
+        "href": "http://hangload.com/impressum#privacy-policy"
+      }
+    })});
+  </script>
