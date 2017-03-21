@@ -14,8 +14,7 @@ copy2: |
     Dieses einzigartige **toggle&cord** (Griff&Band) System wurde ausgiebig mit schweren Lasten getestet. Es ist sehr einfach, extrem robust und ideal geeignet für diese Anwendung (im Video sieht man, wie einfach es geht).
  
     Hangload kann beliebig an einer oder beiden Seiten des Gepäckträgers angebracht werden. Er ist die schlanke Alternative zu Fahrradtaschen oder Fahrradkörben.
-video-caption: Wie Hangload mit unserem toggle&cord-System befestigt wird
-video-title: Anleitung
+video-caption: "<span class='bold'>Montagehinweise</span>: Wie Hangload mit unserem toggle&cord-System befestigt wird"
 go-to-shop: Weiter zum Shop
 faq-title: Häufig gestellte Fragen
 faq:
