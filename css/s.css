@@ -556,6 +556,7 @@ li { margin-bottom: .5em }
 }
 /*! http://responsiveslides.com v1.54 by @viljamis */
 
+/* uncss:ignore */
 .rslides {
   position: relative;
   list-style: none;
@@ -565,6 +566,7 @@ li { margin-bottom: .5em }
   margin: 0;
   }
 
+/* uncss:ignore */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -574,12 +576,14 @@ li { margin-bottom: .5em }
   top: 0;
   }
 
+/* uncss:ignore */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
   }
 
+/* uncss:ignore */
 .rslides img {
   display: block;
   height: auto;
@@ -588,6 +592,7 @@ li { margin-bottom: .5em }
   border: 0;
   }
 
+/* uncss:ignore */
 .rslides_tabs {
   list-style: none;
   padding-left: 0;
@@ -597,12 +602,14 @@ li { margin-bottom: .5em }
   margin-top: -2em;
 }
 
+/* uncss:ignore */
 .rslides_tabs li {
   display: inline-block;
   padding-left: .7em;
   padding-right: .7em;
 }
 
+/* uncss:ignore */
 .bullet {
   display: block;
   width: 10px;
