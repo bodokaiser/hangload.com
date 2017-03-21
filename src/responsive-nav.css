@@ -1,9 +1,11 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
+/* uncss:ignore */
 .nav-collapse.opened {
   max-height: 9999px;
 }
 
+/* uncss:ignore */
 .nav-toggle {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
@@ -14,18 +16,22 @@
   user-select: none;
 }
 
+/* uncss:ignore */
 .nav-collapse ul {
   width: 100%;
 }
 
+/* uncss:ignore */
 .opened ul {
   margin-top: 0;
 }
 
+/* uncss:ignore */
 .nav-collapse li {
   display: block;
 }
 
+/* uncss:ignore */
 .js .nav-collapse {
   max-height: 0;
   display: block;
@@ -35,22 +41,28 @@
 
 @media (--breakpoint-sm) {
   
+  /* uncss:ignore */
   .js .nav-collapse {
     position: relative;
   }
+  /* uncss:ignore */
   .js .nav-collapse.closed {
     max-height: none;
   }
+  /* uncss:ignore */
   .nav-toggle {
     display: none;
   }
+  /* uncss:ignore */
   .nav-collapse ul {
     width: auto;
   }
+  /* uncss:ignore */
   .nav-collapse li {
     /* width: 100%; */
     display: inline-block;
   }
+  /* uncss:ignore */
   .js .nav-collapse {
     display: inline;
   }
@@ -58,6 +70,7 @@
 
 @media (--breakpoint-xs) {
   
+  /* uncss:ignore */
   .nav-collapse {
     background-color: white;
   }
