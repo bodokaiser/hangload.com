@@ -20,6 +20,7 @@
       class="h5 block right sm-px1 mt2 p1 xs-py1 black mr3 sm-mr2 hover-border-bottom">EN</a>
   {% endif %}
 
+  {% comment %}
   {% unless page.layout == "alternative-order-form" or page.layout == "thanks"%}
     <div class="snipcart-summary inline right mr3">
       <a href="#" class="block h5 black sm-px1 hover-border-bottom mt2 py1 xs-py1 snipcart-checkout">
@@ -27,7 +28,7 @@
       </a>
     </div>
   {% endunless %}
-
+  {% endcomment %}
   <nav class="inline nav-collapse">
     {% assign current = page.url | downcase | split: '/' %}
     <ul class="inline-block list-reset p0">
