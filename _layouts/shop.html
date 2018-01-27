@@ -19,30 +19,42 @@
           </ul>
         </div>
 
-        <div class="md-col md-col-6 px2 py2">
+        <div class="md-col md-col-6 px2">
+
           <div class="clearfix">
             <div class="col col-6">
               <h1 class="m0 mb1">&euro; {{ page.price }}<span class="h6 regular inline-block px1 olive border rounded align-top ml1">{{ page.in-stock }}</span></h1>
               <p class="m0 h6 mb1 gray">{{ page.shipping-vat-notice }}</p>
               <h5 class="m0 gray"></h5>
             </div>
-            <div class="col col-6 right-align h6">
+            <div class="col col-6 h6 mb3">
               <a href="https://www.amazon.de/dp/B0731KK28H/" target="_blank" class="btn-primary center block caps py2 mx-auto white bg-orange not-rounded">
                 {{ page.add-to-cart }}
               </a>
               {% comment %} <button class="caps block btn bg-orange center white"> {% endcomment %}
-              {% comment %}   {{ page.add-to-cart }} {% endcomment %}
-              {% comment %} </button> {% endcomment %}
-              <p class="mt2 mb1 black">{{ page.microcopy-1 }}</p>
-              <p class="mt2 black">{{ page.microcopy-2 }}</p>
+                {% comment %}   {{ page.add-to-cart }} {% endcomment %}
+                {% comment %} </button> {% endcomment %}
+              {% comment %} <p class="mt2 mb1 black">{{ page.microcopy-1 }}</p> {% endcomment %}
+              {% comment %} <p class="mt2 black">{{ page.microcopy-2 }}</p> {% endcomment %}
+              <div class="clearfix">
+                <p class="mt2 mb1 black">{{ page.newsletter-microcopy }}</p>
+                <form action="http://hangload.us8.list-manage1.com/subscribe/post" method="POST">
+                  <input type="hidden" name="u" value="17786494a7f7d575faf855738">
+                  <input type="hidden" name="id" value="f87a66271b">
+                  <input class="border gray px1 py1 inline-block col-9" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" value="" placeholder="{{ page.your-email }}">
+                  <input class="btn btn-primary white inline bg-olive caps col-2" type="submit" name="submit" value="ok">
+                </form>
+              </div>
             </div>
+
+            <section class="mt4" id="product-description">
+              {% for section in page.product %}
+                <h1 class="h5 caps gray">{{ section.title }}</h1>
+                {{ section.copy | markdownify }}
+              {% endfor %}
+            </section>
           </div>
-          <section class="mt4" id="product-description">
-            {% for section in page.product %}
-              <h1 class="h5 caps gray">{{ section.title }}</h1>
-              {{ section.copy | markdownify }}
-            {% endfor %}
-          </section>
+          
         </div>
 
       </section>
