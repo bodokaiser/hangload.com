@@ -19,9 +19,9 @@
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "basscss-utility-headings": "^0.1.0",
-    "browser-sync": "^2.23.5",
+    "browser-sync": "^2.24.4",
     "node-minify": "^1.2.1",
-    "parallelshell": "^3.0.2",
+    "parallelshell": "3.0.1",
     "postcss": "^5.2.18",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-conditionals": "^2.1.0",
