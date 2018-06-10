@@ -16,7 +16,7 @@ copy2: |
 
     The Hangload can be fitted onto either or both sides of a bicycle rack. It provides a lean and elegant alternative to pannier bike bags or bike baskets.
 video-caption: "<span class='bold'>Fitting instructions</span>: How to attach Hangload with our toggle&cord system"
-go-to-shop: Proceed to our shop
+go-to-shop: Buy now
 faq-title: Frequently asked questions
 faq:
 - id: why
